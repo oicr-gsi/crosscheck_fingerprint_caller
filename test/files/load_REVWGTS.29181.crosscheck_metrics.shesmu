@@ -1,0 +1,26 @@
+Version 1;
+Input pinery_ius;
+
+Olive
+
+  Where project == "REVWGTS"
+  Where lims.provider == "pinery-miso-v9"
+  
+  Let
+    run = ius[0],
+    lane = ius[1],
+    barcode = ius[2],
+    donor,
+    external_donor_id,
+    library_name,
+    library_design,
+    tissue_type,
+    tissue_origin,
+    project,
+    lims_id = lims.id,
+    merge_key = "{library_name}_{ius[0]}_{ius[1]}_{ius[2]}"
+    
+  Dump run, lane, barcode, donor, external_donor_id, library_name, library_design, tissue_type, tissue_origin, project, lims_id, merge_key To dump
+
+  Run std::nothing
+  With value = "hello";

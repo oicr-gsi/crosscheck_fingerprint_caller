@@ -1,0 +1,12 @@
+[
+    {
+        "pair": ["WG", "WG"],
+        "upper": 20,
+        "lower": -20
+    },
+    {
+        "pair": ["WG", "WT"],
+        "upper": 20,
+        "lower": -150
+    }
+]
