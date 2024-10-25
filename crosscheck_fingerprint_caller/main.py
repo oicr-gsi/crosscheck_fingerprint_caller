@@ -88,13 +88,9 @@ def is_swap(df: DataFrame, ambg: pandas.Series) -> pandas.Series:
     for i, r in df.iterrows():
         if ambg[i]:
             result.append(False)
-        elif (
-            r["LOD_SCORE"] > 0 and r["library_name"] == r["library_name_match"]
-        ):
+        elif r["LOD_SCORE"] > 0 and r["donor"] == r["donor_match"]:
             result.append(False)
-        elif (
-            r["LOD_SCORE"] < 0 and r["library_name"] != r["library_name_match"]
-        ):
+        elif r["LOD_SCORE"] < 0 and r["donor"] != r["donor_match"]:
             result.append(False)
         else:
             result.append(True)
@@ -109,7 +105,7 @@ def closest_lib(
 
     df = df[df["library_name"] == lib_name]
     df = df[df["library_name_match"] != lib_name]
-    index = pandas.Index([])
+    index = []
     for i, r in df.iterrows():
         if ambg[i]:
             # Matches in the ambiguous range are good enough to stop. Ignore non-matches.
@@ -121,11 +117,13 @@ def closest_lib(
             if r["donor"] == r["donor_match"]:
                 break
 
-    return index
+    return pandas.Index(index)
 
 
 def graph_edges(df: DataFrame, ambg: pandas.Series) -> pandas.Index:
     keep = (df["LOD_SCORE"] > 0) & (~ambg)
     keep_ambg = (df["donor"] == df["donor_match"]) & ambg
     keep = keep | keep_ambg
-    return df[keep].index
+    df = df[keep]
+    df = df[df["library_name"] != df["library_name_match"]]
+    return df.index
