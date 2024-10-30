@@ -11,7 +11,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "6479_1_LDI98381",
-    "merge_key": "REVOLVE_0001_01_LB02-01_230406_M00753_0560_000000000-DKWTV_1_CATACCAC-CGGTTGTT"
+    "merge_key": "REVOLVE_0001_01_LB02-01_230406_M00753_0560_000000000-DKWTV_1_CATACCAC-CGGTTGTT",
+    "batches": [
+      "2023-04-05_u144_s30_k154-140205"
+    ]
   },
   {
     "run": "230406_M00753_0560_000000000-DKWTV",
@@ -25,7 +28,10 @@
     "tissue_origin": "Om",
     "project": "REVWGTS",
     "lims_id": "6479_1_LDI98382",
-    "merge_key": "REVOLVE_0001_16_LB01-01_230406_M00753_0560_000000000-DKWTV_1_GATGTGTG-CATGGCTA"
+    "merge_key": "REVOLVE_0001_16_LB01-01_230406_M00753_0560_000000000-DKWTV_1_GATGTGTG-CATGGCTA",
+    "batches": [
+      "2023-04-05_u144_s30_k154-140205"
+    ]
   },
   {
     "run": "230412_M06816_0442_000000000-DKVYK",
@@ -39,7 +45,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "6486_1_LDI98487",
-    "merge_key": "REVOLVE_0002_13_LB02-01_230412_M06816_0442_000000000-DKVYK_1_TGGTAGCT-CAACACCT"
+    "merge_key": "REVOLVE_0002_13_LB02-01_230412_M06816_0442_000000000-DKVYK_1_TGGTAGCT-CAACACCT",
+    "batches": [
+      "2023-04-11_u157_s30_k154-139702"
+    ]
   },
   {
     "run": "230412_M06816_0442_000000000-DKVYK",
@@ -53,7 +62,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "6486_1_LDI98488",
-    "merge_key": "REVOLVE_0002_16_LB01-01_230412_M06816_0442_000000000-DKVYK_1_AACGTCTG-GCGTCATT"
+    "merge_key": "REVOLVE_0002_16_LB01-01_230412_M06816_0442_000000000-DKVYK_1_AACGTCTG-GCGTCATT",
+    "batches": [
+      "2023-04-11_u157_s30_k154-139702"
+    ]
   },
   {
     "run": "230412_M06816_0442_000000000-DKVYK",
@@ -67,7 +79,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "6486_1_LDI98489",
-    "merge_key": "REVOLVE_0003_13_LB02-01_230412_M06816_0442_000000000-DKVYK_1_ACGACTTG-TCGCTGTT"
+    "merge_key": "REVOLVE_0003_13_LB02-01_230412_M06816_0442_000000000-DKVYK_1_ACGACTTG-TCGCTGTT",
+    "batches": [
+      "2023-04-11_u157_s30_k154-139702"
+    ]
   },
   {
     "run": "230412_M06816_0442_000000000-DKVYK",
@@ -81,7 +96,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "6486_1_LDI98490",
-    "merge_key": "REVOLVE_0003_16_LB01-01_230412_M06816_0442_000000000-DKVYK_1_CCGTAAGA-TGGACTCT"
+    "merge_key": "REVOLVE_0003_16_LB01-01_230412_M06816_0442_000000000-DKVYK_1_CCGTAAGA-TGGACTCT",
+    "batches": [
+      "2023-04-11_u157_s30_k154-139702"
+    ]
   },
   {
     "run": "230412_M06816_0442_000000000-DKVYK",
@@ -95,7 +113,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "6486_1_LDI98714",
-    "merge_key": "REVOLVE_0002_16_LB02-01_230412_M06816_0442_000000000-DKVYK_1_GAATTCGT-TAATCTTA"
+    "merge_key": "REVOLVE_0002_16_LB02-01_230412_M06816_0442_000000000-DKVYK_1_GAATTCGT-TAATCTTA",
+    "batches": [
+      "2023-04-12_u142_s25_k160-20692132 20706646 20709278"
+    ]
   },
   {
     "run": "230412_M06816_0442_000000000-DKVYK",
@@ -109,7 +130,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "6486_1_LDI98715",
-    "merge_key": "REVOLVE_0003_16_LB02-01_230412_M06816_0442_000000000-DKVYK_1_CTGAAGCT-TAATCTTA"
+    "merge_key": "REVOLVE_0003_16_LB02-01_230412_M06816_0442_000000000-DKVYK_1_CTGAAGCT-TAATCTTA",
+    "batches": [
+      "2023-04-12_u142_s25_k160-20692132 20706646 20709278"
+    ]
   },
   {
     "run": "230412_A00469_0464_BHFM2TDSX5",
@@ -123,7 +147,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "6487_1_LDI98381",
-    "merge_key": "REVOLVE_0001_01_LB02-01_230412_A00469_0464_BHFM2TDSX5_1_CATACCAC-AACAACCG"
+    "merge_key": "REVOLVE_0001_01_LB02-01_230412_A00469_0464_BHFM2TDSX5_1_CATACCAC-AACAACCG",
+    "batches": [
+      "2023-04-05_u144_s30_k154-140205"
+    ]
   },
   {
     "run": "230412_A00469_0464_BHFM2TDSX5",
@@ -137,7 +164,10 @@
     "tissue_origin": "Om",
     "project": "REVWGTS",
     "lims_id": "6487_1_LDI98382",
-    "merge_key": "REVOLVE_0001_16_LB01-01_230412_A00469_0464_BHFM2TDSX5_1_GATGTGTG-TAGCCATG"
+    "merge_key": "REVOLVE_0001_16_LB01-01_230412_A00469_0464_BHFM2TDSX5_1_GATGTGTG-TAGCCATG",
+    "batches": [
+      "2023-04-05_u144_s30_k154-140205"
+    ]
   },
   {
     "run": "230417_M00753_0563_000000000-DKYNC",
@@ -151,7 +181,10 @@
     "tissue_origin": "Om",
     "project": "REVWGTS",
     "lims_id": "6491_1_LDI98941",
-    "merge_key": "REVOLVE_0001_16_LB02-01_230417_M00753_0563_000000000-DKYNC_1_TCCGGAGA-TATAGCCT"
+    "merge_key": "REVOLVE_0001_16_LB02-01_230417_M00753_0563_000000000-DKYNC_1_TCCGGAGA-TATAGCCT",
+    "batches": [
+      "2023-04-14_u157_s25_k160-20711019"
+    ]
   },
   {
     "run": "230421_A00469_0469_AHFJF5DSX5",
@@ -165,7 +198,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "6507_1_LDI98487",
-    "merge_key": "REVOLVE_0002_13_LB02-01_230421_A00469_0469_AHFJF5DSX5_1_TGGTAGCT-AGGTGTTG"
+    "merge_key": "REVOLVE_0002_13_LB02-01_230421_A00469_0469_AHFJF5DSX5_1_TGGTAGCT-AGGTGTTG",
+    "batches": [
+      "2023-04-11_u157_s30_k154-139702"
+    ]
   },
   {
     "run": "230421_A00469_0469_AHFJF5DSX5",
@@ -179,7 +215,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "6507_1_LDI98488",
-    "merge_key": "REVOLVE_0002_16_LB01-01_230421_A00469_0469_AHFJF5DSX5_1_AACGTCTG-AATGACGC"
+    "merge_key": "REVOLVE_0002_16_LB01-01_230421_A00469_0469_AHFJF5DSX5_1_AACGTCTG-AATGACGC",
+    "batches": [
+      "2023-04-11_u157_s30_k154-139702"
+    ]
   },
   {
     "run": "230426_A00469_0473_BHJCNTDMXY",
@@ -193,7 +232,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "6519_1_LDI98715",
-    "merge_key": "REVOLVE_0003_16_LB02-01_230426_A00469_0473_BHJCNTDMXY_1_CTGAAGCT-TAAGATTA"
+    "merge_key": "REVOLVE_0003_16_LB02-01_230426_A00469_0473_BHJCNTDMXY_1_CTGAAGCT-TAAGATTA",
+    "batches": [
+      "2023-04-12_u142_s25_k160-20692132 20706646 20709278"
+    ]
   },
   {
     "run": "230426_A00469_0473_BHJCNTDMXY",
@@ -207,7 +249,10 @@
     "tissue_origin": "Om",
     "project": "REVWGTS",
     "lims_id": "6519_1_LDI98941",
-    "merge_key": "REVOLVE_0001_16_LB02-01_230426_A00469_0473_BHJCNTDMXY_1_TCCGGAGA-AGGCTATA"
+    "merge_key": "REVOLVE_0001_16_LB02-01_230426_A00469_0473_BHJCNTDMXY_1_TCCGGAGA-AGGCTATA",
+    "batches": [
+      "2023-04-14_u157_s25_k160-20711019"
+    ]
   },
   {
     "run": "230426_A00469_0473_BHJCNTDMXY",
@@ -221,7 +266,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "6519_2_LDI98714",
-    "merge_key": "REVOLVE_0002_16_LB02-01_230426_A00469_0473_BHJCNTDMXY_2_GAATTCGT-TAAGATTA"
+    "merge_key": "REVOLVE_0002_16_LB02-01_230426_A00469_0473_BHJCNTDMXY_2_GAATTCGT-TAAGATTA",
+    "batches": [
+      "2023-04-12_u142_s25_k160-20692132 20706646 20709278"
+    ]
   },
   {
     "run": "230501_A00469_0476_AHWMK3DSX5",
@@ -235,7 +283,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "6530_1_LDI98489",
-    "merge_key": "REVOLVE_0003_13_LB02-01_230501_A00469_0476_AHWMK3DSX5_1_ACGACTTG-AACAGCGA"
+    "merge_key": "REVOLVE_0003_13_LB02-01_230501_A00469_0476_AHWMK3DSX5_1_ACGACTTG-AACAGCGA",
+    "batches": [
+      "2023-04-11_u157_s30_k154-139702"
+    ]
   },
   {
     "run": "230501_A00469_0476_AHWMK3DSX5",
@@ -249,7 +300,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "6530_1_LDI98490",
-    "merge_key": "REVOLVE_0003_16_LB01-01_230501_A00469_0476_AHWMK3DSX5_1_CCGTAAGA-AGAGTCCA"
+    "merge_key": "REVOLVE_0003_16_LB01-01_230501_A00469_0476_AHWMK3DSX5_1_CCGTAAGA-AGAGTCCA",
+    "batches": [
+      "2023-04-11_u157_s30_k154-139702"
+    ]
   },
   {
     "run": "230503_A00469_0478_BHH3JLDSX5",
@@ -263,7 +317,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "6535_1_LDI98488",
-    "merge_key": "REVOLVE_0002_16_LB01-01_230503_A00469_0478_BHH3JLDSX5_1_AACGTCTG-AATGACGC"
+    "merge_key": "REVOLVE_0002_16_LB01-01_230503_A00469_0478_BHH3JLDSX5_1_AACGTCTG-AATGACGC",
+    "batches": [
+      "2023-04-11_u157_s30_k154-139702"
+    ]
   },
   {
     "run": "230630_M00146_0437_000000000-DLP5W",
@@ -277,7 +334,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "6637_1_LDI102180",
-    "merge_key": "REVOLVE_0005_01_LB02-01_230630_M00146_0437_000000000-DLP5W_1_GTCGAAGA-CAATGTGG"
+    "merge_key": "REVOLVE_0005_01_LB02-01_230630_M00146_0437_000000000-DLP5W_1_GTCGAAGA-CAATGTGG",
+    "batches": [
+      "2023-06-29_u157_s34_k154-140204"
+    ]
   },
   {
     "run": "230630_M00146_0437_000000000-DLP5W",
@@ -291,7 +351,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "6637_1_LDI102181",
-    "merge_key": "REVOLVE_0005_04_LB02-01_230630_M00146_0437_000000000-DLP5W_1_GTGCCATA-ACTAGGAG"
+    "merge_key": "REVOLVE_0005_04_LB02-01_230630_M00146_0437_000000000-DLP5W_1_GTGCCATA-ACTAGGAG",
+    "batches": [
+      "2023-06-29_u157_s34_k154-140204"
+    ]
   },
   {
     "run": "230707_A00469_0513_BHLFG5DSX5",
@@ -305,7 +368,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "6651_1_LDI102180",
-    "merge_key": "REVOLVE_0005_01_LB02-01_230707_A00469_0513_BHLFG5DSX5_1_GTCGAAGA-CCACATTG"
+    "merge_key": "REVOLVE_0005_01_LB02-01_230707_A00469_0513_BHLFG5DSX5_1_GTCGAAGA-CCACATTG",
+    "batches": [
+      "2023-06-29_u157_s34_k154-140204"
+    ]
   },
   {
     "run": "230707_A00469_0513_BHLFG5DSX5",
@@ -319,7 +385,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "6651_1_LDI102181",
-    "merge_key": "REVOLVE_0005_04_LB02-01_230707_A00469_0513_BHLFG5DSX5_1_GTGCCATA-CTCCTAGT"
+    "merge_key": "REVOLVE_0005_04_LB02-01_230707_A00469_0513_BHLFG5DSX5_1_GTGCCATA-CTCCTAGT",
+    "batches": [
+      "2023-06-29_u157_s34_k154-140204"
+    ]
   },
   {
     "run": "230712_M00753_0597_000000000-DKTGK",
@@ -333,7 +402,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "6658_1_LDI102413",
-    "merge_key": "REVOLVE_0006_01_LB01-01_230712_M00753_0597_000000000-DKTGK_1_TGGCATGT-TGAAGACG"
+    "merge_key": "REVOLVE_0006_01_LB01-01_230712_M00753_0597_000000000-DKTGK_1_TGGCATGT-TGAAGACG",
+    "batches": [
+      "2023-07-11_u157_s34_k154-138644"
+    ]
   },
   {
     "run": "230712_M00753_0597_000000000-DKTGK",
@@ -347,7 +419,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "6658_1_LDI102565",
-    "merge_key": "REVOLVE_0006_02_LB01-01_230712_M00753_0597_000000000-DKTGK_1_TTCGTTGG-CGTGTGTA"
+    "merge_key": "REVOLVE_0006_02_LB01-01_230712_M00753_0597_000000000-DKTGK_1_TTCGTTGG-CGTGTGTA",
+    "batches": [
+      "2023-07-12_u157_s34_k154-138622"
+    ]
   },
   {
     "run": "230721_A00469_0519_AHN22LDSX5",
@@ -361,7 +436,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "6676_1_LDI102413",
-    "merge_key": "REVOLVE_0006_01_LB01-01_230721_A00469_0519_AHN22LDSX5_1_TGGCATGT-CGTCTTCA"
+    "merge_key": "REVOLVE_0006_01_LB01-01_230721_A00469_0519_AHN22LDSX5_1_TGGCATGT-CGTCTTCA",
+    "batches": [
+      "2023-07-11_u157_s34_k154-138644"
+    ]
   },
   {
     "run": "230721_A00469_0519_AHN22LDSX5",
@@ -375,7 +453,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "6676_1_LDI102565",
-    "merge_key": "REVOLVE_0006_02_LB01-01_230721_A00469_0519_AHN22LDSX5_1_TTCGTTGG-TACACACG"
+    "merge_key": "REVOLVE_0006_02_LB01-01_230721_A00469_0519_AHN22LDSX5_1_TTCGTTGG-TACACACG",
+    "batches": [
+      "2023-07-12_u157_s34_k154-138622"
+    ]
   },
   {
     "run": "230724_M00753_0601_000000000-DL2Y8",
@@ -389,7 +470,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "6678_1_LDI102864",
-    "merge_key": "REVOLVE_0006_01_LB02-01_230724_M00753_0601_000000000-DL2Y8_1_TAATGCGC-ATAGAGGC"
+    "merge_key": "REVOLVE_0006_01_LB02-01_230724_M00753_0601_000000000-DL2Y8_1_TAATGCGC-ATAGAGGC",
+    "batches": [
+      "2023-07-20_u142_s33_k160-20745758 20748850 20726125"
+    ]
   },
   {
     "run": "230727_A00469_0521_AH7GWVDRX3",
@@ -403,7 +487,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "6685_1_LDI102864",
-    "merge_key": "REVOLVE_0006_01_LB02-01_230727_A00469_0521_AH7GWVDRX3_1_TAATGCGC-GCCTCTAT"
+    "merge_key": "REVOLVE_0006_01_LB02-01_230727_A00469_0521_AH7GWVDRX3_1_TAATGCGC-GCCTCTAT",
+    "batches": [
+      "2023-07-20_u142_s33_k160-20745758 20748850 20726125"
+    ]
   },
   {
     "run": "230802_M06816_0496_000000000-DL248",
@@ -417,7 +504,10 @@
     "tissue_origin": "Om",
     "project": "REVWGTS",
     "lims_id": "6694_1_LDI102977",
-    "merge_key": "REVOLVE_0007_01_LB01-01_230802_M06816_0496_000000000-DL248_1_GTTCTCGT-ACGGAACA"
+    "merge_key": "REVOLVE_0007_01_LB01-01_230802_M06816_0496_000000000-DL248_1_GTTCTCGT-ACGGAACA",
+    "batches": [
+      "2023-08-01_u157_s34_k154-140204"
+    ]
   },
   {
     "run": "230802_M06816_0496_000000000-DL248",
@@ -431,7 +521,10 @@
     "tissue_origin": "Om",
     "project": "REVWGTS",
     "lims_id": "6694_1_LDI102978",
-    "merge_key": "REVOLVE_0008_01_LB01-01_230802_M06816_0496_000000000-DL248_1_TATCGGTC-ATCCGGTA"
+    "merge_key": "REVOLVE_0008_01_LB01-01_230802_M06816_0496_000000000-DL248_1_TATCGGTC-ATCCGGTA",
+    "batches": [
+      "2023-08-01_u157_s34_k154-140204"
+    ]
   },
   {
     "run": "230802_M06816_0496_000000000-DL248",
@@ -445,7 +538,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "6694_1_LDI102980",
-    "merge_key": "REVOLVE_0007_02_LB01-01_230802_M06816_0496_000000000-DL248_1_TACGCCTT-AGAGTAGC"
+    "merge_key": "REVOLVE_0007_02_LB01-01_230802_M06816_0496_000000000-DL248_1_TACGCCTT-AGAGTAGC",
+    "batches": [
+      "2023-08-01_u157_s34_k154-140204"
+    ]
   },
   {
     "run": "230802_M06816_0496_000000000-DL248",
@@ -459,7 +555,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "6694_1_LDI102981",
-    "merge_key": "REVOLVE_0008_02_LB01-01_230802_M06816_0496_000000000-DL248_1_TCAGGCTT-CGCATGAT"
+    "merge_key": "REVOLVE_0008_02_LB01-01_230802_M06816_0496_000000000-DL248_1_TCAGGCTT-CGCATGAT",
+    "batches": [
+      "2023-08-01_u157_s34_k154-140204"
+    ]
   },
   {
     "run": "230803_M00146_0442_000000000-DKTKK",
@@ -473,7 +572,10 @@
     "tissue_origin": "Om",
     "project": "REVWGTS",
     "lims_id": "6697_1_LDI103198",
-    "merge_key": "REVOLVE_0007_01_LB02-01_230803_M00146_0442_000000000-DKTKK_1_TCTCGCGC-CAGGACGT"
+    "merge_key": "REVOLVE_0007_01_LB02-01_230803_M00146_0442_000000000-DKTKK_1_TCTCGCGC-CAGGACGT",
+    "batches": [
+      "2023-08-02_u142_s33_k160-20745758 20748850 20726125"
+    ]
   },
   {
     "run": "230803_M00146_0442_000000000-DKTKK",
@@ -487,7 +589,10 @@
     "tissue_origin": "Om",
     "project": "REVWGTS",
     "lims_id": "6697_1_LDI103199",
-    "merge_key": "REVOLVE_0008_01_LB02-01_230803_M00146_0442_000000000-DKTKK_1_AGCGATAG-CAGGACGT"
+    "merge_key": "REVOLVE_0008_01_LB02-01_230803_M00146_0442_000000000-DKTKK_1_AGCGATAG-CAGGACGT",
+    "batches": [
+      "2023-08-02_u142_s33_k160-20745758 20748850 20726125"
+    ]
   },
   {
     "run": "230804_A00469_0526_AHNKYLDSX5",
@@ -501,7 +606,10 @@
     "tissue_origin": "Om",
     "project": "REVWGTS",
     "lims_id": "6702_1_LDI102977",
-    "merge_key": "REVOLVE_0007_01_LB01-01_230804_A00469_0526_AHNKYLDSX5_1_GTTCTCGT-TGTTCCGT"
+    "merge_key": "REVOLVE_0007_01_LB01-01_230804_A00469_0526_AHNKYLDSX5_1_GTTCTCGT-TGTTCCGT",
+    "batches": [
+      "2023-08-01_u157_s34_k154-140204"
+    ]
   },
   {
     "run": "230804_A00469_0526_AHNKYLDSX5",
@@ -515,7 +623,10 @@
     "tissue_origin": "Om",
     "project": "REVWGTS",
     "lims_id": "6702_1_LDI102978",
-    "merge_key": "REVOLVE_0008_01_LB01-01_230804_A00469_0526_AHNKYLDSX5_1_TATCGGTC-TACCGGAT"
+    "merge_key": "REVOLVE_0008_01_LB01-01_230804_A00469_0526_AHNKYLDSX5_1_TATCGGTC-TACCGGAT",
+    "batches": [
+      "2023-08-01_u157_s34_k154-140204"
+    ]
   },
   {
     "run": "230804_A00469_0526_AHNKYLDSX5",
@@ -529,7 +640,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "6702_1_LDI102980",
-    "merge_key": "REVOLVE_0007_02_LB01-01_230804_A00469_0526_AHNKYLDSX5_1_TACGCCTT-GCTACTCT"
+    "merge_key": "REVOLVE_0007_02_LB01-01_230804_A00469_0526_AHNKYLDSX5_1_TACGCCTT-GCTACTCT",
+    "batches": [
+      "2023-08-01_u157_s34_k154-140204"
+    ]
   },
   {
     "run": "230804_A00469_0526_AHNKYLDSX5",
@@ -543,7 +657,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "6702_1_LDI102981",
-    "merge_key": "REVOLVE_0008_02_LB01-01_230804_A00469_0526_AHNKYLDSX5_1_TCAGGCTT-ATCATGCG"
+    "merge_key": "REVOLVE_0008_02_LB01-01_230804_A00469_0526_AHNKYLDSX5_1_TCAGGCTT-ATCATGCG",
+    "batches": [
+      "2023-08-01_u157_s34_k154-140204"
+    ]
   },
   {
     "run": "230811_A00469_0529_AHGKJ7DSX7",
@@ -557,7 +674,10 @@
     "tissue_origin": "Om",
     "project": "REVWGTS",
     "lims_id": "6712_4_LDI103198",
-    "merge_key": "REVOLVE_0007_01_LB02-01_230811_A00469_0529_AHGKJ7DSX7_4_TCTCGCGC-ACGTCCTG"
+    "merge_key": "REVOLVE_0007_01_LB02-01_230811_A00469_0529_AHGKJ7DSX7_4_TCTCGCGC-ACGTCCTG",
+    "batches": [
+      "2023-08-02_u142_s33_k160-20745758 20748850 20726125"
+    ]
   },
   {
     "run": "230811_A00469_0529_AHGKJ7DSX7",
@@ -571,7 +691,10 @@
     "tissue_origin": "Om",
     "project": "REVWGTS",
     "lims_id": "6712_4_LDI103199",
-    "merge_key": "REVOLVE_0008_01_LB02-01_230811_A00469_0529_AHGKJ7DSX7_4_AGCGATAG-ACGTCCTG"
+    "merge_key": "REVOLVE_0008_01_LB02-01_230811_A00469_0529_AHGKJ7DSX7_4_AGCGATAG-ACGTCCTG",
+    "batches": [
+      "2023-08-02_u142_s33_k160-20745758 20748850 20726125"
+    ]
   },
   {
     "run": "230818_M06816_0505_000000000-DLWJ5",
@@ -585,7 +708,10 @@
     "tissue_origin": "Om",
     "project": "REVWGTS",
     "lims_id": "6720_1_LDI103296",
-    "merge_key": "REVOLVE_0011_04_LB01-01_230818_M06816_0505_000000000-DLWJ5_1_CAACACCT-TGGTAGCT"
+    "merge_key": "REVOLVE_0011_04_LB01-01_230818_M06816_0505_000000000-DLWJ5_1_CAACACCT-TGGTAGCT",
+    "batches": [
+      "2023-08-16_u166_s34_k154-138644"
+    ]
   },
   {
     "run": "230818_M06816_0505_000000000-DLWJ5",
@@ -599,7 +725,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "6720_1_LDI103298",
-    "merge_key": "REVOLVE_0011_01_LB01-01_230818_M06816_0505_000000000-DLWJ5_1_AGTGGATC-GTCATCGA"
+    "merge_key": "REVOLVE_0011_01_LB01-01_230818_M06816_0505_000000000-DLWJ5_1_AGTGGATC-GTCATCGA",
+    "batches": [
+      "2023-08-16_u166_s34_k154-138644"
+    ]
   },
   {
     "run": "230818_M06816_0505_000000000-DLWJ5",
@@ -613,7 +742,10 @@
     "tissue_origin": "Om",
     "project": "REVWGTS",
     "lims_id": "6720_1_LDI103309",
-    "merge_key": "REVOLVE_0011_04_LB02-01_230818_M06816_0505_000000000-DLWJ5_1_TAATGCGC-CAGGACGT"
+    "merge_key": "REVOLVE_0011_04_LB02-01_230818_M06816_0505_000000000-DLWJ5_1_TAATGCGC-CAGGACGT",
+    "batches": [
+      "2023-08-17_u142_s33_k160-20745758 20748850 20726125"
+    ]
   },
   {
     "run": "230825_A00469_0535_BHGH5CDSX7",
@@ -627,7 +759,10 @@
     "tissue_origin": "Om",
     "project": "REVWGTS",
     "lims_id": "6731_1_LDI103296",
-    "merge_key": "REVOLVE_0011_04_LB01-01_230825_A00469_0535_BHGH5CDSX7_1_CAACACCT-AGCTACCA"
+    "merge_key": "REVOLVE_0011_04_LB01-01_230825_A00469_0535_BHGH5CDSX7_1_CAACACCT-AGCTACCA",
+    "batches": [
+      "2023-08-16_u166_s34_k154-138644"
+    ]
   },
   {
     "run": "230825_A00469_0535_BHGH5CDSX7",
@@ -641,7 +776,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "6731_1_LDI103298",
-    "merge_key": "REVOLVE_0011_01_LB01-01_230825_A00469_0535_BHGH5CDSX7_1_AGTGGATC-TCGATGAC"
+    "merge_key": "REVOLVE_0011_01_LB01-01_230825_A00469_0535_BHGH5CDSX7_1_AGTGGATC-TCGATGAC",
+    "batches": [
+      "2023-08-16_u166_s34_k154-138644"
+    ]
   },
   {
     "run": "230831_A00469_0536_BH3MHCDRX3",
@@ -655,7 +793,10 @@
     "tissue_origin": "Om",
     "project": "REVWGTS",
     "lims_id": "6738_1_LDI103309",
-    "merge_key": "REVOLVE_0011_04_LB02-01_230831_A00469_0536_BH3MHCDRX3_1_TAATGCGC-ACGTCCTG"
+    "merge_key": "REVOLVE_0011_04_LB02-01_230831_A00469_0536_BH3MHCDRX3_1_TAATGCGC-ACGTCCTG",
+    "batches": [
+      "2023-08-17_u142_s33_k160-20745758 20748850 20726125"
+    ]
   },
   {
     "run": "230907_M00753_0614_000000000-DLVL5",
@@ -669,7 +810,10 @@
     "tissue_origin": "Om",
     "project": "REVWGTS",
     "lims_id": "6747_1_LDI104124",
-    "merge_key": "REVOLVE_0012_04_LB02-01_230907_M00753_0614_000000000-DLVL5_1_CTGAAGCT-CCTATCCT"
+    "merge_key": "REVOLVE_0012_04_LB02-01_230907_M00753_0614_000000000-DLVL5_1_CTGAAGCT-CCTATCCT",
+    "batches": [
+      "2023-09-06_u157_s33_k160-20753875 20756999 20726125"
+    ]
   },
   {
     "run": "230914_M06816_0519_000000000-DLVMG",
@@ -683,7 +827,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "6765_1_LDI104344",
-    "merge_key": "REVOLVE_0012_01_LB02-01_230914_M06816_0519_000000000-DLVMG_1_CTCTACTC-GCCACTTA"
+    "merge_key": "REVOLVE_0012_01_LB02-01_230914_M06816_0519_000000000-DLVMG_1_CTCTACTC-GCCACTTA",
+    "batches": [
+      "2023-09-13_u166_s34_k154-138644"
+    ]
   },
   {
     "run": "230914_M06816_0519_000000000-DLVMG",
@@ -697,7 +844,10 @@
     "tissue_origin": "Om",
     "project": "REVWGTS",
     "lims_id": "6765_1_LDI104345",
-    "merge_key": "REVOLVE_0012_04_LB03-01_230914_M06816_0519_000000000-DLVMG_1_CTAGGCAT-ACCTCTGT"
+    "merge_key": "REVOLVE_0012_04_LB03-01_230914_M06816_0519_000000000-DLVMG_1_CTAGGCAT-ACCTCTGT",
+    "batches": [
+      "2023-09-13_u166_s34_k154-138644"
+    ]
   },
   {
     "run": "230918_A00469_0543_AHLNCWDMXY",
@@ -711,7 +861,10 @@
     "tissue_origin": "Om",
     "project": "REVWGTS",
     "lims_id": "6773_1_LDI104124",
-    "merge_key": "REVOLVE_0012_04_LB02-01_230918_A00469_0543_AHLNCWDMXY_1_CTGAAGCT-AGGATAGG"
+    "merge_key": "REVOLVE_0012_04_LB02-01_230918_A00469_0543_AHLNCWDMXY_1_CTGAAGCT-AGGATAGG",
+    "batches": [
+      "2023-09-06_u157_s33_k160-20753875 20756999 20726125"
+    ]
   },
   {
     "run": "230919_A00469_0544_BHJLK2DSX7",
@@ -725,7 +878,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "6776_1_LDI104344",
-    "merge_key": "REVOLVE_0012_01_LB02-01_230919_A00469_0544_BHJLK2DSX7_1_CTCTACTC-TAAGTGGC"
+    "merge_key": "REVOLVE_0012_01_LB02-01_230919_A00469_0544_BHJLK2DSX7_1_CTCTACTC-TAAGTGGC",
+    "batches": [
+      "2023-09-13_u166_s34_k154-138644"
+    ]
   },
   {
     "run": "230919_A00469_0544_BHJLK2DSX7",
@@ -739,7 +895,10 @@
     "tissue_origin": "Om",
     "project": "REVWGTS",
     "lims_id": "6776_1_LDI104345",
-    "merge_key": "REVOLVE_0012_04_LB03-01_230919_A00469_0544_BHJLK2DSX7_1_CTAGGCAT-ACAGAGGT"
+    "merge_key": "REVOLVE_0012_04_LB03-01_230919_A00469_0544_BHJLK2DSX7_1_CTAGGCAT-ACAGAGGT",
+    "batches": [
+      "2023-09-13_u166_s34_k154-138644"
+    ]
   },
   {
     "run": "231013_M00753_0630_000000000-DMLJT",
@@ -753,7 +912,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "6821_1_LDI105745",
-    "merge_key": "REVOLVE_0016_01_LB01-01_231013_M00753_0630_000000000-DMLJT_1_TCTCGCAA-CGTCTTGT"
+    "merge_key": "REVOLVE_0016_01_LB01-01_231013_M00753_0630_000000000-DMLJT_1_TCTCGCAA-CGTCTTGT",
+    "batches": [
+      "2023-10-11_u166_s34_k154-0000138644"
+    ]
   },
   {
     "run": "231013_M00753_0630_000000000-DMLJT",
@@ -767,7 +929,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "6821_1_LDI105746",
-    "merge_key": "REVOLVE_0016_16_LB01-01_231013_M00753_0630_000000000-DMLJT_1_ATCGGTGT-CTCCATGT"
+    "merge_key": "REVOLVE_0016_16_LB01-01_231013_M00753_0630_000000000-DMLJT_1_ATCGGTGT-CTCCATGT",
+    "batches": [
+      "2023-10-11_u166_s34_k154-0000138644"
+    ]
   },
   {
     "run": "231013_M00753_0630_000000000-DMLJT",
@@ -781,7 +946,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "6821_1_LDI105753",
-    "merge_key": "REVOLVE_0016_16_LB02-01_231013_M00753_0630_000000000-DMLJT_1_TCTCGCGC-ATAGAGGC"
+    "merge_key": "REVOLVE_0016_16_LB02-01_231013_M00753_0630_000000000-DMLJT_1_TCTCGCGC-ATAGAGGC",
+    "batches": [
+      "2023-10-12_u142_s33_k160-20764836 20764831 20756988"
+    ]
   },
   {
     "run": "231020_A00469_0563_AHWMCNDSX5",
@@ -795,7 +963,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "6847_1_LDI105745",
-    "merge_key": "REVOLVE_0016_01_LB01-01_231020_A00469_0563_AHWMCNDSX5_1_TCTCGCAA-ACAAGACG"
+    "merge_key": "REVOLVE_0016_01_LB01-01_231020_A00469_0563_AHWMCNDSX5_1_TCTCGCAA-ACAAGACG",
+    "batches": [
+      "2023-10-11_u166_s34_k154-0000138644"
+    ]
   },
   {
     "run": "231020_A00469_0563_AHWMCNDSX5",
@@ -809,7 +980,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "6847_1_LDI105746",
-    "merge_key": "REVOLVE_0016_16_LB01-01_231020_A00469_0563_AHWMCNDSX5_1_ATCGGTGT-ACATGGAG"
+    "merge_key": "REVOLVE_0016_16_LB01-01_231020_A00469_0563_AHWMCNDSX5_1_ATCGGTGT-ACATGGAG",
+    "batches": [
+      "2023-10-11_u166_s34_k154-0000138644"
+    ]
   },
   {
     "run": "231024_A00469_0566_AHMHTLDSX7",
@@ -823,7 +997,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "6854_3_LDI105753",
-    "merge_key": "REVOLVE_0016_16_LB02-01_231024_A00469_0566_AHMHTLDSX7_3_TCTCGCGC-GCCTCTAT"
+    "merge_key": "REVOLVE_0016_16_LB02-01_231024_A00469_0566_AHMHTLDSX7_3_TCTCGCGC-GCCTCTAT",
+    "batches": [
+      "2023-10-12_u142_s33_k160-20764836 20764831 20756988"
+    ]
   },
   {
     "run": "231024_A00469_0566_AHMHTLDSX7",
@@ -837,7 +1014,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "6854_4_LDI105753",
-    "merge_key": "REVOLVE_0016_16_LB02-01_231024_A00469_0566_AHMHTLDSX7_4_TCTCGCGC-GCCTCTAT"
+    "merge_key": "REVOLVE_0016_16_LB02-01_231024_A00469_0566_AHMHTLDSX7_4_TCTCGCGC-GCCTCTAT",
+    "batches": [
+      "2023-10-12_u142_s33_k160-20764836 20764831 20756988"
+    ]
   },
   {
     "run": "231027_M00753_0636_000000000-DMM3R",
@@ -851,7 +1031,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "6861_1_LDI106055",
-    "merge_key": "REVOLVE_0014_13_LB01-01_231027_M00753_0636_000000000-DMM3R_1_CCAAGTTG-CCGATGTA"
+    "merge_key": "REVOLVE_0014_13_LB01-01_231027_M00753_0636_000000000-DMM3R_1_CCAAGTTG-CCGATGTA",
+    "batches": [
+      "2023-10-24_u142_s34_k154-0000138644"
+    ]
   },
   {
     "run": "231027_M00753_0636_000000000-DMM3R",
@@ -865,7 +1048,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "6861_1_LDI106056",
-    "merge_key": "REVOLVE_0014_14_LB01-01_231027_M00753_0636_000000000-DMM3R_1_CCTACTGA-TGACGCAT"
+    "merge_key": "REVOLVE_0014_14_LB01-01_231027_M00753_0636_000000000-DMM3R_1_CCTACTGA-TGACGCAT",
+    "batches": [
+      "2023-10-24_u142_s34_k154-0000138644"
+    ]
   },
   {
     "run": "231027_M00753_0636_000000000-DMM3R",
@@ -879,7 +1065,10 @@
     "tissue_origin": "Ov",
     "project": "REVWGTS",
     "lims_id": "6861_1_LDI106057",
-    "merge_key": "REVOLVE_0017_13_LB01-01_231027_M00753_0636_000000000-DMM3R_1_CTTGCTGT-TCGCATTG"
+    "merge_key": "REVOLVE_0017_13_LB01-01_231027_M00753_0636_000000000-DMM3R_1_CTTGCTGT-TCGCATTG",
+    "batches": [
+      "2023-10-24_u142_s34_k154-0000138644"
+    ]
   },
   {
     "run": "231027_M00753_0636_000000000-DMM3R",
@@ -893,7 +1082,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "6861_1_LDI106058",
-    "merge_key": "REVOLVE_0017_14_LB01-01_231027_M00753_0636_000000000-DMM3R_1_TGCCATTC-CGTGATCA"
+    "merge_key": "REVOLVE_0017_14_LB01-01_231027_M00753_0636_000000000-DMM3R_1_TGCCATTC-CGTGATCA",
+    "batches": [
+      "2023-10-24_u142_s34_k154-0000138644"
+    ]
   },
   {
     "run": "231027_M00753_0636_000000000-DMM3R",
@@ -907,7 +1099,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "6861_1_LDI106059",
-    "merge_key": "REVOLVE_0018_13_LB01-01_231027_M00753_0636_000000000-DMM3R_1_TTGATCCG-GTGAGCTT"
+    "merge_key": "REVOLVE_0018_13_LB01-01_231027_M00753_0636_000000000-DMM3R_1_TTGATCCG-GTGAGCTT",
+    "batches": [
+      "2023-10-24_u142_s34_k154-0000138644"
+    ]
   },
   {
     "run": "231027_M00753_0636_000000000-DMM3R",
@@ -921,7 +1116,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "6861_1_LDI106060",
-    "merge_key": "REVOLVE_0018_14_LB01-01_231027_M00753_0636_000000000-DMM3R_1_AGTGCAGT-AGCGGAAT"
+    "merge_key": "REVOLVE_0018_14_LB01-01_231027_M00753_0636_000000000-DMM3R_1_AGTGCAGT-AGCGGAAT",
+    "batches": [
+      "2023-10-24_u142_s34_k154-0000138644"
+    ]
   },
   {
     "run": "231027_M00753_0636_000000000-DMM3R",
@@ -935,7 +1133,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "6861_1_LDI106139",
-    "merge_key": "REVOLVE_0014_13_LB02-01_231027_M00753_0636_000000000-DMM3R_1_AGCGATAG-TAATCTTA"
+    "merge_key": "REVOLVE_0014_13_LB02-01_231027_M00753_0636_000000000-DMM3R_1_AGCGATAG-TAATCTTA",
+    "batches": [
+      "2023-10-26_u157_s33_k160-20764836 20764831 20756988"
+    ]
   },
   {
     "run": "231027_M00753_0636_000000000-DMM3R",
@@ -949,7 +1150,10 @@
     "tissue_origin": "Ov",
     "project": "REVWGTS",
     "lims_id": "6861_1_LDI106140",
-    "merge_key": "REVOLVE_0017_13_LB02-01_231027_M00753_0636_000000000-DMM3R_1_CGGCTATG-CAGGACGT"
+    "merge_key": "REVOLVE_0017_13_LB02-01_231027_M00753_0636_000000000-DMM3R_1_CGGCTATG-CAGGACGT",
+    "batches": [
+      "2023-10-26_u157_s33_k160-20764836 20764831 20756988"
+    ]
   },
   {
     "run": "231027_M00753_0636_000000000-DMM3R",
@@ -963,7 +1167,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "6861_1_LDI106141",
-    "merge_key": "REVOLVE_0018_13_LB02-01_231027_M00753_0636_000000000-DMM3R_1_TCCGCGAA-CAGGACGT"
+    "merge_key": "REVOLVE_0018_13_LB02-01_231027_M00753_0636_000000000-DMM3R_1_TCCGCGAA-CAGGACGT",
+    "batches": [
+      "2023-10-26_u157_s33_k160-20764836 20764831 20756988"
+    ]
   },
   {
     "run": "231106_A00469_0573_AHMJVMDSX7",
@@ -977,7 +1184,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "6877_1_LDI106055",
-    "merge_key": "REVOLVE_0014_13_LB01-01_231106_A00469_0573_AHMJVMDSX7_1_CCAAGTTG-TACATCGG"
+    "merge_key": "REVOLVE_0014_13_LB01-01_231106_A00469_0573_AHMJVMDSX7_1_CCAAGTTG-TACATCGG",
+    "batches": [
+      "2023-10-24_u142_s34_k154-0000138644"
+    ]
   },
   {
     "run": "231106_A00469_0573_AHMJVMDSX7",
@@ -991,7 +1201,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "6877_1_LDI106056",
-    "merge_key": "REVOLVE_0014_14_LB01-01_231106_A00469_0573_AHMJVMDSX7_1_CCTACTGA-ATGCGTCA"
+    "merge_key": "REVOLVE_0014_14_LB01-01_231106_A00469_0573_AHMJVMDSX7_1_CCTACTGA-ATGCGTCA",
+    "batches": [
+      "2023-10-24_u142_s34_k154-0000138644"
+    ]
   },
   {
     "run": "231106_A00469_0573_AHMJVMDSX7",
@@ -1005,7 +1218,10 @@
     "tissue_origin": "Ov",
     "project": "REVWGTS",
     "lims_id": "6877_1_LDI106057",
-    "merge_key": "REVOLVE_0017_13_LB01-01_231106_A00469_0573_AHMJVMDSX7_1_CTTGCTGT-CAATGCGA"
+    "merge_key": "REVOLVE_0017_13_LB01-01_231106_A00469_0573_AHMJVMDSX7_1_CTTGCTGT-CAATGCGA",
+    "batches": [
+      "2023-10-24_u142_s34_k154-0000138644"
+    ]
   },
   {
     "run": "231106_A00469_0573_AHMJVMDSX7",
@@ -1019,7 +1235,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "6877_1_LDI106058",
-    "merge_key": "REVOLVE_0017_14_LB01-01_231106_A00469_0573_AHMJVMDSX7_1_TGCCATTC-TGATCACG"
+    "merge_key": "REVOLVE_0017_14_LB01-01_231106_A00469_0573_AHMJVMDSX7_1_TGCCATTC-TGATCACG",
+    "batches": [
+      "2023-10-24_u142_s34_k154-0000138644"
+    ]
   },
   {
     "run": "231106_A00469_0573_AHMJVMDSX7",
@@ -1033,7 +1252,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "6877_1_LDI106059",
-    "merge_key": "REVOLVE_0018_13_LB01-01_231106_A00469_0573_AHMJVMDSX7_1_TTGATCCG-AAGCTCAC"
+    "merge_key": "REVOLVE_0018_13_LB01-01_231106_A00469_0573_AHMJVMDSX7_1_TTGATCCG-AAGCTCAC",
+    "batches": [
+      "2023-10-24_u142_s34_k154-0000138644"
+    ]
   },
   {
     "run": "231106_A00469_0573_AHMJVMDSX7",
@@ -1047,7 +1269,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "6877_1_LDI106060",
-    "merge_key": "REVOLVE_0018_14_LB01-01_231106_A00469_0573_AHMJVMDSX7_1_AGTGCAGT-ATTCCGCT"
+    "merge_key": "REVOLVE_0018_14_LB01-01_231106_A00469_0573_AHMJVMDSX7_1_AGTGCAGT-ATTCCGCT",
+    "batches": [
+      "2023-10-24_u142_s34_k154-0000138644"
+    ]
   },
   {
     "run": "231110_A00469_0577_AHTMKGDSX7",
@@ -1061,7 +1286,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "6890_2_LDI106139",
-    "merge_key": "REVOLVE_0014_13_LB02-01_231110_A00469_0577_AHTMKGDSX7_2_AGCGATAG-TAAGATTA"
+    "merge_key": "REVOLVE_0014_13_LB02-01_231110_A00469_0577_AHTMKGDSX7_2_AGCGATAG-TAAGATTA",
+    "batches": [
+      "2023-10-26_u157_s33_k160-20764836 20764831 20756988"
+    ]
   },
   {
     "run": "231110_A00469_0577_AHTMKGDSX7",
@@ -1075,7 +1303,10 @@
     "tissue_origin": "Ov",
     "project": "REVWGTS",
     "lims_id": "6890_2_LDI106140",
-    "merge_key": "REVOLVE_0017_13_LB02-01_231110_A00469_0577_AHTMKGDSX7_2_CGGCTATG-ACGTCCTG"
+    "merge_key": "REVOLVE_0017_13_LB02-01_231110_A00469_0577_AHTMKGDSX7_2_CGGCTATG-ACGTCCTG",
+    "batches": [
+      "2023-10-26_u157_s33_k160-20764836 20764831 20756988"
+    ]
   },
   {
     "run": "231110_A00469_0577_AHTMKGDSX7",
@@ -1089,7 +1320,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "6890_2_LDI106141",
-    "merge_key": "REVOLVE_0018_13_LB02-01_231110_A00469_0577_AHTMKGDSX7_2_TCCGCGAA-ACGTCCTG"
+    "merge_key": "REVOLVE_0018_13_LB02-01_231110_A00469_0577_AHTMKGDSX7_2_TCCGCGAA-ACGTCCTG",
+    "batches": [
+      "2023-10-26_u157_s33_k160-20764836 20764831 20756988"
+    ]
   },
   {
     "run": "231124_M00146_0457_000000000-DMM2H",
@@ -1103,7 +1337,10 @@
     "tissue_origin": "Rp",
     "project": "REVWGTS",
     "lims_id": "6919_1_LDI107423",
-    "merge_key": "REVOLVE_0020_01_LB02-01_231124_M00146_0457_000000000-DMM2H_1_GAGATTCC-TATAGCCT"
+    "merge_key": "REVOLVE_0020_01_LB02-01_231124_M00146_0457_000000000-DMM2H_1_GAGATTCC-TATAGCCT",
+    "batches": [
+      "2023-11-24_u142_s33_k160-20770634 20783335 20781322"
+    ]
   },
   {
     "run": "231124_M06816_0025_000000000-DMM2F",
@@ -1117,7 +1354,10 @@
     "tissue_origin": "Rp",
     "project": "REVWGTS",
     "lims_id": "6920_1_LDI107291",
-    "merge_key": "REVOLVE_0020_01_LB01-01_231124_M06816_0025_000000000-DMM2F_1_TGGAGAGT-TCCTACCT"
+    "merge_key": "REVOLVE_0020_01_LB01-01_231124_M06816_0025_000000000-DMM2F_1_TGGAGAGT-TCCTACCT",
+    "batches": [
+      "2023-11-22_u166_s34_k154-0000143121"
+    ]
   },
   {
     "run": "231124_M06816_0025_000000000-DMM2F",
@@ -1131,7 +1371,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "6920_1_LDI107292",
-    "merge_key": "REVOLVE_0020_02_LB01-01_231124_M06816_0025_000000000-DMM2F_1_GTATGCTG-CCTCAGTT"
+    "merge_key": "REVOLVE_0020_02_LB01-01_231124_M06816_0025_000000000-DMM2F_1_GTATGCTG-CCTCAGTT",
+    "batches": [
+      "2023-11-22_u166_s34_k154-0000143121"
+    ]
   },
   {
     "run": "231129_A00469_0588_AHNWG2DSX7",
@@ -1145,7 +1388,10 @@
     "tissue_origin": "Rp",
     "project": "REVWGTS",
     "lims_id": "6928_2_LDI107423",
-    "merge_key": "REVOLVE_0020_01_LB02-01_231129_A00469_0588_AHNWG2DSX7_2_GAGATTCC-AGGCTATA"
+    "merge_key": "REVOLVE_0020_01_LB02-01_231129_A00469_0588_AHNWG2DSX7_2_GAGATTCC-AGGCTATA",
+    "batches": [
+      "2023-11-24_u142_s33_k160-20770634 20783335 20781322"
+    ]
   },
   {
     "run": "231201_A00469_0589_BHTM5YDSX7",
@@ -1159,7 +1405,10 @@
     "tissue_origin": "Rp",
     "project": "REVWGTS",
     "lims_id": "6936_1_LDI107291",
-    "merge_key": "REVOLVE_0020_01_LB01-01_231201_A00469_0589_BHTM5YDSX7_1_TGGAGAGT-AGGTAGGA"
+    "merge_key": "REVOLVE_0020_01_LB01-01_231201_A00469_0589_BHTM5YDSX7_1_TGGAGAGT-AGGTAGGA",
+    "batches": [
+      "2023-11-22_u166_s34_k154-0000143121"
+    ]
   },
   {
     "run": "231201_A00469_0589_BHTM5YDSX7",
@@ -1173,7 +1422,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "6936_1_LDI107292",
-    "merge_key": "REVOLVE_0020_02_LB01-01_231201_A00469_0589_BHTM5YDSX7_1_GTATGCTG-AACTGAGG"
+    "merge_key": "REVOLVE_0020_02_LB01-01_231201_A00469_0589_BHTM5YDSX7_1_GTATGCTG-AACTGAGG",
+    "batches": [
+      "2023-11-22_u166_s34_k154-0000143121"
+    ]
   },
   {
     "run": "231208_M00146_0461_000000000-DM6C7",
@@ -1187,7 +1439,10 @@
     "tissue_origin": "Om",
     "project": "REVWGTS",
     "lims_id": "6946_1_LDI107870",
-    "merge_key": "REVOLVE_0023_16_LB01-01_231208_M00146_0461_000000000-DM6C7_1_TAATGCGC-CAGGACGT"
+    "merge_key": "REVOLVE_0023_16_LB01-01_231208_M00146_0461_000000000-DM6C7_1_TAATGCGC-CAGGACGT",
+    "batches": [
+      "2023-12-06_u142_s33_k160-20770634 20783335 20781322"
+    ]
   },
   {
     "run": "231208_M00146_0461_000000000-DM6C7",
@@ -1201,7 +1456,10 @@
     "tissue_origin": "Om",
     "project": "REVWGTS",
     "lims_id": "6946_1_LDI107904",
-    "merge_key": "REVOLVE_0023_16_LB02-01_231208_M00146_0461_000000000-DM6C7_1_ACTGTGTC-TAGCCGAA"
+    "merge_key": "REVOLVE_0023_16_LB02-01_231208_M00146_0461_000000000-DM6C7_1_ACTGTGTC-TAGCCGAA",
+    "batches": [
+      "2023-12-07_u157_s34_k154-143121"
+    ]
   },
   {
     "run": "231208_M00146_0461_000000000-DM6C7",
@@ -1215,7 +1473,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "6946_1_LDI107907",
-    "merge_key": "REVOLVE_0023_01_LB02-01_231208_M00146_0461_000000000-DM6C7_1_CATAACGG-TGCACCAA"
+    "merge_key": "REVOLVE_0023_01_LB02-01_231208_M00146_0461_000000000-DM6C7_1_CATAACGG-TGCACCAA",
+    "batches": [
+      "2023-12-07_u157_s34_k154-143121"
+    ]
   },
   {
     "run": "231213_A00469_0599_AHWTCGDSX5",
@@ -1229,7 +1490,10 @@
     "tissue_origin": "Om",
     "project": "REVWGTS",
     "lims_id": "6957_1_LDI107904",
-    "merge_key": "REVOLVE_0023_16_LB02-01_231213_A00469_0599_AHWTCGDSX5_1_ACTGTGTC-TTCGGCTA"
+    "merge_key": "REVOLVE_0023_16_LB02-01_231213_A00469_0599_AHWTCGDSX5_1_ACTGTGTC-TTCGGCTA",
+    "batches": [
+      "2023-12-07_u157_s34_k154-143121"
+    ]
   },
   {
     "run": "231213_A00469_0599_AHWTCGDSX5",
@@ -1243,7 +1507,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "6957_1_LDI107907",
-    "merge_key": "REVOLVE_0023_01_LB02-01_231213_A00469_0599_AHWTCGDSX5_1_CATAACGG-TTGGTGCA"
+    "merge_key": "REVOLVE_0023_01_LB02-01_231213_A00469_0599_AHWTCGDSX5_1_CATAACGG-TTGGTGCA",
+    "batches": [
+      "2023-12-07_u157_s34_k154-143121"
+    ]
   },
   {
     "run": "231213_A00469_0599_AHWTCGDSX5",
@@ -1257,7 +1524,10 @@
     "tissue_origin": "Om",
     "project": "REVWGTS",
     "lims_id": "6957_2_LDI107904",
-    "merge_key": "REVOLVE_0023_16_LB02-01_231213_A00469_0599_AHWTCGDSX5_2_ACTGTGTC-TTCGGCTA"
+    "merge_key": "REVOLVE_0023_16_LB02-01_231213_A00469_0599_AHWTCGDSX5_2_ACTGTGTC-TTCGGCTA",
+    "batches": [
+      "2023-12-07_u157_s34_k154-143121"
+    ]
   },
   {
     "run": "231213_A00469_0599_AHWTCGDSX5",
@@ -1271,7 +1541,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "6957_2_LDI107907",
-    "merge_key": "REVOLVE_0023_01_LB02-01_231213_A00469_0599_AHWTCGDSX5_2_CATAACGG-TTGGTGCA"
+    "merge_key": "REVOLVE_0023_01_LB02-01_231213_A00469_0599_AHWTCGDSX5_2_CATAACGG-TTGGTGCA",
+    "batches": [
+      "2023-12-07_u157_s34_k154-143121"
+    ]
   },
   {
     "run": "231213_A00469_0599_AHWTCGDSX5",
@@ -1285,7 +1558,10 @@
     "tissue_origin": "Om",
     "project": "REVWGTS",
     "lims_id": "6957_3_LDI107904",
-    "merge_key": "REVOLVE_0023_16_LB02-01_231213_A00469_0599_AHWTCGDSX5_3_ACTGTGTC-TTCGGCTA"
+    "merge_key": "REVOLVE_0023_16_LB02-01_231213_A00469_0599_AHWTCGDSX5_3_ACTGTGTC-TTCGGCTA",
+    "batches": [
+      "2023-12-07_u157_s34_k154-143121"
+    ]
   },
   {
     "run": "231213_A00469_0599_AHWTCGDSX5",
@@ -1299,7 +1575,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "6957_3_LDI107907",
-    "merge_key": "REVOLVE_0023_01_LB02-01_231213_A00469_0599_AHWTCGDSX5_3_CATAACGG-TTGGTGCA"
+    "merge_key": "REVOLVE_0023_01_LB02-01_231213_A00469_0599_AHWTCGDSX5_3_CATAACGG-TTGGTGCA",
+    "batches": [
+      "2023-12-07_u157_s34_k154-143121"
+    ]
   },
   {
     "run": "231213_A00469_0599_AHWTCGDSX5",
@@ -1313,7 +1592,10 @@
     "tissue_origin": "Om",
     "project": "REVWGTS",
     "lims_id": "6957_4_LDI107870",
-    "merge_key": "REVOLVE_0023_16_LB01-01_231213_A00469_0599_AHWTCGDSX5_4_TAATGCGC-ACGTCCTG"
+    "merge_key": "REVOLVE_0023_16_LB01-01_231213_A00469_0599_AHWTCGDSX5_4_TAATGCGC-ACGTCCTG",
+    "batches": [
+      "2023-12-06_u142_s33_k160-20770634 20783335 20781322"
+    ]
   },
   {
     "run": "240112_M06816_0040_000000000-DMT38",
@@ -1327,7 +1609,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "6996_1_LDI108398",
-    "merge_key": "REVOLVE_0025_01_LB01-01_240112_M06816_0040_000000000-DMT38_1_GCCATAAC-ATTGCGTG"
+    "merge_key": "REVOLVE_0025_01_LB01-01_240112_M06816_0040_000000000-DMT38_1_GCCATAAC-ATTGCGTG",
+    "batches": [
+      "2024-01-09_u166_s34_k154-0000143121"
+    ]
   },
   {
     "run": "240112_M06816_0040_000000000-DMT38",
@@ -1341,7 +1626,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "6996_1_LDI108399",
-    "merge_key": "REVOLVE_0025_16_LB01-01_240112_M06816_0040_000000000-DMT38_1_TTACCGAG-CCAAGACT"
+    "merge_key": "REVOLVE_0025_16_LB01-01_240112_M06816_0040_000000000-DMT38_1_TTACCGAG-CCAAGACT",
+    "batches": [
+      "2024-01-09_u166_s34_k154-0000143121"
+    ]
   },
   {
     "run": "240112_M06816_0040_000000000-DMT38",
@@ -1355,7 +1643,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "6996_1_LDI108442",
-    "merge_key": "REVOLVE_0025_16_LB02-01_240112_M06816_0040_000000000-DMT38_1_CTGAAGCT-TAATCTTA"
+    "merge_key": "REVOLVE_0025_16_LB02-01_240112_M06816_0040_000000000-DMT38_1_CTGAAGCT-TAATCTTA",
+    "batches": [
+      "2024-01-12_u157_s33_k160-20803288, 20803276, 20783336"
+    ]
   },
   {
     "run": "240119_A00469_0618_BHN5C7DRX3",
@@ -1369,7 +1660,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "7012_1_LDI108442",
-    "merge_key": "REVOLVE_0025_16_LB02-01_240119_A00469_0618_BHN5C7DRX3_1_CTGAAGCT-TAAGATTA"
+    "merge_key": "REVOLVE_0025_16_LB02-01_240119_A00469_0618_BHN5C7DRX3_1_CTGAAGCT-TAAGATTA",
+    "batches": [
+      "2024-01-12_u157_s33_k160-20803288, 20803276, 20783336"
+    ]
   },
   {
     "run": "240119_A00469_0619_AHWVLGDSX7",
@@ -1383,7 +1677,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7013_1_LDI108398",
-    "merge_key": "REVOLVE_0025_01_LB01-01_240119_A00469_0619_AHWVLGDSX7_1_GCCATAAC-CACGCAAT"
+    "merge_key": "REVOLVE_0025_01_LB01-01_240119_A00469_0619_AHWVLGDSX7_1_GCCATAAC-CACGCAAT",
+    "batches": [
+      "2024-01-09_u166_s34_k154-0000143121"
+    ]
   },
   {
     "run": "240119_A00469_0619_AHWVLGDSX7",
@@ -1397,7 +1694,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "7013_1_LDI108399",
-    "merge_key": "REVOLVE_0025_16_LB01-01_240119_A00469_0619_AHWVLGDSX7_1_TTACCGAG-AGTCTTGG"
+    "merge_key": "REVOLVE_0025_16_LB01-01_240119_A00469_0619_AHWVLGDSX7_1_TTACCGAG-AGTCTTGG",
+    "batches": [
+      "2024-01-09_u166_s34_k154-0000143121"
+    ]
   },
   {
     "run": "240202_M06816_0053_000000000-DN47J",
@@ -1411,7 +1711,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "7044_1_LDI109302",
-    "merge_key": "REVOLVE_0026_16_LB01-01_240202_M06816_0053_000000000-DN47J_1_ATTCAGAA-GTACTGAC"
+    "merge_key": "REVOLVE_0026_16_LB01-01_240202_M06816_0053_000000000-DN47J_1_ATTCAGAA-GTACTGAC",
+    "batches": [
+      "2024-01-31_u142_s33_k160-20803288 20783336 20803276"
+    ]
   },
   {
     "run": "240202_M06816_0053_000000000-DN47J",
@@ -1425,7 +1728,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7044_1_LDI109320",
-    "merge_key": "REVOLVE_0026_01_LB02-01_240202_M06816_0053_000000000-DN47J_1_AACCTCCT-TTCAGCCT"
+    "merge_key": "REVOLVE_0026_01_LB02-01_240202_M06816_0053_000000000-DN47J_1_AACCTCCT-TTCAGCCT",
+    "batches": [
+      "2024-02-01_u127_s34_k154-0000143121"
+    ]
   },
   {
     "run": "240202_M06816_0053_000000000-DN47J",
@@ -1439,7 +1745,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "7044_1_LDI109321",
-    "merge_key": "REVOLVE_0026_16_LB02-01_240202_M06816_0053_000000000-DN47J_1_CAGCGATT-TCTGAGAG"
+    "merge_key": "REVOLVE_0026_16_LB02-01_240202_M06816_0053_000000000-DN47J_1_CAGCGATT-TCTGAGAG",
+    "batches": [
+      "2024-02-01_u127_s34_k154-0000143121"
+    ]
   },
   {
     "run": "240209_A00469_0628_AHWV5HDSX7",
@@ -1453,7 +1762,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7057_1_LDI109320",
-    "merge_key": "REVOLVE_0026_01_LB02-01_240209_A00469_0628_AHWV5HDSX7_1_AACCTCCT-AGGCTGAA"
+    "merge_key": "REVOLVE_0026_01_LB02-01_240209_A00469_0628_AHWV5HDSX7_1_AACCTCCT-AGGCTGAA",
+    "batches": [
+      "2024-02-01_u127_s34_k154-0000143121"
+    ]
   },
   {
     "run": "240209_A00469_0628_AHWV5HDSX7",
@@ -1467,7 +1779,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "7057_1_LDI109321",
-    "merge_key": "REVOLVE_0026_16_LB02-01_240209_A00469_0628_AHWV5HDSX7_1_CAGCGATT-CTCTCAGA"
+    "merge_key": "REVOLVE_0026_16_LB02-01_240209_A00469_0628_AHWV5HDSX7_1_CAGCGATT-CTCTCAGA",
+    "batches": [
+      "2024-02-01_u127_s34_k154-0000143121"
+    ]
   },
   {
     "run": "240209_A00469_0628_AHWV5HDSX7",
@@ -1481,7 +1796,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7057_2_LDI109320",
-    "merge_key": "REVOLVE_0026_01_LB02-01_240209_A00469_0628_AHWV5HDSX7_2_AACCTCCT-AGGCTGAA"
+    "merge_key": "REVOLVE_0026_01_LB02-01_240209_A00469_0628_AHWV5HDSX7_2_AACCTCCT-AGGCTGAA",
+    "batches": [
+      "2024-02-01_u127_s34_k154-0000143121"
+    ]
   },
   {
     "run": "240209_A00469_0628_AHWV5HDSX7",
@@ -1495,7 +1813,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "7057_2_LDI109321",
-    "merge_key": "REVOLVE_0026_16_LB02-01_240209_A00469_0628_AHWV5HDSX7_2_CAGCGATT-CTCTCAGA"
+    "merge_key": "REVOLVE_0026_16_LB02-01_240209_A00469_0628_AHWV5HDSX7_2_CAGCGATT-CTCTCAGA",
+    "batches": [
+      "2024-02-01_u127_s34_k154-0000143121"
+    ]
   },
   {
     "run": "240209_A00469_0628_AHWV5HDSX7",
@@ -1509,7 +1830,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7057_3_LDI109320",
-    "merge_key": "REVOLVE_0026_01_LB02-01_240209_A00469_0628_AHWV5HDSX7_3_AACCTCCT-AGGCTGAA"
+    "merge_key": "REVOLVE_0026_01_LB02-01_240209_A00469_0628_AHWV5HDSX7_3_AACCTCCT-AGGCTGAA",
+    "batches": [
+      "2024-02-01_u127_s34_k154-0000143121"
+    ]
   },
   {
     "run": "240209_A00469_0628_AHWV5HDSX7",
@@ -1523,7 +1847,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "7057_3_LDI109321",
-    "merge_key": "REVOLVE_0026_16_LB02-01_240209_A00469_0628_AHWV5HDSX7_3_CAGCGATT-CTCTCAGA"
+    "merge_key": "REVOLVE_0026_16_LB02-01_240209_A00469_0628_AHWV5HDSX7_3_CAGCGATT-CTCTCAGA",
+    "batches": [
+      "2024-02-01_u127_s34_k154-0000143121"
+    ]
   },
   {
     "run": "240209_A00469_0629_BHN23LDRX3",
@@ -1537,7 +1864,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "7058_1_LDI109302",
-    "merge_key": "REVOLVE_0026_16_LB01-01_240209_A00469_0629_BHN23LDRX3_1_ATTCAGAA-GTCAGTAC"
+    "merge_key": "REVOLVE_0026_16_LB01-01_240209_A00469_0629_BHN23LDRX3_1_ATTCAGAA-GTCAGTAC",
+    "batches": [
+      "2024-01-31_u142_s33_k160-20803288 20783336 20803276"
+    ]
   },
   {
     "run": "240301_M00146_0480_000000000-DMW4L",
@@ -1551,7 +1881,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7103_1_LDI109930",
-    "merge_key": "REVOLVE_0028_01_LB01-01_240301_M00146_0480_000000000-DMW4L_1_AAGGCTGA-GCATACAG"
+    "merge_key": "REVOLVE_0028_01_LB01-01_240301_M00146_0480_000000000-DMW4L_1_AAGGCTGA-GCATACAG",
+    "batches": [
+      "2024-02-29_u191_s34_k154-0000143121"
+    ]
   },
   {
     "run": "240301_M00146_0480_000000000-DMW4L",
@@ -1565,7 +1898,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "7103_1_LDI109931",
-    "merge_key": "REVOLVE_0028_16_LB01-01_240301_M00146_0480_000000000-DMW4L_1_CGATGCTT-CATCTACG"
+    "merge_key": "REVOLVE_0028_16_LB01-01_240301_M00146_0480_000000000-DMW4L_1_CGATGCTT-CATCTACG",
+    "batches": [
+      "2024-02-29_u191_s34_k154-0000143121"
+    ]
   },
   {
     "run": "240306_A00469_0644_AH3VWTDSXC",
@@ -1579,7 +1915,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7121_1_LDI109930",
-    "merge_key": "REVOLVE_0028_01_LB01-01_240306_A00469_0644_AH3VWTDSXC_1_AAGGCTGA-CTGTATGC"
+    "merge_key": "REVOLVE_0028_01_LB01-01_240306_A00469_0644_AH3VWTDSXC_1_AAGGCTGA-CTGTATGC",
+    "batches": [
+      "2024-02-29_u191_s34_k154-0000143121"
+    ]
   },
   {
     "run": "240306_A00469_0644_AH3VWTDSXC",
@@ -1593,7 +1932,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "7121_1_LDI109931",
-    "merge_key": "REVOLVE_0028_16_LB01-01_240306_A00469_0644_AH3VWTDSXC_1_CGATGCTT-CGTAGATG"
+    "merge_key": "REVOLVE_0028_16_LB01-01_240306_A00469_0644_AH3VWTDSXC_1_CGATGCTT-CGTAGATG",
+    "batches": [
+      "2024-02-29_u191_s34_k154-0000143121"
+    ]
   },
   {
     "run": "240308_M00753_0681_000000000-DN45M",
@@ -1607,7 +1949,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7130_1_LDI110029",
-    "merge_key": "REVOLVE_0030_01_LB01-01_240308_M00753_0681_000000000-DN45M_1_GTTCATGG-ACGTCGTA"
+    "merge_key": "REVOLVE_0030_01_LB01-01_240308_M00753_0681_000000000-DN45M_1_GTTCATGG-ACGTCGTA",
+    "batches": [
+      "2024-03-07_u191_s34_k154-0000139709"
+    ]
   },
   {
     "run": "240308_M00753_0681_000000000-DN45M",
@@ -1621,7 +1966,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "7130_1_LDI110030",
-    "merge_key": "REVOLVE_0030_16_LB01-01_240308_M00753_0681_000000000-DN45M_1_TCGTGGAT-GTCTAGGT"
+    "merge_key": "REVOLVE_0030_16_LB01-01_240308_M00753_0681_000000000-DN45M_1_TCGTGGAT-GTCTAGGT",
+    "batches": [
+      "2024-03-07_u191_s34_k154-0000139709"
+    ]
   },
   {
     "run": "240315_M00753_0684_000000000-DN46T",
@@ -1635,7 +1983,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "7153_1_LDI110501",
-    "merge_key": "REVOLVE_0028_16_LB03-01_240315_M00753_0684_000000000-DN46T_1_GAATTCGT-TAATCTTA"
+    "merge_key": "REVOLVE_0028_16_LB03-01_240315_M00753_0684_000000000-DN46T_1_GAATTCGT-TAATCTTA",
+    "batches": [
+      "2024-03-14_u142_s33_k160-20803288 20811224 20811285"
+    ]
   },
   {
     "run": "240315_M00753_0684_000000000-DN46T",
@@ -1649,7 +2000,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "7153_1_LDI110502",
-    "merge_key": "REVOLVE_0030_16_LB02-01_240315_M00753_0684_000000000-DN46T_1_CTGAAGCT-TAATCTTA"
+    "merge_key": "REVOLVE_0030_16_LB02-01_240315_M00753_0684_000000000-DN46T_1_CTGAAGCT-TAATCTTA",
+    "batches": [
+      "2024-03-14_u142_s33_k160-20803288 20811224 20811285"
+    ]
   },
   {
     "run": "240315_A00469_0651_AHWYLFDSX7",
@@ -1663,7 +2017,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7155_1_LDI110029",
-    "merge_key": "REVOLVE_0030_01_LB01-01_240315_A00469_0651_AHWYLFDSX7_1_GTTCATGG-TACGACGT"
+    "merge_key": "REVOLVE_0030_01_LB01-01_240315_A00469_0651_AHWYLFDSX7_1_GTTCATGG-TACGACGT",
+    "batches": [
+      "2024-03-07_u191_s34_k154-0000139709"
+    ]
   },
   {
     "run": "240315_A00469_0651_AHWYLFDSX7",
@@ -1677,7 +2034,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "7155_1_LDI110030",
-    "merge_key": "REVOLVE_0030_16_LB01-01_240315_A00469_0651_AHWYLFDSX7_1_TCGTGGAT-ACCTAGAC"
+    "merge_key": "REVOLVE_0030_16_LB01-01_240315_A00469_0651_AHWYLFDSX7_1_TCGTGGAT-ACCTAGAC",
+    "batches": [
+      "2024-03-07_u191_s34_k154-0000139709"
+    ]
   },
   {
     "run": "240325_A00469_0658_AH7LF5DSXC",
@@ -1691,7 +2051,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "7178_3_LDI110501",
-    "merge_key": "REVOLVE_0028_16_LB03-01_240325_A00469_0658_AH7LF5DSXC_3_GAATTCGT-TAAGATTA"
+    "merge_key": "REVOLVE_0028_16_LB03-01_240325_A00469_0658_AH7LF5DSXC_3_GAATTCGT-TAAGATTA",
+    "batches": [
+      "2024-03-14_u142_s33_k160-20803288 20811224 20811285"
+    ]
   },
   {
     "run": "240325_A00469_0658_AH7LF5DSXC",
@@ -1705,7 +2068,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "7178_3_LDI110502",
-    "merge_key": "REVOLVE_0030_16_LB02-01_240325_A00469_0658_AH7LF5DSXC_3_CTGAAGCT-TAAGATTA"
+    "merge_key": "REVOLVE_0030_16_LB02-01_240325_A00469_0658_AH7LF5DSXC_3_CTGAAGCT-TAAGATTA",
+    "batches": [
+      "2024-03-14_u142_s33_k160-20803288 20811224 20811285"
+    ]
   },
   {
     "run": "240325_A00469_0658_AH7LF5DSXC",
@@ -1719,7 +2085,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "7178_4_LDI110501",
-    "merge_key": "REVOLVE_0028_16_LB03-01_240325_A00469_0658_AH7LF5DSXC_4_GAATTCGT-TAAGATTA"
+    "merge_key": "REVOLVE_0028_16_LB03-01_240325_A00469_0658_AH7LF5DSXC_4_GAATTCGT-TAAGATTA",
+    "batches": [
+      "2024-03-14_u142_s33_k160-20803288 20811224 20811285"
+    ]
   },
   {
     "run": "240325_A00469_0658_AH7LF5DSXC",
@@ -1733,7 +2102,10 @@
     "tissue_origin": "Pm",
     "project": "REVWGTS",
     "lims_id": "7178_4_LDI110502",
-    "merge_key": "REVOLVE_0030_16_LB02-01_240325_A00469_0658_AH7LF5DSXC_4_CTGAAGCT-TAAGATTA"
+    "merge_key": "REVOLVE_0030_16_LB02-01_240325_A00469_0658_AH7LF5DSXC_4_CTGAAGCT-TAAGATTA",
+    "batches": [
+      "2024-03-14_u142_s33_k160-20803288 20811224 20811285"
+    ]
   },
   {
     "run": "240405_M06816_0073_000000000-DNV22",
@@ -1747,7 +2119,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7198_1_LDI111057",
-    "merge_key": "REVOLVE_0032_01_LB01-01_240405_M06816_0073_000000000-DNV22_1_AACCTTGG-AGGATCTG"
+    "merge_key": "REVOLVE_0032_01_LB01-01_240405_M06816_0073_000000000-DNV22_1_AACCTTGG-AGGATCTG",
+    "batches": [
+      "2024-04-02_u166_s34_k154-143121"
+    ]
   },
   {
     "run": "240405_M06816_0073_000000000-DNV22",
@@ -1761,7 +2136,10 @@
     "tissue_origin": "Lv",
     "project": "REVWGTS",
     "lims_id": "7198_1_LDI111058",
-    "merge_key": "REVOLVE_0032_16_LB01-01_240405_M06816_0073_000000000-DNV22_1_CCATACGT-GACAAGAG"
+    "merge_key": "REVOLVE_0032_16_LB01-01_240405_M06816_0073_000000000-DNV22_1_CCATACGT-GACAAGAG",
+    "batches": [
+      "2024-04-02_u166_s34_k154-143121"
+    ]
   },
   {
     "run": "240405_M06816_0073_000000000-DNV22",
@@ -1775,7 +2153,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7198_1_LDI111059",
-    "merge_key": "REVOLVE_0033_01_LB01-01_240405_M06816_0073_000000000-DNV22_1_TGGTCCTT-TTACGGCT"
+    "merge_key": "REVOLVE_0033_01_LB01-01_240405_M06816_0073_000000000-DNV22_1_TGGTCCTT-TTACGGCT",
+    "batches": [
+      "2024-04-02_u166_s34_k154-143121"
+    ]
   },
   {
     "run": "240405_M06816_0073_000000000-DNV22",
@@ -1789,7 +2170,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "7198_1_LDI111060",
-    "merge_key": "REVOLVE_0033_16_LB01-01_240405_M06816_0073_000000000-DNV22_1_ACCGCATA-GCTGTTGT"
+    "merge_key": "REVOLVE_0033_16_LB01-01_240405_M06816_0073_000000000-DNV22_1_ACCGCATA-GCTGTTGT",
+    "batches": [
+      "2024-04-02_u166_s34_k154-143121"
+    ]
   },
   {
     "run": "240405_M06816_0073_000000000-DNV22",
@@ -1803,7 +2187,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7198_1_LDI111061",
-    "merge_key": "REVOLVE_0037_01_LB01-01_240405_M06816_0073_000000000-DNV22_1_CCTTCCTT-AACCGAAG"
+    "merge_key": "REVOLVE_0037_01_LB01-01_240405_M06816_0073_000000000-DNV22_1_CCTTCCTT-AACCGAAG",
+    "batches": [
+      "2024-04-02_u166_s34_k154-143121"
+    ]
   },
   {
     "run": "240405_M06816_0073_000000000-DNV22",
@@ -1817,7 +2204,10 @@
     "tissue_origin": "Di",
     "project": "REVWGTS",
     "lims_id": "7198_1_LDI111062",
-    "merge_key": "REVOLVE_0037_15_LB01-01_240405_M06816_0073_000000000-DNV22_1_TACACGCT-TCTGCTCT"
+    "merge_key": "REVOLVE_0037_15_LB01-01_240405_M06816_0073_000000000-DNV22_1_TACACGCT-TCTGCTCT",
+    "batches": [
+      "2024-04-02_u166_s34_k154-143121"
+    ]
   },
   {
     "run": "240405_M00753_0693_000000000-DNW64",
@@ -1831,7 +2221,10 @@
     "tissue_origin": "Lv",
     "project": "REVWGTS",
     "lims_id": "7204_1_LDI111496",
-    "merge_key": "REVOLVE_0032_16_LB02-01_240405_M00753_0693_000000000-DNW64_1_AGCGATAG-AGGCGAAG"
+    "merge_key": "REVOLVE_0032_16_LB02-01_240405_M00753_0693_000000000-DNW64_1_AGCGATAG-AGGCGAAG",
+    "batches": [
+      "2024-04-04_u142_s33_k160-20803287 20827896 20811285"
+    ]
   },
   {
     "run": "240405_M00753_0693_000000000-DNW64",
@@ -1845,7 +2238,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "7204_1_LDI111497",
-    "merge_key": "REVOLVE_0033_16_LB02-01_240405_M00753_0693_000000000-DNW64_1_AGCGATAG-TAATCTTA"
+    "merge_key": "REVOLVE_0033_16_LB02-01_240405_M00753_0693_000000000-DNW64_1_AGCGATAG-TAATCTTA",
+    "batches": [
+      "2024-04-04_u142_s33_k160-20803287 20827896 20811285"
+    ]
   },
   {
     "run": "240405_M00753_0693_000000000-DNW64",
@@ -1859,7 +2255,10 @@
     "tissue_origin": "Di",
     "project": "REVWGTS",
     "lims_id": "7204_1_LDI111498",
-    "merge_key": "REVOLVE_0037_15_LB02-01_240405_M00753_0693_000000000-DNW64_1_AGCGATAG-CAGGACGT"
+    "merge_key": "REVOLVE_0037_15_LB02-01_240405_M00753_0693_000000000-DNW64_1_AGCGATAG-CAGGACGT",
+    "batches": [
+      "2024-04-04_u142_s33_k160-20803287 20827896 20811285"
+    ]
   },
   {
     "run": "240408_A00469_0664_BHFNTVDSXC",
@@ -1873,7 +2272,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7210_1_LDI111057",
-    "merge_key": "REVOLVE_0032_01_LB01-01_240408_A00469_0664_BHFNTVDSXC_1_AACCTTGG-CAGATCCT"
+    "merge_key": "REVOLVE_0032_01_LB01-01_240408_A00469_0664_BHFNTVDSXC_1_AACCTTGG-CAGATCCT",
+    "batches": [
+      "2024-04-02_u166_s34_k154-143121"
+    ]
   },
   {
     "run": "240408_A00469_0664_BHFNTVDSXC",
@@ -1887,7 +2289,10 @@
     "tissue_origin": "Lv",
     "project": "REVWGTS",
     "lims_id": "7210_1_LDI111058",
-    "merge_key": "REVOLVE_0032_16_LB01-01_240408_A00469_0664_BHFNTVDSXC_1_CCATACGT-CTCTTGTC"
+    "merge_key": "REVOLVE_0032_16_LB01-01_240408_A00469_0664_BHFNTVDSXC_1_CCATACGT-CTCTTGTC",
+    "batches": [
+      "2024-04-02_u166_s34_k154-143121"
+    ]
   },
   {
     "run": "240412_M00753_0696_000000000-DNRDY",
@@ -1901,7 +2306,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7224_1_LDI111727",
-    "merge_key": "REVOLVE_0010_14_LB01-01_240412_M00753_0696_000000000-DNRDY_1_TCGAACCA-ACACGGTT"
+    "merge_key": "REVOLVE_0010_14_LB01-01_240412_M00753_0696_000000000-DNRDY_1_TCGAACCA-ACACGGTT",
+    "batches": [
+      "2024-04-10_u166_s34_k154-143121"
+    ]
   },
   {
     "run": "240412_M00753_0696_000000000-DNRDY",
@@ -1915,7 +2323,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7224_1_LDI111728",
-    "merge_key": "REVOLVE_0031_01_LB02-01_240412_M00753_0696_000000000-DNRDY_1_GAACGCTT-CTGCACTT"
+    "merge_key": "REVOLVE_0031_01_LB02-01_240412_M00753_0696_000000000-DNRDY_1_GAACGCTT-CTGCACTT",
+    "batches": [
+      "2024-04-10_u166_s34_k154-143121"
+    ]
   },
   {
     "run": "240412_M00753_0696_000000000-DNRDY",
@@ -1929,7 +2340,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7224_1_LDI111729",
-    "merge_key": "REVOLVE_0035_01_LB02-01_240412_M00753_0696_000000000-DNRDY_1_CAGAATCG-TCAACTGG"
+    "merge_key": "REVOLVE_0035_01_LB02-01_240412_M00753_0696_000000000-DNRDY_1_CAGAATCG-TCAACTGG",
+    "batches": [
+      "2024-04-10_u166_s34_k154-143121"
+    ]
   },
   {
     "run": "240412_A00469_0668_AHFHWNDSXC",
@@ -1943,7 +2357,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7226_1_LDI111059",
-    "merge_key": "REVOLVE_0033_01_LB01-01_240412_A00469_0668_AHFHWNDSXC_1_TGGTCCTT-AGCCGTAA"
+    "merge_key": "REVOLVE_0033_01_LB01-01_240412_A00469_0668_AHFHWNDSXC_1_TGGTCCTT-AGCCGTAA",
+    "batches": [
+      "2024-04-02_u166_s34_k154-143121"
+    ]
   },
   {
     "run": "240418_A00469_0670_BHYCK3DRX3",
@@ -1957,7 +2374,10 @@
     "tissue_origin": "Lv",
     "project": "REVWGTS",
     "lims_id": "7243_2_LDI111496",
-    "merge_key": "REVOLVE_0032_16_LB02-01_240418_A00469_0670_BHYCK3DRX3_2_AGCGATAG-CTTCGCCT"
+    "merge_key": "REVOLVE_0032_16_LB02-01_240418_A00469_0670_BHYCK3DRX3_2_AGCGATAG-CTTCGCCT",
+    "batches": [
+      "2024-04-04_u142_s33_k160-20803287 20827896 20811285"
+    ]
   },
   {
     "run": "240418_A00469_0670_BHYCK3DRX3",
@@ -1971,7 +2391,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "7243_2_LDI111497",
-    "merge_key": "REVOLVE_0033_16_LB02-01_240418_A00469_0670_BHYCK3DRX3_2_AGCGATAG-TAAGATTA"
+    "merge_key": "REVOLVE_0033_16_LB02-01_240418_A00469_0670_BHYCK3DRX3_2_AGCGATAG-TAAGATTA",
+    "batches": [
+      "2024-04-04_u142_s33_k160-20803287 20827896 20811285"
+    ]
   },
   {
     "run": "240418_A00469_0670_BHYCK3DRX3",
@@ -1985,7 +2408,10 @@
     "tissue_origin": "Di",
     "project": "REVWGTS",
     "lims_id": "7243_2_LDI111498",
-    "merge_key": "REVOLVE_0037_15_LB02-01_240418_A00469_0670_BHYCK3DRX3_2_AGCGATAG-ACGTCCTG"
+    "merge_key": "REVOLVE_0037_15_LB02-01_240418_A00469_0670_BHYCK3DRX3_2_AGCGATAG-ACGTCCTG",
+    "batches": [
+      "2024-04-04_u142_s33_k160-20803287 20827896 20811285"
+    ]
   },
   {
     "run": "240419_A00469_0671_AHFMFJDSXC",
@@ -1999,7 +2425,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "7249_1_LDI111060",
-    "merge_key": "REVOLVE_0033_16_LB01-01_240419_A00469_0671_AHFMFJDSXC_1_ACCGCATA-ACAACAGC"
+    "merge_key": "REVOLVE_0033_16_LB01-01_240419_A00469_0671_AHFMFJDSXC_1_ACCGCATA-ACAACAGC",
+    "batches": [
+      "2024-04-02_u166_s34_k154-143121"
+    ]
   },
   {
     "run": "240419_A00469_0671_AHFMFJDSXC",
@@ -2013,7 +2442,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7249_1_LDI111061",
-    "merge_key": "REVOLVE_0037_01_LB01-01_240419_A00469_0671_AHFMFJDSXC_1_CCTTCCTT-CTTCGGTT"
+    "merge_key": "REVOLVE_0037_01_LB01-01_240419_A00469_0671_AHFMFJDSXC_1_CCTTCCTT-CTTCGGTT",
+    "batches": [
+      "2024-04-02_u166_s34_k154-143121"
+    ]
   },
   {
     "run": "240419_A00469_0671_AHFMFJDSXC",
@@ -2027,7 +2459,10 @@
     "tissue_origin": "Di",
     "project": "REVWGTS",
     "lims_id": "7249_1_LDI111062",
-    "merge_key": "REVOLVE_0037_15_LB01-01_240419_A00469_0671_AHFMFJDSXC_1_TACACGCT-AGAGCAGA"
+    "merge_key": "REVOLVE_0037_15_LB01-01_240419_A00469_0671_AHFMFJDSXC_1_TACACGCT-AGAGCAGA",
+    "batches": [
+      "2024-04-02_u166_s34_k154-143121"
+    ]
   },
   {
     "run": "240422_A00469_0672_AHFMMWDSXC",
@@ -2041,7 +2476,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7255_1_LDI111727",
-    "merge_key": "REVOLVE_0010_14_LB01-01_240422_A00469_0672_AHFMMWDSXC_1_TCGAACCA-AACCGTGT"
+    "merge_key": "REVOLVE_0010_14_LB01-01_240422_A00469_0672_AHFMMWDSXC_1_TCGAACCA-AACCGTGT",
+    "batches": [
+      "2024-04-10_u166_s34_k154-143121"
+    ]
   },
   {
     "run": "240422_A00469_0672_AHFMMWDSXC",
@@ -2055,7 +2493,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7255_1_LDI111728",
-    "merge_key": "REVOLVE_0031_01_LB02-01_240422_A00469_0672_AHFMMWDSXC_1_GAACGCTT-AAGTGCAG"
+    "merge_key": "REVOLVE_0031_01_LB02-01_240422_A00469_0672_AHFMMWDSXC_1_GAACGCTT-AAGTGCAG",
+    "batches": [
+      "2024-04-10_u166_s34_k154-143121"
+    ]
   },
   {
     "run": "240422_A00469_0672_AHFMMWDSXC",
@@ -2069,7 +2510,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7255_1_LDI111729",
-    "merge_key": "REVOLVE_0035_01_LB02-01_240422_A00469_0672_AHFMMWDSXC_1_CAGAATCG-CCAGTTGA"
+    "merge_key": "REVOLVE_0035_01_LB02-01_240422_A00469_0672_AHFMMWDSXC_1_CAGAATCG-CCAGTTGA",
+    "batches": [
+      "2024-04-10_u166_s34_k154-143121"
+    ]
   },
   {
     "run": "240424_M00753_0702_000000000-DNT3W",
@@ -2083,7 +2527,10 @@
     "tissue_origin": "Lv",
     "project": "REVWGTS",
     "lims_id": "7263_1_LDI112261",
-    "merge_key": "REVOLVE_0035_16_LB02-01_240424_M00753_0702_000000000-DNT3W_1_CCTTCACC-GACGCTCC"
+    "merge_key": "REVOLVE_0035_16_LB02-01_240424_M00753_0702_000000000-DNT3W_1_CCTTCACC-GACGCTCC",
+    "batches": [
+      "2024-04-19_u157_s33_k160-20821876, 20827896, 20839586"
+    ]
   },
   {
     "run": "240424_M00753_0702_000000000-DNT3W",
@@ -2097,7 +2544,10 @@
     "tissue_origin": "Lv",
     "project": "REVWGTS",
     "lims_id": "7263_1_LDI112262",
-    "merge_key": "REVOLVE_0031_16_LB02-01_240424_M00753_0702_000000000-DNT3W_1_GCCACAGG-CATGCCAT"
+    "merge_key": "REVOLVE_0031_16_LB02-01_240424_M00753_0702_000000000-DNT3W_1_GCCACAGG-CATGCCAT",
+    "batches": [
+      "2024-04-19_u157_s33_k160-20821876, 20827896, 20839586"
+    ]
   },
   {
     "run": "240424_M00753_0702_000000000-DNT3W",
@@ -2111,7 +2561,10 @@
     "tissue_origin": "Ab",
     "project": "REVWGTS",
     "lims_id": "7263_1_LDI112263",
-    "merge_key": "REVOLVE_0010_01_LB02-01_240424_M00753_0702_000000000-DNT3W_1_ATTGTGAA-TGCATTGC"
+    "merge_key": "REVOLVE_0010_01_LB02-01_240424_M00753_0702_000000000-DNT3W_1_ATTGTGAA-TGCATTGC",
+    "batches": [
+      "2024-04-19_u157_s33_k160-20821876, 20827896, 20839586"
+    ]
   },
   {
     "run": "240429_A00469_0679_AHTKWVDMXY",
@@ -2125,7 +2578,10 @@
     "tissue_origin": "Lv",
     "project": "REVWGTS",
     "lims_id": "7281_1_LDI112261",
-    "merge_key": "REVOLVE_0035_16_LB02-01_240429_A00469_0679_AHTKWVDMXY_1_CCTTCACC-GGAGCGTC"
+    "merge_key": "REVOLVE_0035_16_LB02-01_240429_A00469_0679_AHTKWVDMXY_1_CCTTCACC-GGAGCGTC",
+    "batches": [
+      "2024-04-19_u157_s33_k160-20821876, 20827896, 20839586"
+    ]
   },
   {
     "run": "240429_A00469_0679_AHTKWVDMXY",
@@ -2139,7 +2595,10 @@
     "tissue_origin": "Lv",
     "project": "REVWGTS",
     "lims_id": "7281_1_LDI112262",
-    "merge_key": "REVOLVE_0031_16_LB02-01_240429_A00469_0679_AHTKWVDMXY_1_GCCACAGG-ATGGCATG"
+    "merge_key": "REVOLVE_0031_16_LB02-01_240429_A00469_0679_AHTKWVDMXY_1_GCCACAGG-ATGGCATG",
+    "batches": [
+      "2024-04-19_u157_s33_k160-20821876, 20827896, 20839586"
+    ]
   },
   {
     "run": "240429_A00469_0679_AHTKWVDMXY",
@@ -2153,7 +2612,10 @@
     "tissue_origin": "Ab",
     "project": "REVWGTS",
     "lims_id": "7281_1_LDI112263",
-    "merge_key": "REVOLVE_0010_01_LB02-01_240429_A00469_0679_AHTKWVDMXY_1_ATTGTGAA-GCAATGCA"
+    "merge_key": "REVOLVE_0010_01_LB02-01_240429_A00469_0679_AHTKWVDMXY_1_ATTGTGAA-GCAATGCA",
+    "batches": [
+      "2024-04-19_u157_s33_k160-20821876, 20827896, 20839586"
+    ]
   },
   {
     "run": "240503_A00469_0682_BHGMJ2DSXC",
@@ -2167,7 +2629,10 @@
     "tissue_origin": "Lv",
     "project": "REVWGTS",
     "lims_id": "7305_3_LDI112261",
-    "merge_key": "REVOLVE_0035_16_LB02-01_240503_A00469_0682_BHGMJ2DSXC_3_CCTTCACC-GGAGCGTC"
+    "merge_key": "REVOLVE_0035_16_LB02-01_240503_A00469_0682_BHGMJ2DSXC_3_CCTTCACC-GGAGCGTC",
+    "batches": [
+      "2024-04-19_u157_s33_k160-20821876, 20827896, 20839586"
+    ]
   },
   {
     "run": "240503_A00469_0682_BHGMJ2DSXC",
@@ -2181,7 +2646,10 @@
     "tissue_origin": "Lv",
     "project": "REVWGTS",
     "lims_id": "7305_3_LDI112262",
-    "merge_key": "REVOLVE_0031_16_LB02-01_240503_A00469_0682_BHGMJ2DSXC_3_GCCACAGG-ATGGCATG"
+    "merge_key": "REVOLVE_0031_16_LB02-01_240503_A00469_0682_BHGMJ2DSXC_3_GCCACAGG-ATGGCATG",
+    "batches": [
+      "2024-04-19_u157_s33_k160-20821876, 20827896, 20839586"
+    ]
   },
   {
     "run": "240503_A00469_0682_BHGMJ2DSXC",
@@ -2195,7 +2663,10 @@
     "tissue_origin": "Ab",
     "project": "REVWGTS",
     "lims_id": "7305_3_LDI112263",
-    "merge_key": "REVOLVE_0010_01_LB02-01_240503_A00469_0682_BHGMJ2DSXC_3_ATTGTGAA-GCAATGCA"
+    "merge_key": "REVOLVE_0010_01_LB02-01_240503_A00469_0682_BHGMJ2DSXC_3_ATTGTGAA-GCAATGCA",
+    "batches": [
+      "2024-04-19_u157_s33_k160-20821876, 20827896, 20839586"
+    ]
   },
   {
     "run": "240507_M00146_0504_000000000-DNNJT",
@@ -2209,7 +2680,10 @@
     "tissue_origin": "Ab",
     "project": "REVWGTS",
     "lims_id": "7313_1_LDI112666",
-    "merge_key": "REVOLVE_0010_18_LB01-01_240507_M00146_0504_000000000-DNNJT_1_CAGTCTTC-TTGACAGG"
+    "merge_key": "REVOLVE_0010_18_LB01-01_240507_M00146_0504_000000000-DNNJT_1_CAGTCTTC-TTGACAGG",
+    "batches": [
+      "2024-05-01_u166_s34_k154-143121"
+    ]
   },
   {
     "run": "240507_M00146_0504_000000000-DNNJT",
@@ -2223,7 +2697,10 @@
     "tissue_origin": "Lv",
     "project": "REVWGTS",
     "lims_id": "7313_1_LDI112667",
-    "merge_key": "REVOLVE_0035_17_LB01-01_240507_M00146_0504_000000000-DNNJT_1_CATAACGG-TGCACCAA"
+    "merge_key": "REVOLVE_0035_17_LB01-01_240507_M00146_0504_000000000-DNNJT_1_CATAACGG-TGCACCAA",
+    "batches": [
+      "2024-05-01_u166_s34_k154-143121"
+    ]
   },
   {
     "run": "240509_M06816_0089_000000000-DNVHH",
@@ -2237,7 +2714,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7322_1_LDI113418",
-    "merge_key": "REVOLVE_0040_01_LB02-01_240509_M06816_0089_000000000-DNVHH_1_AGGTCACT-TTAGGTCG"
+    "merge_key": "REVOLVE_0040_01_LB02-01_240509_M06816_0089_000000000-DNVHH_1_AGGTCACT-TTAGGTCG",
+    "batches": [
+      "2024-05-07_u166_s34_k154-143121"
+    ]
   },
   {
     "run": "240509_M06816_0089_000000000-DNVHH",
@@ -2251,7 +2731,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "7322_1_LDI113419",
-    "merge_key": "REVOLVE_0040_16_LB01-01_240509_M06816_0089_000000000-DNVHH_1_GCAATTCG-CTCTGGTT"
+    "merge_key": "REVOLVE_0040_16_LB01-01_240509_M06816_0089_000000000-DNVHH_1_GCAATTCG-CTCTGGTT",
+    "batches": [
+      "2024-05-07_u166_s34_k154-143121"
+    ]
   },
   {
     "run": "240510_A00469_0686_BHGMFNDSXC",
@@ -2265,7 +2748,10 @@
     "tissue_origin": "Ab",
     "project": "REVWGTS",
     "lims_id": "7330_1_LDI112666",
-    "merge_key": "REVOLVE_0010_18_LB01-01_240510_A00469_0686_BHGMFNDSXC_1_CAGTCTTC-CCTGTCAA"
+    "merge_key": "REVOLVE_0010_18_LB01-01_240510_A00469_0686_BHGMFNDSXC_1_CAGTCTTC-CCTGTCAA",
+    "batches": [
+      "2024-05-01_u166_s34_k154-143121"
+    ]
   },
   {
     "run": "240510_A00469_0686_BHGMFNDSXC",
@@ -2279,7 +2765,10 @@
     "tissue_origin": "Lv",
     "project": "REVWGTS",
     "lims_id": "7330_1_LDI112667",
-    "merge_key": "REVOLVE_0035_17_LB01-01_240510_A00469_0686_BHGMFNDSXC_1_CATAACGG-TTGGTGCA"
+    "merge_key": "REVOLVE_0035_17_LB01-01_240510_A00469_0686_BHGMFNDSXC_1_CATAACGG-TTGGTGCA",
+    "batches": [
+      "2024-05-01_u166_s34_k154-143121"
+    ]
   },
   {
     "run": "240516_A00469_0690_BHHFJJDSXC",
@@ -2293,7 +2782,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7348_1_LDI113418",
-    "merge_key": "REVOLVE_0040_01_LB02-01_240516_A00469_0690_BHHFJJDSXC_1_AGGTCACT-CGACCTAA"
+    "merge_key": "REVOLVE_0040_01_LB02-01_240516_A00469_0690_BHHFJJDSXC_1_AGGTCACT-CGACCTAA",
+    "batches": [
+      "2024-05-07_u166_s34_k154-143121"
+    ]
   },
   {
     "run": "240516_A00469_0690_BHHFJJDSXC",
@@ -2307,7 +2799,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "7348_1_LDI113419",
-    "merge_key": "REVOLVE_0040_16_LB01-01_240516_A00469_0690_BHHFJJDSXC_1_GCAATTCG-AACCAGAG"
+    "merge_key": "REVOLVE_0040_16_LB01-01_240516_A00469_0690_BHHFJJDSXC_1_GCAATTCG-AACCAGAG",
+    "batches": [
+      "2024-05-07_u166_s34_k154-143121"
+    ]
   },
   {
     "run": "240522_M00753_0714_000000000-DNT3P",
@@ -2321,7 +2816,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "7353_1_LDI113724",
-    "merge_key": "REVOLVE_0040_16_LB03-01_240522_M00753_0714_000000000-DNT3P_1_CCATTCGA-GTTGTCCG"
+    "merge_key": "REVOLVE_0040_16_LB03-01_240522_M00753_0714_000000000-DNT3P_1_CCATTCGA-GTTGTCCG",
+    "batches": [
+      "2024-05-15_u157_s33_k160-20801199, 20827896, 20839586"
+    ]
   },
   {
     "run": "240531_M06816_0099_000000000-DLCH9",
@@ -2335,7 +2833,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7386_1_LDI113880",
-    "merge_key": "REVOLVE_0041_01_LB01-01_240531_M06816_0099_000000000-DLCH9_1_TTAGGTCG-AGGTCACT"
+    "merge_key": "REVOLVE_0041_01_LB01-01_240531_M06816_0099_000000000-DLCH9_1_TTAGGTCG-AGGTCACT",
+    "batches": [
+      "2024-05-28_u142_s34_k154-0000143121"
+    ]
   },
   {
     "run": "240531_M06816_0099_000000000-DLCH9",
@@ -2349,7 +2850,10 @@
     "tissue_origin": "Ms",
     "project": "REVWGTS",
     "lims_id": "7386_1_LDI113881",
-    "merge_key": "REVOLVE_0041_16_LB01-01_240531_M06816_0099_000000000-DLCH9_1_TCTGAGAG-CAGCGATT"
+    "merge_key": "REVOLVE_0041_16_LB01-01_240531_M06816_0099_000000000-DLCH9_1_TCTGAGAG-CAGCGATT",
+    "batches": [
+      "2024-05-28_u142_s34_k154-0000143121"
+    ]
   },
   {
     "run": "240604_A00469_0700_AHN2CJDRX3",
@@ -2363,7 +2867,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "7391_1_LDI113724",
-    "merge_key": "REVOLVE_0040_16_LB03-01_240604_A00469_0700_AHN2CJDRX3_1_CCATTCGA-CGGACAAC"
+    "merge_key": "REVOLVE_0040_16_LB03-01_240604_A00469_0700_AHN2CJDRX3_1_CCATTCGA-CGGACAAC",
+    "batches": [
+      "2024-05-15_u157_s33_k160-20801199, 20827896, 20839586"
+    ]
   },
   {
     "run": "240607_M00753_0722_000000000-DLJT2",
@@ -2377,7 +2884,10 @@
     "tissue_origin": "Ms",
     "project": "REVWGTS",
     "lims_id": "7396_1_LDI113930",
-    "merge_key": "REVOLVE_0041_16_LB02-01_240607_M00753_0722_000000000-DLJT2_1_TGGATCGA-GTGCGATA"
+    "merge_key": "REVOLVE_0041_16_LB02-01_240607_M00753_0722_000000000-DLJT2_1_TGGATCGA-GTGCGATA",
+    "batches": [
+      "2024-05-30_u157_s33_k160-20839586, 20840282, 20837133"
+    ]
   },
   {
     "run": "240612_A00469_0707_AHHF3VDSXC",
@@ -2391,7 +2901,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7411_1_LDI113880",
-    "merge_key": "REVOLVE_0041_01_LB01-01_240612_A00469_0707_AHHF3VDSXC_1_TTAGGTCG-AGTGACCT"
+    "merge_key": "REVOLVE_0041_01_LB01-01_240612_A00469_0707_AHHF3VDSXC_1_TTAGGTCG-AGTGACCT",
+    "batches": [
+      "2024-05-28_u142_s34_k154-0000143121"
+    ]
   },
   {
     "run": "240612_A00469_0707_AHHF3VDSXC",
@@ -2405,7 +2918,10 @@
     "tissue_origin": "Ms",
     "project": "REVWGTS",
     "lims_id": "7411_1_LDI113881",
-    "merge_key": "REVOLVE_0041_16_LB01-01_240612_A00469_0707_AHHF3VDSXC_1_TCTGAGAG-AATCGCTG"
+    "merge_key": "REVOLVE_0041_16_LB01-01_240612_A00469_0707_AHHF3VDSXC_1_TCTGAGAG-AATCGCTG",
+    "batches": [
+      "2024-05-28_u142_s34_k154-0000143121"
+    ]
   },
   {
     "run": "240619_A00469_0711_AHYC77DRX3",
@@ -2419,7 +2935,10 @@
     "tissue_origin": "Ms",
     "project": "REVWGTS",
     "lims_id": "7427_1_LDI113930",
-    "merge_key": "REVOLVE_0041_16_LB02-01_240619_A00469_0711_AHYC77DRX3_1_TGGATCGA-TATCGCAC"
+    "merge_key": "REVOLVE_0041_16_LB02-01_240619_A00469_0711_AHYC77DRX3_1_TGGATCGA-TATCGCAC",
+    "batches": [
+      "2024-05-30_u157_s33_k160-20839586, 20840282, 20837133"
+    ]
   },
   {
     "run": "240816_M06816_0122_000000000-DPT7R",
@@ -2433,7 +2952,10 @@
     "tissue_origin": "Ms",
     "project": "REVWGTS",
     "lims_id": "7566_1_LDI116885",
-    "merge_key": "REVOLVE_0041_16_LB05-01_240816_M06816_0122_000000000-DPT7R_1_TGGTCCTT-TTACGGCT"
+    "merge_key": "REVOLVE_0041_16_LB05-01_240816_M06816_0122_000000000-DPT7R_1_TGGTCCTT-TTACGGCT",
+    "batches": [
+      "2024-08-15_u102_s42_k154-0000175116"
+    ]
   },
   {
     "run": "20240820_LH00224_0080_A22GC3NLT4",
@@ -2447,7 +2969,10 @@
     "tissue_origin": "Ms",
     "project": "REVWGTS",
     "lims_id": "7572_1_LDI116885",
-    "merge_key": "REVOLVE_0041_16_LB05-01_20240820_LH00224_0080_A22GC3NLT4_1_TGGTCCTT-AGCCGTAA"
+    "merge_key": "REVOLVE_0041_16_LB05-01_20240820_LH00224_0080_A22GC3NLT4_1_TGGTCCTT-AGCCGTAA",
+    "batches": [
+      "2024-08-15_u102_s42_k154-0000175116"
+    ]
   },
   {
     "run": "20240820_LH00224_0080_A22GC3NLT4",
@@ -2461,7 +2986,10 @@
     "tissue_origin": "Ms",
     "project": "REVWGTS",
     "lims_id": "7572_2_LDI116885",
-    "merge_key": "REVOLVE_0041_16_LB05-01_20240820_LH00224_0080_A22GC3NLT4_2_TGGTCCTT-AGCCGTAA"
+    "merge_key": "REVOLVE_0041_16_LB05-01_20240820_LH00224_0080_A22GC3NLT4_2_TGGTCCTT-AGCCGTAA",
+    "batches": [
+      "2024-08-15_u102_s42_k154-0000175116"
+    ]
   },
   {
     "run": "20240820_LH00224_0080_A22GC3NLT4",
@@ -2475,7 +3003,10 @@
     "tissue_origin": "Ms",
     "project": "REVWGTS",
     "lims_id": "7572_3_LDI116885",
-    "merge_key": "REVOLVE_0041_16_LB05-01_20240820_LH00224_0080_A22GC3NLT4_3_TGGTCCTT-AGCCGTAA"
+    "merge_key": "REVOLVE_0041_16_LB05-01_20240820_LH00224_0080_A22GC3NLT4_3_TGGTCCTT-AGCCGTAA",
+    "batches": [
+      "2024-08-15_u102_s42_k154-0000175116"
+    ]
   },
   {
     "run": "20240820_LH00224_0080_A22GC3NLT4",
@@ -2489,7 +3020,10 @@
     "tissue_origin": "Ms",
     "project": "REVWGTS",
     "lims_id": "7572_4_LDI116885",
-    "merge_key": "REVOLVE_0041_16_LB05-01_20240820_LH00224_0080_A22GC3NLT4_4_TGGTCCTT-AGCCGTAA"
+    "merge_key": "REVOLVE_0041_16_LB05-01_20240820_LH00224_0080_A22GC3NLT4_4_TGGTCCTT-AGCCGTAA",
+    "batches": [
+      "2024-08-15_u102_s42_k154-0000175116"
+    ]
   },
   {
     "run": "20240820_LH00224_0080_A22GC3NLT4",
@@ -2503,7 +3037,10 @@
     "tissue_origin": "Ms",
     "project": "REVWGTS",
     "lims_id": "7572_5_LDI116885",
-    "merge_key": "REVOLVE_0041_16_LB05-01_20240820_LH00224_0080_A22GC3NLT4_5_TGGTCCTT-AGCCGTAA"
+    "merge_key": "REVOLVE_0041_16_LB05-01_20240820_LH00224_0080_A22GC3NLT4_5_TGGTCCTT-AGCCGTAA",
+    "batches": [
+      "2024-08-15_u102_s42_k154-0000175116"
+    ]
   },
   {
     "run": "20240820_LH00224_0080_A22GC3NLT4",
@@ -2517,7 +3054,10 @@
     "tissue_origin": "Ms",
     "project": "REVWGTS",
     "lims_id": "7572_6_LDI116885",
-    "merge_key": "REVOLVE_0041_16_LB05-01_20240820_LH00224_0080_A22GC3NLT4_6_TGGTCCTT-AGCCGTAA"
+    "merge_key": "REVOLVE_0041_16_LB05-01_20240820_LH00224_0080_A22GC3NLT4_6_TGGTCCTT-AGCCGTAA",
+    "batches": [
+      "2024-08-15_u102_s42_k154-0000175116"
+    ]
   },
   {
     "run": "20240820_LH00224_0080_A22GC3NLT4",
@@ -2531,7 +3071,10 @@
     "tissue_origin": "Ms",
     "project": "REVWGTS",
     "lims_id": "7572_7_LDI116885",
-    "merge_key": "REVOLVE_0041_16_LB05-01_20240820_LH00224_0080_A22GC3NLT4_7_TGGTCCTT-AGCCGTAA"
+    "merge_key": "REVOLVE_0041_16_LB05-01_20240820_LH00224_0080_A22GC3NLT4_7_TGGTCCTT-AGCCGTAA",
+    "batches": [
+      "2024-08-15_u102_s42_k154-0000175116"
+    ]
   },
   {
     "run": "20240820_LH00224_0080_A22GC3NLT4",
@@ -2545,7 +3088,10 @@
     "tissue_origin": "Ms",
     "project": "REVWGTS",
     "lims_id": "7572_8_LDI116885",
-    "merge_key": "REVOLVE_0041_16_LB05-01_20240820_LH00224_0080_A22GC3NLT4_8_TGGTCCTT-AGCCGTAA"
+    "merge_key": "REVOLVE_0041_16_LB05-01_20240820_LH00224_0080_A22GC3NLT4_8_TGGTCCTT-AGCCGTAA",
+    "batches": [
+      "2024-08-15_u102_s42_k154-0000175116"
+    ]
   },
   {
     "run": "240822_M06816_0124_000000000-DPNV7",
@@ -2559,7 +3105,10 @@
     "tissue_origin": "Ms",
     "project": "REVWGTS",
     "lims_id": "7576_1_LDI116589",
-    "merge_key": "REVOLVE_0041_16_LB04-01_240822_M06816_0124_000000000-DPNV7_1_TCGATATC-ACACGAGT"
+    "merge_key": "REVOLVE_0041_16_LB04-01_240822_M06816_0124_000000000-DPNV7_1_TCGATATC-ACACGAGT",
+    "batches": [
+      "2024-08-16_u157_s41_k160-20846448 20840282 20858404"
+    ]
   },
   {
     "run": "240822_M06816_0124_000000000-DPNV7",
@@ -2573,7 +3122,10 @@
     "tissue_origin": "Ax",
     "project": "REVWGTS",
     "lims_id": "7576_1_LDI116628",
-    "merge_key": "REVOLVE_0042_16_LB01-01_240822_M06816_0124_000000000-DPNV7_1_ATGTAAGT-ACTCTATG"
+    "merge_key": "REVOLVE_0042_16_LB01-01_240822_M06816_0124_000000000-DPNV7_1_ATGTAAGT-ACTCTATG",
+    "batches": [
+      "2024-08-20_u157_s41_k160-20846448 20840282 20858404"
+    ]
   },
   {
     "run": "240822_M06816_0124_000000000-DPNV7",
@@ -2587,7 +3139,10 @@
     "tissue_origin": "Lv",
     "project": "REVWGTS",
     "lims_id": "7576_1_LDI116629",
-    "merge_key": "REVOLVE_0045_16_LB01-01_240822_M06816_0124_000000000-DPNV7_1_GCACGGAC-GTCTCGCA"
+    "merge_key": "REVOLVE_0045_16_LB01-01_240822_M06816_0124_000000000-DPNV7_1_GCACGGAC-GTCTCGCA",
+    "batches": [
+      "2024-08-20_u157_s41_k160-20846448 20840282 20858404"
+    ]
   },
   {
     "run": "240823_M06816_0125_000000000-GKVHT",
@@ -2601,7 +3156,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7581_1_LDI116778",
-    "merge_key": "REVOLVE_0042_01_LB02-01_240823_M06816_0125_000000000-GKVHT_1_AGTCGACA-CGTATTCG"
+    "merge_key": "REVOLVE_0042_01_LB02-01_240823_M06816_0125_000000000-GKVHT_1_AGTCGACA-CGTATTCG",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "240823_M06816_0125_000000000-GKVHT",
@@ -2615,7 +3173,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7581_1_LDI116779",
-    "merge_key": "REVOLVE_0045_01_LB02-01_240823_M06816_0125_000000000-GKVHT_1_CGGATTGA-AACGACGT"
+    "merge_key": "REVOLVE_0045_01_LB02-01_240823_M06816_0125_000000000-GKVHT_1_CGGATTGA-AACGACGT",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "240823_M06816_0125_000000000-GKVHT",
@@ -2629,7 +3190,10 @@
     "tissue_origin": "Ax",
     "project": "REVWGTS",
     "lims_id": "7581_1_LDI116783",
-    "merge_key": "REVOLVE_0042_16_LB02-01_240823_M06816_0125_000000000-GKVHT_1_ACTCGTTG-TGATACGC"
+    "merge_key": "REVOLVE_0042_16_LB02-01_240823_M06816_0125_000000000-GKVHT_1_ACTCGTTG-TGATACGC",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "240823_M06816_0125_000000000-GKVHT",
@@ -2643,7 +3207,10 @@
     "tissue_origin": "Lv",
     "project": "REVWGTS",
     "lims_id": "7581_1_LDI116784",
-    "merge_key": "REVOLVE_0045_16_LB02-01_240823_M06816_0125_000000000-GKVHT_1_CTGACACA-GTCCTTCT"
+    "merge_key": "REVOLVE_0045_16_LB02-01_240823_M06816_0125_000000000-GKVHT_1_CTGACACA-GTCCTTCT",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "20240830_LH00130_0077_A22GJNHLT4",
@@ -2657,7 +3224,10 @@
     "tissue_origin": "Ms",
     "project": "REVWGTS",
     "lims_id": "7586_1_LDI116885",
-    "merge_key": "REVOLVE_0041_16_LB05-01_20240830_LH00130_0077_A22GJNHLT4_1_TGGTCCTT-AGCCGTAA"
+    "merge_key": "REVOLVE_0041_16_LB05-01_20240830_LH00130_0077_A22GJNHLT4_1_TGGTCCTT-AGCCGTAA",
+    "batches": [
+      "2024-08-15_u102_s42_k154-0000175116"
+    ]
   },
   {
     "run": "20240830_LH00130_0077_A22GJNHLT4",
@@ -2671,7 +3241,10 @@
     "tissue_origin": "Ms",
     "project": "REVWGTS",
     "lims_id": "7586_2_LDI116885",
-    "merge_key": "REVOLVE_0041_16_LB05-01_20240830_LH00130_0077_A22GJNHLT4_2_TGGTCCTT-AGCCGTAA"
+    "merge_key": "REVOLVE_0041_16_LB05-01_20240830_LH00130_0077_A22GJNHLT4_2_TGGTCCTT-AGCCGTAA",
+    "batches": [
+      "2024-08-15_u102_s42_k154-0000175116"
+    ]
   },
   {
     "run": "20240830_LH00130_0077_A22GJNHLT4",
@@ -2685,7 +3258,10 @@
     "tissue_origin": "Ms",
     "project": "REVWGTS",
     "lims_id": "7586_3_LDI116885",
-    "merge_key": "REVOLVE_0041_16_LB05-01_20240830_LH00130_0077_A22GJNHLT4_3_TGGTCCTT-AGCCGTAA"
+    "merge_key": "REVOLVE_0041_16_LB05-01_20240830_LH00130_0077_A22GJNHLT4_3_TGGTCCTT-AGCCGTAA",
+    "batches": [
+      "2024-08-15_u102_s42_k154-0000175116"
+    ]
   },
   {
     "run": "20240830_LH00130_0077_A22GJNHLT4",
@@ -2699,7 +3275,10 @@
     "tissue_origin": "Ms",
     "project": "REVWGTS",
     "lims_id": "7586_4_LDI116885",
-    "merge_key": "REVOLVE_0041_16_LB05-01_20240830_LH00130_0077_A22GJNHLT4_4_TGGTCCTT-AGCCGTAA"
+    "merge_key": "REVOLVE_0041_16_LB05-01_20240830_LH00130_0077_A22GJNHLT4_4_TGGTCCTT-AGCCGTAA",
+    "batches": [
+      "2024-08-15_u102_s42_k154-0000175116"
+    ]
   },
   {
     "run": "20240830_LH00130_0077_A22GJNHLT4",
@@ -2713,7 +3292,10 @@
     "tissue_origin": "Ms",
     "project": "REVWGTS",
     "lims_id": "7586_5_LDI116885",
-    "merge_key": "REVOLVE_0041_16_LB05-01_20240830_LH00130_0077_A22GJNHLT4_5_TGGTCCTT-AGCCGTAA"
+    "merge_key": "REVOLVE_0041_16_LB05-01_20240830_LH00130_0077_A22GJNHLT4_5_TGGTCCTT-AGCCGTAA",
+    "batches": [
+      "2024-08-15_u102_s42_k154-0000175116"
+    ]
   },
   {
     "run": "20240830_LH00130_0077_A22GJNHLT4",
@@ -2727,7 +3309,10 @@
     "tissue_origin": "Ms",
     "project": "REVWGTS",
     "lims_id": "7586_6_LDI116885",
-    "merge_key": "REVOLVE_0041_16_LB05-01_20240830_LH00130_0077_A22GJNHLT4_6_TGGTCCTT-AGCCGTAA"
+    "merge_key": "REVOLVE_0041_16_LB05-01_20240830_LH00130_0077_A22GJNHLT4_6_TGGTCCTT-AGCCGTAA",
+    "batches": [
+      "2024-08-15_u102_s42_k154-0000175116"
+    ]
   },
   {
     "run": "20240830_LH00130_0077_A22GJNHLT4",
@@ -2741,7 +3326,10 @@
     "tissue_origin": "Ms",
     "project": "REVWGTS",
     "lims_id": "7586_7_LDI116885",
-    "merge_key": "REVOLVE_0041_16_LB05-01_20240830_LH00130_0077_A22GJNHLT4_7_TGGTCCTT-AGCCGTAA"
+    "merge_key": "REVOLVE_0041_16_LB05-01_20240830_LH00130_0077_A22GJNHLT4_7_TGGTCCTT-AGCCGTAA",
+    "batches": [
+      "2024-08-15_u102_s42_k154-0000175116"
+    ]
   },
   {
     "run": "20240830_LH00130_0077_A22GJNHLT4",
@@ -2755,7 +3343,10 @@
     "tissue_origin": "Ms",
     "project": "REVWGTS",
     "lims_id": "7586_8_LDI116885",
-    "merge_key": "REVOLVE_0041_16_LB05-01_20240830_LH00130_0077_A22GJNHLT4_8_TGGTCCTT-AGCCGTAA"
+    "merge_key": "REVOLVE_0041_16_LB05-01_20240830_LH00130_0077_A22GJNHLT4_8_TGGTCCTT-AGCCGTAA",
+    "batches": [
+      "2024-08-15_u102_s42_k154-0000175116"
+    ]
   },
   {
     "run": "20240905_LH00224_0082_B22GJGCLT4",
@@ -2769,7 +3360,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7597_1_LDI116778",
-    "merge_key": "REVOLVE_0042_01_LB02-01_20240905_LH00224_0082_B22GJGCLT4_1_AGTCGACA-CGAATACG"
+    "merge_key": "REVOLVE_0042_01_LB02-01_20240905_LH00224_0082_B22GJGCLT4_1_AGTCGACA-CGAATACG",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "20240905_LH00224_0082_B22GJGCLT4",
@@ -2783,7 +3377,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7597_1_LDI116779",
-    "merge_key": "REVOLVE_0045_01_LB02-01_20240905_LH00224_0082_B22GJGCLT4_1_CGGATTGA-ACGTCGTT"
+    "merge_key": "REVOLVE_0045_01_LB02-01_20240905_LH00224_0082_B22GJGCLT4_1_CGGATTGA-ACGTCGTT",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "20240905_LH00224_0082_B22GJGCLT4",
@@ -2797,7 +3394,10 @@
     "tissue_origin": "Ax",
     "project": "REVWGTS",
     "lims_id": "7597_1_LDI116783",
-    "merge_key": "REVOLVE_0042_16_LB02-01_20240905_LH00224_0082_B22GJGCLT4_1_ACTCGTTG-GCGTATCA"
+    "merge_key": "REVOLVE_0042_16_LB02-01_20240905_LH00224_0082_B22GJGCLT4_1_ACTCGTTG-GCGTATCA",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "20240905_LH00224_0082_B22GJGCLT4",
@@ -2811,7 +3411,10 @@
     "tissue_origin": "Lv",
     "project": "REVWGTS",
     "lims_id": "7597_1_LDI116784",
-    "merge_key": "REVOLVE_0045_16_LB02-01_20240905_LH00224_0082_B22GJGCLT4_1_CTGACACA-AGAAGGAC"
+    "merge_key": "REVOLVE_0045_16_LB02-01_20240905_LH00224_0082_B22GJGCLT4_1_CTGACACA-AGAAGGAC",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "20240905_LH00224_0082_B22GJGCLT4",
@@ -2825,7 +3428,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7597_2_LDI116778",
-    "merge_key": "REVOLVE_0042_01_LB02-01_20240905_LH00224_0082_B22GJGCLT4_2_AGTCGACA-CGAATACG"
+    "merge_key": "REVOLVE_0042_01_LB02-01_20240905_LH00224_0082_B22GJGCLT4_2_AGTCGACA-CGAATACG",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "20240905_LH00224_0082_B22GJGCLT4",
@@ -2839,7 +3445,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7597_2_LDI116779",
-    "merge_key": "REVOLVE_0045_01_LB02-01_20240905_LH00224_0082_B22GJGCLT4_2_CGGATTGA-ACGTCGTT"
+    "merge_key": "REVOLVE_0045_01_LB02-01_20240905_LH00224_0082_B22GJGCLT4_2_CGGATTGA-ACGTCGTT",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "20240905_LH00224_0082_B22GJGCLT4",
@@ -2853,7 +3462,10 @@
     "tissue_origin": "Ax",
     "project": "REVWGTS",
     "lims_id": "7597_2_LDI116783",
-    "merge_key": "REVOLVE_0042_16_LB02-01_20240905_LH00224_0082_B22GJGCLT4_2_ACTCGTTG-GCGTATCA"
+    "merge_key": "REVOLVE_0042_16_LB02-01_20240905_LH00224_0082_B22GJGCLT4_2_ACTCGTTG-GCGTATCA",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "20240905_LH00224_0082_B22GJGCLT4",
@@ -2867,7 +3479,10 @@
     "tissue_origin": "Lv",
     "project": "REVWGTS",
     "lims_id": "7597_2_LDI116784",
-    "merge_key": "REVOLVE_0045_16_LB02-01_20240905_LH00224_0082_B22GJGCLT4_2_CTGACACA-AGAAGGAC"
+    "merge_key": "REVOLVE_0045_16_LB02-01_20240905_LH00224_0082_B22GJGCLT4_2_CTGACACA-AGAAGGAC",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "20240905_LH00224_0082_B22GJGCLT4",
@@ -2881,7 +3496,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7597_3_LDI116778",
-    "merge_key": "REVOLVE_0042_01_LB02-01_20240905_LH00224_0082_B22GJGCLT4_3_AGTCGACA-CGAATACG"
+    "merge_key": "REVOLVE_0042_01_LB02-01_20240905_LH00224_0082_B22GJGCLT4_3_AGTCGACA-CGAATACG",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "20240905_LH00224_0082_B22GJGCLT4",
@@ -2895,7 +3513,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7597_3_LDI116779",
-    "merge_key": "REVOLVE_0045_01_LB02-01_20240905_LH00224_0082_B22GJGCLT4_3_CGGATTGA-ACGTCGTT"
+    "merge_key": "REVOLVE_0045_01_LB02-01_20240905_LH00224_0082_B22GJGCLT4_3_CGGATTGA-ACGTCGTT",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "20240905_LH00224_0082_B22GJGCLT4",
@@ -2909,7 +3530,10 @@
     "tissue_origin": "Ax",
     "project": "REVWGTS",
     "lims_id": "7597_3_LDI116783",
-    "merge_key": "REVOLVE_0042_16_LB02-01_20240905_LH00224_0082_B22GJGCLT4_3_ACTCGTTG-GCGTATCA"
+    "merge_key": "REVOLVE_0042_16_LB02-01_20240905_LH00224_0082_B22GJGCLT4_3_ACTCGTTG-GCGTATCA",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "20240905_LH00224_0082_B22GJGCLT4",
@@ -2923,7 +3547,10 @@
     "tissue_origin": "Lv",
     "project": "REVWGTS",
     "lims_id": "7597_3_LDI116784",
-    "merge_key": "REVOLVE_0045_16_LB02-01_20240905_LH00224_0082_B22GJGCLT4_3_CTGACACA-AGAAGGAC"
+    "merge_key": "REVOLVE_0045_16_LB02-01_20240905_LH00224_0082_B22GJGCLT4_3_CTGACACA-AGAAGGAC",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "20240905_LH00224_0082_B22GJGCLT4",
@@ -2937,7 +3564,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7597_4_LDI116778",
-    "merge_key": "REVOLVE_0042_01_LB02-01_20240905_LH00224_0082_B22GJGCLT4_4_AGTCGACA-CGAATACG"
+    "merge_key": "REVOLVE_0042_01_LB02-01_20240905_LH00224_0082_B22GJGCLT4_4_AGTCGACA-CGAATACG",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "20240905_LH00224_0082_B22GJGCLT4",
@@ -2951,7 +3581,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7597_4_LDI116779",
-    "merge_key": "REVOLVE_0045_01_LB02-01_20240905_LH00224_0082_B22GJGCLT4_4_CGGATTGA-ACGTCGTT"
+    "merge_key": "REVOLVE_0045_01_LB02-01_20240905_LH00224_0082_B22GJGCLT4_4_CGGATTGA-ACGTCGTT",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "20240905_LH00224_0082_B22GJGCLT4",
@@ -2965,7 +3598,10 @@
     "tissue_origin": "Ax",
     "project": "REVWGTS",
     "lims_id": "7597_4_LDI116783",
-    "merge_key": "REVOLVE_0042_16_LB02-01_20240905_LH00224_0082_B22GJGCLT4_4_ACTCGTTG-GCGTATCA"
+    "merge_key": "REVOLVE_0042_16_LB02-01_20240905_LH00224_0082_B22GJGCLT4_4_ACTCGTTG-GCGTATCA",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "20240905_LH00224_0082_B22GJGCLT4",
@@ -2979,7 +3615,10 @@
     "tissue_origin": "Lv",
     "project": "REVWGTS",
     "lims_id": "7597_4_LDI116784",
-    "merge_key": "REVOLVE_0045_16_LB02-01_20240905_LH00224_0082_B22GJGCLT4_4_CTGACACA-AGAAGGAC"
+    "merge_key": "REVOLVE_0045_16_LB02-01_20240905_LH00224_0082_B22GJGCLT4_4_CTGACACA-AGAAGGAC",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "20240905_LH00224_0082_B22GJGCLT4",
@@ -2993,7 +3632,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7597_5_LDI116778",
-    "merge_key": "REVOLVE_0042_01_LB02-01_20240905_LH00224_0082_B22GJGCLT4_5_AGTCGACA-CGAATACG"
+    "merge_key": "REVOLVE_0042_01_LB02-01_20240905_LH00224_0082_B22GJGCLT4_5_AGTCGACA-CGAATACG",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "20240905_LH00224_0082_B22GJGCLT4",
@@ -3007,7 +3649,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7597_5_LDI116779",
-    "merge_key": "REVOLVE_0045_01_LB02-01_20240905_LH00224_0082_B22GJGCLT4_5_CGGATTGA-ACGTCGTT"
+    "merge_key": "REVOLVE_0045_01_LB02-01_20240905_LH00224_0082_B22GJGCLT4_5_CGGATTGA-ACGTCGTT",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "20240905_LH00224_0082_B22GJGCLT4",
@@ -3021,7 +3666,10 @@
     "tissue_origin": "Ax",
     "project": "REVWGTS",
     "lims_id": "7597_5_LDI116783",
-    "merge_key": "REVOLVE_0042_16_LB02-01_20240905_LH00224_0082_B22GJGCLT4_5_ACTCGTTG-GCGTATCA"
+    "merge_key": "REVOLVE_0042_16_LB02-01_20240905_LH00224_0082_B22GJGCLT4_5_ACTCGTTG-GCGTATCA",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "20240905_LH00224_0082_B22GJGCLT4",
@@ -3035,7 +3683,10 @@
     "tissue_origin": "Lv",
     "project": "REVWGTS",
     "lims_id": "7597_5_LDI116784",
-    "merge_key": "REVOLVE_0045_16_LB02-01_20240905_LH00224_0082_B22GJGCLT4_5_CTGACACA-AGAAGGAC"
+    "merge_key": "REVOLVE_0045_16_LB02-01_20240905_LH00224_0082_B22GJGCLT4_5_CTGACACA-AGAAGGAC",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "20240905_LH00224_0082_B22GJGCLT4",
@@ -3049,7 +3700,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7597_6_LDI116778",
-    "merge_key": "REVOLVE_0042_01_LB02-01_20240905_LH00224_0082_B22GJGCLT4_6_AGTCGACA-CGAATACG"
+    "merge_key": "REVOLVE_0042_01_LB02-01_20240905_LH00224_0082_B22GJGCLT4_6_AGTCGACA-CGAATACG",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "20240905_LH00224_0082_B22GJGCLT4",
@@ -3063,7 +3717,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7597_6_LDI116779",
-    "merge_key": "REVOLVE_0045_01_LB02-01_20240905_LH00224_0082_B22GJGCLT4_6_CGGATTGA-ACGTCGTT"
+    "merge_key": "REVOLVE_0045_01_LB02-01_20240905_LH00224_0082_B22GJGCLT4_6_CGGATTGA-ACGTCGTT",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "20240905_LH00224_0082_B22GJGCLT4",
@@ -3077,7 +3734,10 @@
     "tissue_origin": "Ax",
     "project": "REVWGTS",
     "lims_id": "7597_6_LDI116783",
-    "merge_key": "REVOLVE_0042_16_LB02-01_20240905_LH00224_0082_B22GJGCLT4_6_ACTCGTTG-GCGTATCA"
+    "merge_key": "REVOLVE_0042_16_LB02-01_20240905_LH00224_0082_B22GJGCLT4_6_ACTCGTTG-GCGTATCA",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "20240905_LH00224_0082_B22GJGCLT4",
@@ -3091,7 +3751,10 @@
     "tissue_origin": "Lv",
     "project": "REVWGTS",
     "lims_id": "7597_6_LDI116784",
-    "merge_key": "REVOLVE_0045_16_LB02-01_20240905_LH00224_0082_B22GJGCLT4_6_CTGACACA-AGAAGGAC"
+    "merge_key": "REVOLVE_0045_16_LB02-01_20240905_LH00224_0082_B22GJGCLT4_6_CTGACACA-AGAAGGAC",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "20240905_LH00224_0082_B22GJGCLT4",
@@ -3105,7 +3768,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7597_7_LDI116778",
-    "merge_key": "REVOLVE_0042_01_LB02-01_20240905_LH00224_0082_B22GJGCLT4_7_AGTCGACA-CGAATACG"
+    "merge_key": "REVOLVE_0042_01_LB02-01_20240905_LH00224_0082_B22GJGCLT4_7_AGTCGACA-CGAATACG",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "20240905_LH00224_0082_B22GJGCLT4",
@@ -3119,7 +3785,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7597_7_LDI116779",
-    "merge_key": "REVOLVE_0045_01_LB02-01_20240905_LH00224_0082_B22GJGCLT4_7_CGGATTGA-ACGTCGTT"
+    "merge_key": "REVOLVE_0045_01_LB02-01_20240905_LH00224_0082_B22GJGCLT4_7_CGGATTGA-ACGTCGTT",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "20240905_LH00224_0082_B22GJGCLT4",
@@ -3133,7 +3802,10 @@
     "tissue_origin": "Ax",
     "project": "REVWGTS",
     "lims_id": "7597_7_LDI116783",
-    "merge_key": "REVOLVE_0042_16_LB02-01_20240905_LH00224_0082_B22GJGCLT4_7_ACTCGTTG-GCGTATCA"
+    "merge_key": "REVOLVE_0042_16_LB02-01_20240905_LH00224_0082_B22GJGCLT4_7_ACTCGTTG-GCGTATCA",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "20240905_LH00224_0082_B22GJGCLT4",
@@ -3147,7 +3819,10 @@
     "tissue_origin": "Lv",
     "project": "REVWGTS",
     "lims_id": "7597_7_LDI116784",
-    "merge_key": "REVOLVE_0045_16_LB02-01_20240905_LH00224_0082_B22GJGCLT4_7_CTGACACA-AGAAGGAC"
+    "merge_key": "REVOLVE_0045_16_LB02-01_20240905_LH00224_0082_B22GJGCLT4_7_CTGACACA-AGAAGGAC",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "20240905_LH00224_0082_B22GJGCLT4",
@@ -3161,7 +3836,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7597_8_LDI116778",
-    "merge_key": "REVOLVE_0042_01_LB02-01_20240905_LH00224_0082_B22GJGCLT4_8_AGTCGACA-CGAATACG"
+    "merge_key": "REVOLVE_0042_01_LB02-01_20240905_LH00224_0082_B22GJGCLT4_8_AGTCGACA-CGAATACG",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "20240905_LH00224_0082_B22GJGCLT4",
@@ -3175,7 +3853,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7597_8_LDI116779",
-    "merge_key": "REVOLVE_0045_01_LB02-01_20240905_LH00224_0082_B22GJGCLT4_8_CGGATTGA-ACGTCGTT"
+    "merge_key": "REVOLVE_0045_01_LB02-01_20240905_LH00224_0082_B22GJGCLT4_8_CGGATTGA-ACGTCGTT",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "20240905_LH00224_0082_B22GJGCLT4",
@@ -3189,7 +3870,10 @@
     "tissue_origin": "Ax",
     "project": "REVWGTS",
     "lims_id": "7597_8_LDI116783",
-    "merge_key": "REVOLVE_0042_16_LB02-01_20240905_LH00224_0082_B22GJGCLT4_8_ACTCGTTG-GCGTATCA"
+    "merge_key": "REVOLVE_0042_16_LB02-01_20240905_LH00224_0082_B22GJGCLT4_8_ACTCGTTG-GCGTATCA",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "20240905_LH00224_0082_B22GJGCLT4",
@@ -3203,7 +3887,10 @@
     "tissue_origin": "Lv",
     "project": "REVWGTS",
     "lims_id": "7597_8_LDI116784",
-    "merge_key": "REVOLVE_0045_16_LB02-01_20240905_LH00224_0082_B22GJGCLT4_8_CTGACACA-AGAAGGAC"
+    "merge_key": "REVOLVE_0045_16_LB02-01_20240905_LH00224_0082_B22GJGCLT4_8_CTGACACA-AGAAGGAC",
+    "batches": [
+      "2024-08-22_u157_s42_k154-175116"
+    ]
   },
   {
     "run": "20240905_LH00224_0083_A22GGVWLT4",
@@ -3217,7 +3904,10 @@
     "tissue_origin": "Ms",
     "project": "REVWGTS",
     "lims_id": "7598_1_LDI116589",
-    "merge_key": "REVOLVE_0041_16_LB04-01_20240905_LH00224_0083_A22GGVWLT4_1_TCGATATC-ACTCGTGT"
+    "merge_key": "REVOLVE_0041_16_LB04-01_20240905_LH00224_0083_A22GGVWLT4_1_TCGATATC-ACTCGTGT",
+    "batches": [
+      "2024-08-16_u157_s41_k160-20846448 20840282 20858404"
+    ]
   },
   {
     "run": "20240905_LH00224_0083_A22GGVWLT4",
@@ -3231,7 +3921,10 @@
     "tissue_origin": "Ax",
     "project": "REVWGTS",
     "lims_id": "7598_1_LDI116628",
-    "merge_key": "REVOLVE_0042_16_LB01-01_20240905_LH00224_0083_A22GGVWLT4_1_ATGTAAGT-CATAGAGT"
+    "merge_key": "REVOLVE_0042_16_LB01-01_20240905_LH00224_0083_A22GGVWLT4_1_ATGTAAGT-CATAGAGT",
+    "batches": [
+      "2024-08-20_u157_s41_k160-20846448 20840282 20858404"
+    ]
   },
   {
     "run": "20240905_LH00224_0083_A22GGVWLT4",
@@ -3245,7 +3938,10 @@
     "tissue_origin": "Lv",
     "project": "REVWGTS",
     "lims_id": "7598_1_LDI116629",
-    "merge_key": "REVOLVE_0045_16_LB01-01_20240905_LH00224_0083_A22GGVWLT4_1_GCACGGAC-TGCGAGAC"
+    "merge_key": "REVOLVE_0045_16_LB01-01_20240905_LH00224_0083_A22GGVWLT4_1_GCACGGAC-TGCGAGAC",
+    "batches": [
+      "2024-08-20_u157_s41_k160-20846448 20840282 20858404"
+    ]
   },
   {
     "run": "20240911_LH00224_0085_A22GHN7LT4",
@@ -3259,7 +3955,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7609_1_LDI117241",
-    "merge_key": "REVOLVE_0041_01_LB06-01_20240911_LH00224_0085_A22GHN7LT4_1_TTAGGTCG-AGTGACCT"
+    "merge_key": "REVOLVE_0041_01_LB06-01_20240911_LH00224_0085_A22GHN7LT4_1_TTAGGTCG-AGTGACCT",
+    "batches": [
+      "2024-09-05_u102_s42_k154-0000143121"
+    ]
   },
   {
     "run": "20240911_LH00224_0085_A22GHN7LT4",
@@ -3273,7 +3972,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7609_2_LDI117241",
-    "merge_key": "REVOLVE_0041_01_LB06-01_20240911_LH00224_0085_A22GHN7LT4_2_TTAGGTCG-AGTGACCT"
+    "merge_key": "REVOLVE_0041_01_LB06-01_20240911_LH00224_0085_A22GHN7LT4_2_TTAGGTCG-AGTGACCT",
+    "batches": [
+      "2024-09-05_u102_s42_k154-0000143121"
+    ]
   },
   {
     "run": "20240911_LH00224_0085_A22GHN7LT4",
@@ -3287,7 +3989,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7609_3_LDI117241",
-    "merge_key": "REVOLVE_0041_01_LB06-01_20240911_LH00224_0085_A22GHN7LT4_3_TTAGGTCG-AGTGACCT"
+    "merge_key": "REVOLVE_0041_01_LB06-01_20240911_LH00224_0085_A22GHN7LT4_3_TTAGGTCG-AGTGACCT",
+    "batches": [
+      "2024-09-05_u102_s42_k154-0000143121"
+    ]
   },
   {
     "run": "20240911_LH00224_0085_A22GHN7LT4",
@@ -3301,7 +4006,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7609_4_LDI117241",
-    "merge_key": "REVOLVE_0041_01_LB06-01_20240911_LH00224_0085_A22GHN7LT4_4_TTAGGTCG-AGTGACCT"
+    "merge_key": "REVOLVE_0041_01_LB06-01_20240911_LH00224_0085_A22GHN7LT4_4_TTAGGTCG-AGTGACCT",
+    "batches": [
+      "2024-09-05_u102_s42_k154-0000143121"
+    ]
   },
   {
     "run": "20240911_LH00224_0085_A22GHN7LT4",
@@ -3315,7 +4023,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7609_5_LDI117241",
-    "merge_key": "REVOLVE_0041_01_LB06-01_20240911_LH00224_0085_A22GHN7LT4_5_TTAGGTCG-AGTGACCT"
+    "merge_key": "REVOLVE_0041_01_LB06-01_20240911_LH00224_0085_A22GHN7LT4_5_TTAGGTCG-AGTGACCT",
+    "batches": [
+      "2024-09-05_u102_s42_k154-0000143121"
+    ]
   },
   {
     "run": "20240911_LH00224_0085_A22GHN7LT4",
@@ -3329,7 +4040,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7609_6_LDI117241",
-    "merge_key": "REVOLVE_0041_01_LB06-01_20240911_LH00224_0085_A22GHN7LT4_6_TTAGGTCG-AGTGACCT"
+    "merge_key": "REVOLVE_0041_01_LB06-01_20240911_LH00224_0085_A22GHN7LT4_6_TTAGGTCG-AGTGACCT",
+    "batches": [
+      "2024-09-05_u102_s42_k154-0000143121"
+    ]
   },
   {
     "run": "240913_M00753_0766_000000000-DPJC3",
@@ -3343,7 +4057,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "7613_1_LDI117561",
-    "merge_key": "REVOLVE_0043_16_LB02-01_240913_M00753_0766_000000000-DPJC3_1_CATAATAC-TTCTAACG"
+    "merge_key": "REVOLVE_0043_16_LB02-01_240913_M00753_0766_000000000-DPJC3_1_CATAATAC-TTCTAACG",
+    "batches": [
+      "2024-09-13_u157_s41_k160-20846448 20840282 20858404"
+    ]
   },
   {
     "run": "240916_M00753_0767_000000000-DPNP2",
@@ -3357,7 +4074,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "7615_1_LDI117533",
-    "merge_key": "REVOLVE_0043_16_LB01-01_240916_M00753_0767_000000000-DPNP2_1_GAGATGTC-GCTGACTA"
+    "merge_key": "REVOLVE_0043_16_LB01-01_240916_M00753_0767_000000000-DPNP2_1_GAGATGTC-GCTGACTA",
+    "batches": [
+      "2024-09-12_u166_s42_k154-175116"
+    ]
   },
   {
     "run": "20240923_LH00130_0081_A22N2VGLT3",
@@ -3371,7 +4091,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "7635_7_LDI117561",
-    "merge_key": "REVOLVE_0043_16_LB02-01_20240923_LH00130_0081_A22N2VGLT3_7_CATAATAC-CGTTAGAA"
+    "merge_key": "REVOLVE_0043_16_LB02-01_20240923_LH00130_0081_A22N2VGLT3_7_CATAATAC-CGTTAGAA",
+    "batches": [
+      "2024-09-13_u157_s41_k160-20846448 20840282 20858404"
+    ]
   },
   {
     "run": "20240923_LH00130_0081_A22N2VGLT3",
@@ -3385,7 +4108,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "7635_8_LDI117561",
-    "merge_key": "REVOLVE_0043_16_LB02-01_20240923_LH00130_0081_A22N2VGLT3_8_CATAATAC-CGTTAGAA"
+    "merge_key": "REVOLVE_0043_16_LB02-01_20240923_LH00130_0081_A22N2VGLT3_8_CATAATAC-CGTTAGAA",
+    "batches": [
+      "2024-09-13_u157_s41_k160-20846448 20840282 20858404"
+    ]
   },
   {
     "run": "240924_M06816_0136_000000000-DPNWP",
@@ -3399,7 +4125,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7637_1_LDI117795",
-    "merge_key": "REVOLVE_0043_01_LB01-01_240924_M06816_0136_000000000-DPNWP_1_ATGCCTGT-CGCAATCT"
+    "merge_key": "REVOLVE_0043_01_LB01-01_240924_M06816_0136_000000000-DPNWP_1_ATGCCTGT-CGCAATCT",
+    "batches": [
+      "2024-09-19_u166_s42_k154-0000152196"
+    ]
   },
   {
     "run": "20240925_LH00224_0090_B22CC3CLT4",
@@ -3413,7 +4142,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "7639_1_LDI117533",
-    "merge_key": "REVOLVE_0043_16_LB01-01_20240925_LH00224_0090_B22CC3CLT4_1_GAGATGTC-TAGTCAGC"
+    "merge_key": "REVOLVE_0043_16_LB01-01_20240925_LH00224_0090_B22CC3CLT4_1_GAGATGTC-TAGTCAGC",
+    "batches": [
+      "2024-09-12_u166_s42_k154-175116"
+    ]
   },
   {
     "run": "20240925_LH00224_0090_B22CC3CLT4",
@@ -3427,7 +4159,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "7639_2_LDI117533",
-    "merge_key": "REVOLVE_0043_16_LB01-01_20240925_LH00224_0090_B22CC3CLT4_2_GAGATGTC-TAGTCAGC"
+    "merge_key": "REVOLVE_0043_16_LB01-01_20240925_LH00224_0090_B22CC3CLT4_2_GAGATGTC-TAGTCAGC",
+    "batches": [
+      "2024-09-12_u166_s42_k154-175116"
+    ]
   },
   {
     "run": "20240925_LH00224_0090_B22CC3CLT4",
@@ -3441,7 +4176,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "7639_3_LDI117533",
-    "merge_key": "REVOLVE_0043_16_LB01-01_20240925_LH00224_0090_B22CC3CLT4_3_GAGATGTC-TAGTCAGC"
+    "merge_key": "REVOLVE_0043_16_LB01-01_20240925_LH00224_0090_B22CC3CLT4_3_GAGATGTC-TAGTCAGC",
+    "batches": [
+      "2024-09-12_u166_s42_k154-175116"
+    ]
   },
   {
     "run": "20240925_LH00224_0090_B22CC3CLT4",
@@ -3455,7 +4193,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "7639_4_LDI117533",
-    "merge_key": "REVOLVE_0043_16_LB01-01_20240925_LH00224_0090_B22CC3CLT4_4_GAGATGTC-TAGTCAGC"
+    "merge_key": "REVOLVE_0043_16_LB01-01_20240925_LH00224_0090_B22CC3CLT4_4_GAGATGTC-TAGTCAGC",
+    "batches": [
+      "2024-09-12_u166_s42_k154-175116"
+    ]
   },
   {
     "run": "20240925_LH00224_0090_B22CC3CLT4",
@@ -3469,7 +4210,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "7639_5_LDI117533",
-    "merge_key": "REVOLVE_0043_16_LB01-01_20240925_LH00224_0090_B22CC3CLT4_5_GAGATGTC-TAGTCAGC"
+    "merge_key": "REVOLVE_0043_16_LB01-01_20240925_LH00224_0090_B22CC3CLT4_5_GAGATGTC-TAGTCAGC",
+    "batches": [
+      "2024-09-12_u166_s42_k154-175116"
+    ]
   },
   {
     "run": "20240925_LH00224_0090_B22CC3CLT4",
@@ -3483,7 +4227,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "7639_6_LDI117533",
-    "merge_key": "REVOLVE_0043_16_LB01-01_20240925_LH00224_0090_B22CC3CLT4_6_GAGATGTC-TAGTCAGC"
+    "merge_key": "REVOLVE_0043_16_LB01-01_20240925_LH00224_0090_B22CC3CLT4_6_GAGATGTC-TAGTCAGC",
+    "batches": [
+      "2024-09-12_u166_s42_k154-175116"
+    ]
   },
   {
     "run": "20240925_LH00224_0090_B22CC3CLT4",
@@ -3497,7 +4244,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "7639_7_LDI117533",
-    "merge_key": "REVOLVE_0043_16_LB01-01_20240925_LH00224_0090_B22CC3CLT4_7_GAGATGTC-TAGTCAGC"
+    "merge_key": "REVOLVE_0043_16_LB01-01_20240925_LH00224_0090_B22CC3CLT4_7_GAGATGTC-TAGTCAGC",
+    "batches": [
+      "2024-09-12_u166_s42_k154-175116"
+    ]
   },
   {
     "run": "20240925_LH00224_0090_B22CC3CLT4",
@@ -3511,7 +4261,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "7639_8_LDI117533",
-    "merge_key": "REVOLVE_0043_16_LB01-01_20240925_LH00224_0090_B22CC3CLT4_8_GAGATGTC-TAGTCAGC"
+    "merge_key": "REVOLVE_0043_16_LB01-01_20240925_LH00224_0090_B22CC3CLT4_8_GAGATGTC-TAGTCAGC",
+    "batches": [
+      "2024-09-12_u166_s42_k154-175116"
+    ]
   },
   {
     "run": "240930_M00753_0772_000000000-GL4RH",
@@ -3525,7 +4278,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7648_1_LDI117921",
-    "merge_key": "REVOLVE_0046_01_LB03-01_240930_M00753_0772_000000000-GL4RH_1_CGTGATCA-TGCCATTC"
+    "merge_key": "REVOLVE_0046_01_LB03-01_240930_M00753_0772_000000000-GL4RH_1_CGTGATCA-TGCCATTC",
+    "batches": [
+      "2024-09-26_u166_s42_k154-152196"
+    ]
   },
   {
     "run": "240930_M00753_0772_000000000-GL4RH",
@@ -3539,7 +4295,10 @@
     "tissue_origin": "Ov",
     "project": "REVWGTS",
     "lims_id": "7648_1_LDI117922",
-    "merge_key": "REVOLVE_0046_17_LB01-01_240930_M00753_0772_000000000-GL4RH_1_TCGCATTG-CTTGCTGT"
+    "merge_key": "REVOLVE_0046_17_LB01-01_240930_M00753_0772_000000000-GL4RH_1_TCGCATTG-CTTGCTGT",
+    "batches": [
+      "2024-09-26_u166_s42_k154-152196"
+    ]
   },
   {
     "run": "20241002_LH00224_0095_A22HW35LT4",
@@ -3553,7 +4312,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "7654_1_LDI117533",
-    "merge_key": "REVOLVE_0043_16_LB01-01_20241002_LH00224_0095_A22HW35LT4_1_GAGATGTC-TAGTCAGC"
+    "merge_key": "REVOLVE_0043_16_LB01-01_20241002_LH00224_0095_A22HW35LT4_1_GAGATGTC-TAGTCAGC",
+    "batches": [
+      "2024-09-12_u166_s42_k154-175116"
+    ]
   },
   {
     "run": "20241002_LH00224_0095_A22HW35LT4",
@@ -3567,7 +4329,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7654_1_LDI117795",
-    "merge_key": "REVOLVE_0043_01_LB01-01_20241002_LH00224_0095_A22HW35LT4_1_ATGCCTGT-AGATTGCG"
+    "merge_key": "REVOLVE_0043_01_LB01-01_20241002_LH00224_0095_A22HW35LT4_1_ATGCCTGT-AGATTGCG",
+    "batches": [
+      "2024-09-19_u166_s42_k154-0000152196"
+    ]
   },
   {
     "run": "20241002_LH00224_0095_A22HW35LT4",
@@ -3581,7 +4346,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "7654_2_LDI117533",
-    "merge_key": "REVOLVE_0043_16_LB01-01_20241002_LH00224_0095_A22HW35LT4_2_GAGATGTC-TAGTCAGC"
+    "merge_key": "REVOLVE_0043_16_LB01-01_20241002_LH00224_0095_A22HW35LT4_2_GAGATGTC-TAGTCAGC",
+    "batches": [
+      "2024-09-12_u166_s42_k154-175116"
+    ]
   },
   {
     "run": "20241002_LH00224_0095_A22HW35LT4",
@@ -3595,7 +4363,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7654_2_LDI117795",
-    "merge_key": "REVOLVE_0043_01_LB01-01_20241002_LH00224_0095_A22HW35LT4_2_ATGCCTGT-AGATTGCG"
+    "merge_key": "REVOLVE_0043_01_LB01-01_20241002_LH00224_0095_A22HW35LT4_2_ATGCCTGT-AGATTGCG",
+    "batches": [
+      "2024-09-19_u166_s42_k154-0000152196"
+    ]
   },
   {
     "run": "20241002_LH00224_0095_A22HW35LT4",
@@ -3609,7 +4380,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "7654_3_LDI117533",
-    "merge_key": "REVOLVE_0043_16_LB01-01_20241002_LH00224_0095_A22HW35LT4_3_GAGATGTC-TAGTCAGC"
+    "merge_key": "REVOLVE_0043_16_LB01-01_20241002_LH00224_0095_A22HW35LT4_3_GAGATGTC-TAGTCAGC",
+    "batches": [
+      "2024-09-12_u166_s42_k154-175116"
+    ]
   },
   {
     "run": "20241002_LH00224_0095_A22HW35LT4",
@@ -3623,7 +4397,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7654_3_LDI117795",
-    "merge_key": "REVOLVE_0043_01_LB01-01_20241002_LH00224_0095_A22HW35LT4_3_ATGCCTGT-AGATTGCG"
+    "merge_key": "REVOLVE_0043_01_LB01-01_20241002_LH00224_0095_A22HW35LT4_3_ATGCCTGT-AGATTGCG",
+    "batches": [
+      "2024-09-19_u166_s42_k154-0000152196"
+    ]
   },
   {
     "run": "20241002_LH00224_0095_A22HW35LT4",
@@ -3637,7 +4414,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "7654_4_LDI117533",
-    "merge_key": "REVOLVE_0043_16_LB01-01_20241002_LH00224_0095_A22HW35LT4_4_GAGATGTC-TAGTCAGC"
+    "merge_key": "REVOLVE_0043_16_LB01-01_20241002_LH00224_0095_A22HW35LT4_4_GAGATGTC-TAGTCAGC",
+    "batches": [
+      "2024-09-12_u166_s42_k154-175116"
+    ]
   },
   {
     "run": "20241002_LH00224_0095_A22HW35LT4",
@@ -3651,7 +4431,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7654_4_LDI117795",
-    "merge_key": "REVOLVE_0043_01_LB01-01_20241002_LH00224_0095_A22HW35LT4_4_ATGCCTGT-AGATTGCG"
+    "merge_key": "REVOLVE_0043_01_LB01-01_20241002_LH00224_0095_A22HW35LT4_4_ATGCCTGT-AGATTGCG",
+    "batches": [
+      "2024-09-19_u166_s42_k154-0000152196"
+    ]
   },
   {
     "run": "20241002_LH00224_0095_A22HW35LT4",
@@ -3665,7 +4448,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "7654_5_LDI117533",
-    "merge_key": "REVOLVE_0043_16_LB01-01_20241002_LH00224_0095_A22HW35LT4_5_GAGATGTC-TAGTCAGC"
+    "merge_key": "REVOLVE_0043_16_LB01-01_20241002_LH00224_0095_A22HW35LT4_5_GAGATGTC-TAGTCAGC",
+    "batches": [
+      "2024-09-12_u166_s42_k154-175116"
+    ]
   },
   {
     "run": "20241002_LH00224_0095_A22HW35LT4",
@@ -3679,7 +4465,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7654_5_LDI117795",
-    "merge_key": "REVOLVE_0043_01_LB01-01_20241002_LH00224_0095_A22HW35LT4_5_ATGCCTGT-AGATTGCG"
+    "merge_key": "REVOLVE_0043_01_LB01-01_20241002_LH00224_0095_A22HW35LT4_5_ATGCCTGT-AGATTGCG",
+    "batches": [
+      "2024-09-19_u166_s42_k154-0000152196"
+    ]
   },
   {
     "run": "20241002_LH00224_0095_A22HW35LT4",
@@ -3693,7 +4482,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "7654_6_LDI117533",
-    "merge_key": "REVOLVE_0043_16_LB01-01_20241002_LH00224_0095_A22HW35LT4_6_GAGATGTC-TAGTCAGC"
+    "merge_key": "REVOLVE_0043_16_LB01-01_20241002_LH00224_0095_A22HW35LT4_6_GAGATGTC-TAGTCAGC",
+    "batches": [
+      "2024-09-12_u166_s42_k154-175116"
+    ]
   },
   {
     "run": "20241002_LH00224_0095_A22HW35LT4",
@@ -3707,7 +4499,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7654_6_LDI117795",
-    "merge_key": "REVOLVE_0043_01_LB01-01_20241002_LH00224_0095_A22HW35LT4_6_ATGCCTGT-AGATTGCG"
+    "merge_key": "REVOLVE_0043_01_LB01-01_20241002_LH00224_0095_A22HW35LT4_6_ATGCCTGT-AGATTGCG",
+    "batches": [
+      "2024-09-19_u166_s42_k154-0000152196"
+    ]
   },
   {
     "run": "20241002_LH00224_0095_A22HW35LT4",
@@ -3721,7 +4516,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "7654_7_LDI117533",
-    "merge_key": "REVOLVE_0043_16_LB01-01_20241002_LH00224_0095_A22HW35LT4_7_GAGATGTC-TAGTCAGC"
+    "merge_key": "REVOLVE_0043_16_LB01-01_20241002_LH00224_0095_A22HW35LT4_7_GAGATGTC-TAGTCAGC",
+    "batches": [
+      "2024-09-12_u166_s42_k154-175116"
+    ]
   },
   {
     "run": "20241002_LH00224_0095_A22HW35LT4",
@@ -3735,7 +4533,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7654_7_LDI117795",
-    "merge_key": "REVOLVE_0043_01_LB01-01_20241002_LH00224_0095_A22HW35LT4_7_ATGCCTGT-AGATTGCG"
+    "merge_key": "REVOLVE_0043_01_LB01-01_20241002_LH00224_0095_A22HW35LT4_7_ATGCCTGT-AGATTGCG",
+    "batches": [
+      "2024-09-19_u166_s42_k154-0000152196"
+    ]
   },
   {
     "run": "20241002_LH00224_0095_A22HW35LT4",
@@ -3749,7 +4550,10 @@
     "tissue_origin": "Ln",
     "project": "REVWGTS",
     "lims_id": "7654_8_LDI117533",
-    "merge_key": "REVOLVE_0043_16_LB01-01_20241002_LH00224_0095_A22HW35LT4_8_GAGATGTC-TAGTCAGC"
+    "merge_key": "REVOLVE_0043_16_LB01-01_20241002_LH00224_0095_A22HW35LT4_8_GAGATGTC-TAGTCAGC",
+    "batches": [
+      "2024-09-12_u166_s42_k154-175116"
+    ]
   },
   {
     "run": "20241002_LH00224_0095_A22HW35LT4",
@@ -3763,7 +4567,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7654_8_LDI117795",
-    "merge_key": "REVOLVE_0043_01_LB01-01_20241002_LH00224_0095_A22HW35LT4_8_ATGCCTGT-AGATTGCG"
+    "merge_key": "REVOLVE_0043_01_LB01-01_20241002_LH00224_0095_A22HW35LT4_8_ATGCCTGT-AGATTGCG",
+    "batches": [
+      "2024-09-19_u166_s42_k154-0000152196"
+    ]
   },
   {
     "run": "241011_M00146_0549_000000000-DRBCM",
@@ -3777,7 +4584,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7674_1_LDI118920",
-    "merge_key": "REVOLVE_0047_01_LB01-01_241011_M00146_0549_000000000-DRBCM_1_GAACGCTT-CTGCACTT"
+    "merge_key": "REVOLVE_0047_01_LB01-01_241011_M00146_0549_000000000-DRBCM_1_GAACGCTT-CTGCACTT",
+    "batches": [
+      "2024-10-10_u166_s42_k154-152196"
+    ]
   },
   {
     "run": "241011_M00146_0549_000000000-DRBCM",
@@ -3791,7 +4601,10 @@
     "tissue_origin": "Ab",
     "project": "REVWGTS",
     "lims_id": "7674_1_LDI118921",
-    "merge_key": "REVOLVE_0047_16_LB02-01_241011_M00146_0549_000000000-DRBCM_1_CAGAATCG-TCAACTGG"
+    "merge_key": "REVOLVE_0047_16_LB02-01_241011_M00146_0549_000000000-DRBCM_1_CAGAATCG-TCAACTGG",
+    "batches": [
+      "2024-10-10_u166_s42_k154-152196"
+    ]
   },
   {
     "run": "241011_M00753_0776_000000000-DRCKG",
@@ -3805,7 +4618,10 @@
     "tissue_origin": "Ab",
     "project": "REVWGTS",
     "lims_id": "7675_1_LDI118711",
-    "merge_key": "REVOLVE_0047_16_LB01-01_241011_M00753_0776_000000000-DRCKG_1_TCATCCTT-AGCGAGCT"
+    "merge_key": "REVOLVE_0047_16_LB01-01_241011_M00753_0776_000000000-DRCKG_1_TCATCCTT-AGCGAGCT",
+    "batches": [
+      "2024-10-09_u142_s41_k160-20858404 20840225 20846000"
+    ]
   },
   {
     "run": "20241011_LH00224_0100_A22HM3MLT4",
@@ -3819,7 +4635,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7676_1_LDI117921",
-    "merge_key": "REVOLVE_0046_01_LB03-01_20241011_LH00224_0100_A22HM3MLT4_1_CGTGATCA-GAATGGCA"
+    "merge_key": "REVOLVE_0046_01_LB03-01_20241011_LH00224_0100_A22HM3MLT4_1_CGTGATCA-GAATGGCA",
+    "batches": [
+      "2024-09-26_u166_s42_k154-152196"
+    ]
   },
   {
     "run": "20241011_LH00224_0100_A22HM3MLT4",
@@ -3833,7 +4652,10 @@
     "tissue_origin": "Ov",
     "project": "REVWGTS",
     "lims_id": "7676_1_LDI117922",
-    "merge_key": "REVOLVE_0046_17_LB01-01_20241011_LH00224_0100_A22HM3MLT4_1_TCGCATTG-ACAGCAAG"
+    "merge_key": "REVOLVE_0046_17_LB01-01_20241011_LH00224_0100_A22HM3MLT4_1_TCGCATTG-ACAGCAAG",
+    "batches": [
+      "2024-09-26_u166_s42_k154-152196"
+    ]
   },
   {
     "run": "20241011_LH00224_0100_A22HM3MLT4",
@@ -3847,7 +4669,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7676_2_LDI117921",
-    "merge_key": "REVOLVE_0046_01_LB03-01_20241011_LH00224_0100_A22HM3MLT4_2_CGTGATCA-GAATGGCA"
+    "merge_key": "REVOLVE_0046_01_LB03-01_20241011_LH00224_0100_A22HM3MLT4_2_CGTGATCA-GAATGGCA",
+    "batches": [
+      "2024-09-26_u166_s42_k154-152196"
+    ]
   },
   {
     "run": "20241011_LH00224_0100_A22HM3MLT4",
@@ -3861,7 +4686,10 @@
     "tissue_origin": "Ov",
     "project": "REVWGTS",
     "lims_id": "7676_2_LDI117922",
-    "merge_key": "REVOLVE_0046_17_LB01-01_20241011_LH00224_0100_A22HM3MLT4_2_TCGCATTG-ACAGCAAG"
+    "merge_key": "REVOLVE_0046_17_LB01-01_20241011_LH00224_0100_A22HM3MLT4_2_TCGCATTG-ACAGCAAG",
+    "batches": [
+      "2024-09-26_u166_s42_k154-152196"
+    ]
   },
   {
     "run": "20241011_LH00224_0100_A22HM3MLT4",
@@ -3875,7 +4703,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7676_3_LDI117921",
-    "merge_key": "REVOLVE_0046_01_LB03-01_20241011_LH00224_0100_A22HM3MLT4_3_CGTGATCA-GAATGGCA"
+    "merge_key": "REVOLVE_0046_01_LB03-01_20241011_LH00224_0100_A22HM3MLT4_3_CGTGATCA-GAATGGCA",
+    "batches": [
+      "2024-09-26_u166_s42_k154-152196"
+    ]
   },
   {
     "run": "20241011_LH00224_0100_A22HM3MLT4",
@@ -3889,7 +4720,10 @@
     "tissue_origin": "Ov",
     "project": "REVWGTS",
     "lims_id": "7676_3_LDI117922",
-    "merge_key": "REVOLVE_0046_17_LB01-01_20241011_LH00224_0100_A22HM3MLT4_3_TCGCATTG-ACAGCAAG"
+    "merge_key": "REVOLVE_0046_17_LB01-01_20241011_LH00224_0100_A22HM3MLT4_3_TCGCATTG-ACAGCAAG",
+    "batches": [
+      "2024-09-26_u166_s42_k154-152196"
+    ]
   },
   {
     "run": "20241011_LH00224_0100_A22HM3MLT4",
@@ -3903,7 +4737,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7676_4_LDI117921",
-    "merge_key": "REVOLVE_0046_01_LB03-01_20241011_LH00224_0100_A22HM3MLT4_4_CGTGATCA-GAATGGCA"
+    "merge_key": "REVOLVE_0046_01_LB03-01_20241011_LH00224_0100_A22HM3MLT4_4_CGTGATCA-GAATGGCA",
+    "batches": [
+      "2024-09-26_u166_s42_k154-152196"
+    ]
   },
   {
     "run": "20241011_LH00224_0100_A22HM3MLT4",
@@ -3917,7 +4754,10 @@
     "tissue_origin": "Ov",
     "project": "REVWGTS",
     "lims_id": "7676_4_LDI117922",
-    "merge_key": "REVOLVE_0046_17_LB01-01_20241011_LH00224_0100_A22HM3MLT4_4_TCGCATTG-ACAGCAAG"
+    "merge_key": "REVOLVE_0046_17_LB01-01_20241011_LH00224_0100_A22HM3MLT4_4_TCGCATTG-ACAGCAAG",
+    "batches": [
+      "2024-09-26_u166_s42_k154-152196"
+    ]
   },
   {
     "run": "20241011_LH00224_0100_A22HM3MLT4",
@@ -3931,7 +4771,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7676_5_LDI117921",
-    "merge_key": "REVOLVE_0046_01_LB03-01_20241011_LH00224_0100_A22HM3MLT4_5_CGTGATCA-GAATGGCA"
+    "merge_key": "REVOLVE_0046_01_LB03-01_20241011_LH00224_0100_A22HM3MLT4_5_CGTGATCA-GAATGGCA",
+    "batches": [
+      "2024-09-26_u166_s42_k154-152196"
+    ]
   },
   {
     "run": "20241011_LH00224_0100_A22HM3MLT4",
@@ -3945,7 +4788,10 @@
     "tissue_origin": "Ov",
     "project": "REVWGTS",
     "lims_id": "7676_5_LDI117922",
-    "merge_key": "REVOLVE_0046_17_LB01-01_20241011_LH00224_0100_A22HM3MLT4_5_TCGCATTG-ACAGCAAG"
+    "merge_key": "REVOLVE_0046_17_LB01-01_20241011_LH00224_0100_A22HM3MLT4_5_TCGCATTG-ACAGCAAG",
+    "batches": [
+      "2024-09-26_u166_s42_k154-152196"
+    ]
   },
   {
     "run": "20241011_LH00224_0100_A22HM3MLT4",
@@ -3959,7 +4805,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7676_6_LDI117921",
-    "merge_key": "REVOLVE_0046_01_LB03-01_20241011_LH00224_0100_A22HM3MLT4_6_CGTGATCA-GAATGGCA"
+    "merge_key": "REVOLVE_0046_01_LB03-01_20241011_LH00224_0100_A22HM3MLT4_6_CGTGATCA-GAATGGCA",
+    "batches": [
+      "2024-09-26_u166_s42_k154-152196"
+    ]
   },
   {
     "run": "20241011_LH00224_0100_A22HM3MLT4",
@@ -3973,7 +4822,10 @@
     "tissue_origin": "Ov",
     "project": "REVWGTS",
     "lims_id": "7676_6_LDI117922",
-    "merge_key": "REVOLVE_0046_17_LB01-01_20241011_LH00224_0100_A22HM3MLT4_6_TCGCATTG-ACAGCAAG"
+    "merge_key": "REVOLVE_0046_17_LB01-01_20241011_LH00224_0100_A22HM3MLT4_6_TCGCATTG-ACAGCAAG",
+    "batches": [
+      "2024-09-26_u166_s42_k154-152196"
+    ]
   },
   {
     "run": "20241011_LH00224_0100_A22HM3MLT4",
@@ -3987,7 +4839,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7676_7_LDI117921",
-    "merge_key": "REVOLVE_0046_01_LB03-01_20241011_LH00224_0100_A22HM3MLT4_7_CGTGATCA-GAATGGCA"
+    "merge_key": "REVOLVE_0046_01_LB03-01_20241011_LH00224_0100_A22HM3MLT4_7_CGTGATCA-GAATGGCA",
+    "batches": [
+      "2024-09-26_u166_s42_k154-152196"
+    ]
   },
   {
     "run": "20241011_LH00224_0100_A22HM3MLT4",
@@ -4001,7 +4856,10 @@
     "tissue_origin": "Ov",
     "project": "REVWGTS",
     "lims_id": "7676_7_LDI117922",
-    "merge_key": "REVOLVE_0046_17_LB01-01_20241011_LH00224_0100_A22HM3MLT4_7_TCGCATTG-ACAGCAAG"
+    "merge_key": "REVOLVE_0046_17_LB01-01_20241011_LH00224_0100_A22HM3MLT4_7_TCGCATTG-ACAGCAAG",
+    "batches": [
+      "2024-09-26_u166_s42_k154-152196"
+    ]
   },
   {
     "run": "20241011_LH00224_0100_A22HM3MLT4",
@@ -4015,7 +4873,10 @@
     "tissue_origin": "Ly",
     "project": "REVWGTS",
     "lims_id": "7676_8_LDI117921",
-    "merge_key": "REVOLVE_0046_01_LB03-01_20241011_LH00224_0100_A22HM3MLT4_8_CGTGATCA-GAATGGCA"
+    "merge_key": "REVOLVE_0046_01_LB03-01_20241011_LH00224_0100_A22HM3MLT4_8_CGTGATCA-GAATGGCA",
+    "batches": [
+      "2024-09-26_u166_s42_k154-152196"
+    ]
   },
   {
     "run": "20241011_LH00224_0100_A22HM3MLT4",
@@ -4029,6 +4890,77 @@
     "tissue_origin": "Ov",
     "project": "REVWGTS",
     "lims_id": "7676_8_LDI117922",
-    "merge_key": "REVOLVE_0046_17_LB01-01_20241011_LH00224_0100_A22HM3MLT4_8_TCGCATTG-ACAGCAAG"
+    "merge_key": "REVOLVE_0046_17_LB01-01_20241011_LH00224_0100_A22HM3MLT4_8_TCGCATTG-ACAGCAAG",
+    "batches": [
+      "2024-09-26_u166_s42_k154-152196"
+    ]
+  },
+  {
+    "run": "241025_M00146_0551_000000000-DPPYJ",
+    "lane": 1,
+    "barcode": "TAAGTGGC-CAACGGAT",
+    "donor": "REVOLVE_0049",
+    "external_donor_id": "SC-REV-049,DIVA-1059",
+    "library_name": "REVOLVE_0049_01_LB01-01",
+    "library_design": "WG",
+    "tissue_type": "R",
+    "tissue_origin": "Ly",
+    "project": "REVWGTS",
+    "lims_id": "7696_1_LDI119416",
+    "merge_key": "REVOLVE_0049_01_LB01-01_241025_M00146_0551_000000000-DPPYJ_1_TAAGTGGC-CAACGGAT",
+    "batches": [
+      "2024-10-24_u166_s42_k154-152196"
+    ]
+  },
+  {
+    "run": "241025_M00146_0551_000000000-DPPYJ",
+    "lane": 1,
+    "barcode": "TGTGAAGC-CTCCTAGA",
+    "donor": "REVOLVE_0049",
+    "external_donor_id": "SC-REV-049,DIVA-1059",
+    "library_name": "REVOLVE_0049_16_LB01-01",
+    "library_design": "WG",
+    "tissue_type": "M",
+    "tissue_origin": "Lv",
+    "project": "REVWGTS",
+    "lims_id": "7696_1_LDI119417",
+    "merge_key": "REVOLVE_0049_16_LB01-01_241025_M00146_0551_000000000-DPPYJ_1_TGTGAAGC-CTCCTAGA",
+    "batches": [
+      "2024-10-24_u166_s42_k154-152196"
+    ]
+  },
+  {
+    "run": "241025_M06816_0146_000000000-DPJCM",
+    "lane": 1,
+    "barcode": "GACGTCTT-GGTTCACC",
+    "donor": "REVOLVE_0049",
+    "external_donor_id": "SC-REV-049,DIVA-1059",
+    "library_name": "REVOLVE_0049_16_LB02-01",
+    "library_design": "WT",
+    "tissue_type": "M",
+    "tissue_origin": "Lv",
+    "project": "REVWGTS",
+    "lims_id": "7700_1_LDI119557",
+    "merge_key": "REVOLVE_0049_16_LB02-01_241025_M06816_0146_000000000-DPJCM_1_GACGTCTT-GGTTCACC",
+    "batches": [
+      "2024-10-25_u142_s41_k160-20858404 20846000 20840225"
+    ]
+  },
+  {
+    "run": "20241028_LH00224_0108_A22TW3NLT3",
+    "lane": 8,
+    "barcode": "TCATCCTT-AGCTCGCT",
+    "donor": "REVOLVE_0047",
+    "external_donor_id": "SC-REV-047,DIVA-1060",
+    "library_name": "REVOLVE_0047_16_LB01-01",
+    "library_design": "WT",
+    "tissue_type": "M",
+    "tissue_origin": "Ab",
+    "project": "REVWGTS",
+    "lims_id": "7703_8_LDI118711",
+    "merge_key": "REVOLVE_0047_16_LB01-01_20241028_LH00224_0108_A22TW3NLT3_8_TCATCCTT-AGCTCGCT",
+    "batches": [
+      "2024-10-09_u142_s41_k160-20858404 20840225 20846000"
+    ]
   }
 ]

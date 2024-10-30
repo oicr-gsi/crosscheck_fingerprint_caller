@@ -1,4 +1,5 @@
 from crosscheck_fingerprint_caller import main
+import json
 import os
 import pandas
 
@@ -12,7 +13,15 @@ def test_load():
     if not os.path.isfile(gld_f):
         df.to_csv(gld_f, index=False)
 
-    golden = pandas.read_csv(gld_f)
+    # Dealing with batches being a JSON list saved in a CSV file
+    # First, convert the CSV `'` to `"` and then explicitly load the string as a list
+    golden = pandas.read_csv(
+        gld_f,
+        converters={
+            "batches": lambda x: json.loads(x.replace("'", '"')),
+            "batches_match": lambda x: json.loads(x.replace("'", '"')),
+        },
+    )
     pandas.testing.assert_frame_equal(df, golden, check_like=True)
 
 

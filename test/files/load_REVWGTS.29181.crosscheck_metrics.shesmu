@@ -18,9 +18,10 @@ Olive
     tissue_origin,
     project,
     lims_id = lims.id,
-    merge_key = "{library_name}_{ius[0]}_{ius[1]}_{ius[2]}"
+    merge_key = "{library_name}_{ius[0]}_{ius[1]}_{ius[2]}",
+    batches
     
-  Dump run, lane, barcode, donor, external_donor_id, library_name, library_design, tissue_type, tissue_origin, project, lims_id, merge_key To dump
+  Dump run, lane, barcode, donor, external_donor_id, library_name, library_design, tissue_type, tissue_origin, project, lims_id, merge_key, batches To dump
 
   Run std::nothing
   With value = "hello";
