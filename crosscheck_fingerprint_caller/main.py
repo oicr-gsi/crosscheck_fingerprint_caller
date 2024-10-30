@@ -1,7 +1,7 @@
 import argparse
 import pandas
 import json
-import collections
+import typing
 from pandas import DataFrame
 
 
@@ -23,18 +23,6 @@ def main():
         "-a",
         "--ambiguous-lod",
         help="JSON file describing what LOD range is inconclusive for a given library design pairing",
-    )
-
-    parser.add_argument(
-        "-i",
-        "--ignore-library",
-        help="JSON file containing a list of known false positive libraries to ignore for swap calling",
-    )
-
-    parser.add_argument(
-        "-p",
-        "--ignore-pair",
-        help="JSON file containing a list of pairs, each of which is a known false positive pair to ignore for swap calling",
     )
 
     parser.parse_args()
@@ -67,9 +55,12 @@ def load(f: str, metadata: str) -> DataFrame:
     return df
 
 
-def is_ambiguous(df: DataFrame, ambg: str) -> pandas.Series:
-    with open(ambg, "r") as f:
-        j = json.load(f)
+def is_ambiguous(df: DataFrame, ambg: typing.Optional[str]) -> pandas.Series:
+    if ambg is None:
+        j = []
+    else:
+        with open(ambg, "r") as f:
+            j = json.load(f)
 
     d = dict()
     for i in j:
@@ -77,7 +68,8 @@ def is_ambiguous(df: DataFrame, ambg: str) -> pandas.Series:
 
     result = []
     for _, r in df.iterrows():
-        up, low = d[frozenset([r["library_design"], r["library_design_match"]])]
+        k = frozenset([r["library_design"], r["library_design_match"]])
+        up, low = d.get(k, [0, 0])
         result.append(up >= r["LOD_SCORE"] >= low)
 
     return pandas.Series(result)

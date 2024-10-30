@@ -36,6 +36,9 @@ def test_ambiguous():
     out = main.is_ambiguous(df, "test/files/ambiguous_lod.json")
     assert out.eq([False, True]).all()
 
+    out = main.is_ambiguous(df, None)
+    assert out.eq([False, False]).all()
+
 
 def test_swap():
     df = pandas.DataFrame.from_dict(
