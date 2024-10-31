@@ -2,11 +2,12 @@ from crosscheck_fingerprint_caller import main
 import json
 import os
 import pandas
+import shutil
 
 
 def test_load():
     df = main.load(
-        "test/files/load_REVWGTS.29181.crosscheck_metrics.txt",
+        ["test/files/load_REVWGTS.29181.crosscheck_metrics.txt"],
         "test/files/load_REVWGTS.29181.crosscheck_metrics.json",
     )
     gld_f = "test/files/load_REVWGTS.29181.crosscheck_metrics.csv"
@@ -95,3 +96,47 @@ def test_graph():
     ambg = pandas.Series([False, False, False, True, True, False])
     out = main.graph_edges(df, ambg)
     assert pandas.Index([1, 2, 4]).equals(out)
+
+
+def test_generate_calls():
+    df = pandas.DataFrame.from_dict(
+        {
+            "library_name": ["1", "1", "2", "2"],
+            "library_design": ["WG", "WG", "WG", "WG"],
+        }
+    )
+    swaps = pandas.Series([False, True, False, False])
+
+    out = main.generate_calls(df, swaps)
+    pandas.testing.assert_frame_equal(
+        out,
+        pandas.DataFrame.from_dict(
+            {
+                "library_name": ["1", "2"],
+                "library_design": ["WG", "WG"],
+                "swap_call": [True, False],
+            }
+        ),
+    )
+
+
+def test_output_calls():
+    output = "test/files/output_caller.csv"
+    main.main(
+        [
+            "-a",
+            "test/files/ambiguous_lod.json",
+            "-c",
+            output,
+            "test/files/load_REVWGTS.29181.crosscheck_metrics.json",
+            "test/files/load_REVWGTS.29181.crosscheck_metrics.txt",
+        ]
+    )
+
+    gld_f = "test/files/output_caller_golden.csv"
+    if not os.path.isfile(gld_f):
+        shutil.copyfile(output, gld_f)
+
+    pandas.testing.assert_frame_equal(
+        pandas.read_csv(output), pandas.read_csv(gld_f)
+    )

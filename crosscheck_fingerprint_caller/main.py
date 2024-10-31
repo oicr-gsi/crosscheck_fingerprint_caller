@@ -5,7 +5,7 @@ import typing
 from pandas import DataFrame
 
 
-def main():
+def main(args=None):
     parser = argparse.ArgumentParser(
         prog="crosscheck_fingerprint_caller",
         description="Call swaps from CrosscheckFingerprint output",
@@ -25,14 +25,54 @@ def main():
         help="JSON file describing what LOD range is inconclusive for a given library design pairing",
     )
 
-    parser.parse_args()
+    parser.add_argument(
+        "-c", "--output_calls", help="File path for the output swap calls"
+    )
+
+    if args is None:
+        args = parser.parse_args()
+    else:
+        args = parser.parse_args(args)
+    df = load(args.files, args.metadata)
+    ambg = is_ambiguous(df, args.ambiguous_lod)
+    swaps = is_swap(df, ambg)
+
+    if args.output_calls is not None:
+        cols = [
+            "run",
+            "lane",
+            "barcode",
+            "donor",
+            "external_donor_id",
+            "library_name",
+            "library_design",
+            "tissue_type",
+            "tissue_origin",
+            "project",
+            "lims_id",
+        ]
+        generate_calls(df[cols], swaps).to_csv(args.output_calls, index=False)
 
 
-def load(f: str, metadata: str) -> DataFrame:
-    df = pandas.read_csv(f, sep="\t", comment="#")
+def generate_calls(df: DataFrame, swaps: pandas.Series) -> DataFrame:
+    swaps = swaps.to_frame("pairwise_swaps")
+    cols = list(df)
+    df = pandas.merge(df, swaps, left_index=True, right_index=True)
+    s = df.groupby(cols)["pairwise_swaps"].any()
+    # noinspection PyTypeChecker
+    return s.rename("swap_call", inplace=True).reset_index()
+
+
+def load(fs: typing.List[str], metadata: str) -> DataFrame:
     with open(metadata, "r") as f:
         meta = json.load(f)
     meta = DataFrame.from_records(meta)
+
+    inputs = []
+    for f in fs:
+        inputs.append(pandas.read_csv(f, sep="\t", comment="#"))
+
+    df = pandas.concat(inputs, ignore_index=True)
     df = df.merge(
         meta,
         how="left",
