@@ -159,3 +159,11 @@ def graph_edges(df: DataFrame, ambg: pandas.Series) -> pandas.Index:
     df = df[keep]
     df = df[df["library_name"] != df["library_name_match"]]
     return df.index
+
+
+def same_batch(df: DataFrame) -> pandas.Series:
+    def intrs(x):
+        s = set(x["batches"]).intersection(x["batches_match"])
+        return len(s) > 0
+
+    return df.apply(intrs, axis=1)
