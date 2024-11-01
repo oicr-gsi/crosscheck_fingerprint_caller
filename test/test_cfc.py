@@ -72,8 +72,8 @@ def test_graph():
         }
     )
     ambg = pandas.Series([False, False, False, True, True, False])
-    out = main.graph_edges(df, ambg)
-    assert pandas.Index([1, 2, 4]).equals(out)
+    out = main.marked_match(df, ambg)
+    assert list(out) == [False, True, True, False, True, False]
 
 
 def test_generate_calls():

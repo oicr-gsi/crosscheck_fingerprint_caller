@@ -129,13 +129,13 @@ def is_swap(df: DataFrame, ambg: pandas.Series) -> pandas.Series:
     return pandas.Series(result)
 
 
-def graph_edges(df: DataFrame, ambg: pandas.Series) -> pandas.Index:
+def marked_match(df: DataFrame, ambg: pandas.Series) -> pandas.Series:
     keep = (df["LOD_SCORE"] > 0) & (~ambg)
     keep_ambg = (df["donor"] == df["donor_match"]) & ambg
     keep = keep | keep_ambg
-    df = df[keep]
-    df = df[df["library_name"] != df["library_name_match"]]
-    return df.index
+    diff_lib = df["library_name"] != df["library_name_match"]
+    keep = keep & diff_lib
+    return keep
 
 
 def same_batch(df: DataFrame) -> pandas.Series:
