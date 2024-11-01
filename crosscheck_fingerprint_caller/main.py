@@ -129,29 +129,6 @@ def is_swap(df: DataFrame, ambg: pandas.Series) -> pandas.Series:
     return pandas.Series(result)
 
 
-def closest_lib(
-    df: DataFrame, lib_name: str, ambg: pandas.Series
-) -> pandas.Index:
-    if len(df) < 2:
-        pandas.Series([])
-
-    df = df[df["library_name"] == lib_name]
-    df = df[df["library_name_match"] != lib_name]
-    index = []
-    for i, r in df.iterrows():
-        if ambg[i]:
-            # Matches in the ambiguous range are good enough to stop. Ignore non-matches.
-            if r["donor"] == r["donor_match"]:
-                index.append(i)
-                break
-        else:
-            index.append(i)
-            if r["donor"] == r["donor_match"]:
-                break
-
-    return pandas.Index(index)
-
-
 def graph_edges(df: DataFrame, ambg: pandas.Series) -> pandas.Index:
     keep = (df["LOD_SCORE"] > 0) & (~ambg)
     keep_ambg = (df["donor"] == df["donor_match"]) & ambg

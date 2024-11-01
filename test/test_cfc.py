@@ -55,28 +55,6 @@ def test_swap():
     assert out.eq([False, True, False, False]).all()
 
 
-def test_closest_lib():
-    # The first never matches because the two libraries are the same
-    # The second match is from different donors
-    # The third match stops as the same donor is found
-    df = pandas.DataFrame.from_dict(
-        {
-            "library_name": ["1", "1", "1", "1"],
-            "library_name_match": ["1", "2", "2", "2"],
-            "donor": [1, 1, 1, 1],
-            "donor_match": [1, 2, 1, 2],
-        }
-    )
-    ambg = pandas.Series([False, False, False, False])
-    out = main.closest_lib(df, "1", ambg)
-    assert pandas.Index([1, 2]).equals(out)
-
-    # Everything is ambiguous, so the second match is now ignored, as it's from a different donor
-    ambg = pandas.Series([True, True, True, True])
-    out = main.closest_lib(df, "1", ambg)
-    assert pandas.Index([2]).equals(out)
-
-
 def test_graph():
     # 0: not a node, as it comes from the same library (no self referencing)
     # 1: Node as positive LOD and not ambiguous (same donor)
