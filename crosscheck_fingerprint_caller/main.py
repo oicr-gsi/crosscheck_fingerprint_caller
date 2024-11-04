@@ -26,7 +26,12 @@ def main(args=None):
     )
 
     parser.add_argument(
-        "-c", "--output_calls", help="File path for the output swap calls"
+        "-c", "--output-calls", help="File path for the output swap calls"
+    )
+    parser.add_argument(
+        "-d",
+        "--output-detailed",
+        help="File path for all called matches and swaps",
     )
 
     if args is None:
@@ -37,21 +42,31 @@ def main(args=None):
     ambg = is_ambiguous(df, args.ambiguous_lod)
     swaps = is_swap(df, ambg)
 
+    cols = [
+        "run",
+        "lane",
+        "barcode",
+        "donor",
+        "external_donor_id",
+        "library_name",
+        "library_design",
+        "tissue_type",
+        "tissue_origin",
+        "project",
+        "lims_id",
+    ]
+    gen_call = generate_calls(df[cols], swaps)
+
     if args.output_calls is not None:
-        cols = [
-            "run",
-            "lane",
-            "barcode",
-            "donor",
-            "external_donor_id",
-            "library_name",
-            "library_design",
-            "tissue_type",
-            "tissue_origin",
-            "project",
-            "lims_id",
-        ]
-        generate_calls(df[cols], swaps).to_csv(args.output_calls, index=False)
+        gen_call.to_csv(args.output_calls, index=False)
+
+    if args.output_detailed is not None:
+        cols_match = [x + "_match" for x in cols]
+        cols_match.append("LOD_SCORE")
+        match = marked_match(df, ambg)
+        generate_pairwise_calls(
+            df[cols + cols_match], match, swaps, gen_call
+        ).to_csv(args.output_detailed, index=False)
 
 
 def generate_calls(df: DataFrame, swaps: pandas.Series) -> DataFrame:
@@ -61,6 +76,23 @@ def generate_calls(df: DataFrame, swaps: pandas.Series) -> DataFrame:
     s = df.groupby(cols)["pairwise_swaps"].any()
     # noinspection PyTypeChecker
     return s.rename("swap_call", inplace=True).reset_index()
+
+
+def generate_pairwise_calls(
+    df: DataFrame, match: pandas.Series, swaps: pandas.Series, calls: DataFrame
+) -> DataFrame:
+    fltr = match | swaps
+    df = df[fltr].copy()
+    df["pairwise_swap"] = swaps[fltr]
+    df["match_called"] = match[fltr]
+    return pandas.merge(
+        df,
+        calls[["lims_id", "swap_call"]],
+        how="left",
+        left_on="lims_id",
+        right_on="lims_id",
+        validate="many_to_one",
+    )
 
 
 def load(fs: typing.List[str], metadata: str) -> DataFrame:

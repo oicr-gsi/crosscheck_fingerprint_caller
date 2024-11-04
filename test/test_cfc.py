@@ -55,7 +55,7 @@ def test_swap():
     assert out.eq([False, True, False, False]).all()
 
 
-def test_graph():
+def test_marked_match():
     # 0: not a node, as it comes from the same library (no self referencing)
     # 1: Node as positive LOD and not ambiguous (same donor)
     # 2: Node as positive LOD and not ambiguous (different donor)
@@ -120,6 +120,28 @@ def test_output_calls():
     )
 
 
+def test_output_detailed():
+    output = "test/files/output_detailed.csv"
+    main.main(
+        [
+            "-a",
+            "test/files/ambiguous_lod.json",
+            "-d",
+            output,
+            "test/files/load_REVWGTS.29181.crosscheck_metrics.json",
+            "test/files/load_REVWGTS.29181.crosscheck_metrics.txt",
+        ]
+    )
+
+    gld_f = "test/files/output_detailed_golden.csv"
+    if not os.path.isfile(gld_f):
+        shutil.copyfile(output, gld_f)
+
+    pandas.testing.assert_frame_equal(
+        pandas.read_csv(output), pandas.read_csv(gld_f)
+    )
+
+
 def test_same_batch():
     df = pandas.DataFrame.from_dict(
         {
@@ -129,3 +151,33 @@ def test_same_batch():
     )
 
     assert list(main.same_batch(df)) == [False, False, True]
+
+
+def test_generate_pairwise_calls():
+    # 0a: Match is called and no swap
+    # 1a: Match is called and no swap
+    # 2b: Match is called and no swap
+    # 3b: Match is called and swap
+    # 4c: Match is called and no swap
+    # 5c: No match is called and no swap
+
+    # The last element is ignored as there is no match or swap
+    df = pandas.DataFrame.from_dict({"lims_id": ["a", "a", "b", "b", "c", "c"]})
+    match = pandas.Series([True, True, True, True, True, False])
+    swaps = pandas.Series([False, False, False, True, False, False])
+    calls = pandas.DataFrame.from_dict(
+        {"lims_id": ["a", "b", "c"], "swap_call": [False, True, False]}
+    )
+
+    out = main.generate_pairwise_calls(df, match, swaps, calls)
+    pandas.testing.assert_frame_equal(
+        out,
+        pandas.DataFrame.from_dict(
+            {
+                "lims_id": ["a", "a", "b", "b", "c"],
+                "pairwise_swap": [False, False, False, True, False],
+                "match_called": [True, True, True, True, True],
+                "swap_call": [False, False, True, True, False],
+            }
+        ),
+    )
