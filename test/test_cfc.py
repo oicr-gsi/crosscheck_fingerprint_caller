@@ -72,7 +72,7 @@ def test_marked_match():
         }
     )
     ambg = pandas.Series([False, False, False, True, True, False])
-    out = main.marked_match(df, ambg)
+    out = main.mark_match(df, ambg)
     assert list(out) == [False, True, True, False, True, False]
 
 
@@ -165,11 +165,12 @@ def test_generate_pairwise_calls():
     df = pandas.DataFrame.from_dict({"lims_id": ["a", "a", "b", "b", "c", "c"]})
     match = pandas.Series([True, True, True, True, True, False])
     swaps = pandas.Series([False, False, False, True, False, False])
+    batch = pandas.Series([True, True, False, False, True, False])
     calls = pandas.DataFrame.from_dict(
         {"lims_id": ["a", "b", "c"], "swap_call": [False, True, False]}
     )
 
-    out = main.generate_pairwise_calls(df, match, swaps, calls)
+    out = main.generate_detailed_calls(df, match, swaps, batch, calls)
     pandas.testing.assert_frame_equal(
         out,
         pandas.DataFrame.from_dict(
@@ -177,6 +178,7 @@ def test_generate_pairwise_calls():
                 "lims_id": ["a", "a", "b", "b", "c"],
                 "pairwise_swap": [False, False, False, True, False],
                 "match_called": [True, True, True, True, True],
+                "same_batch": [True, True, False, False, True],
                 "swap_call": [False, False, True, True, False],
             }
         ),
