@@ -177,7 +177,7 @@ def load(fs: typing.List[str], metadata: str) -> DataFrame:
     df.sort_values(
         ["LEFT_GROUP_VALUE", "LOD_SCORE"], inplace=True, ascending=False
     )
-    df.reset_index(inplace=True)
+    df.reset_index(inplace=True, drop=True)
     return df
 
 
