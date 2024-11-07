@@ -3,6 +3,7 @@ import json
 import os
 import pandas
 import shutil
+import tempfile
 
 
 def test_load():
@@ -99,47 +100,49 @@ def test_generate_calls():
 
 
 def test_output_calls():
-    output = "test/files/output_caller.csv"
-    main.main(
-        [
-            "-a",
-            "test/files/ambiguous_lod.json",
-            "-c",
-            output,
-            "test/files/load_REVWGTS.29181.crosscheck_metrics.json",
-            "test/files/load_REVWGTS.29181.crosscheck_metrics.txt",
-        ]
-    )
+    with tempfile.TemporaryDirectory() as test_dir:
+        output = os.path.join(test_dir, "output_caller.csv")
+        main.main(
+            [
+                "-a",
+                "test/files/ambiguous_lod.json",
+                "-c",
+                output,
+                "test/files/load_REVWGTS.29181.crosscheck_metrics.json",
+                "test/files/load_REVWGTS.29181.crosscheck_metrics.txt",
+            ]
+        )
 
-    gld_f = "test/files/output_caller_golden.csv"
-    if not os.path.isfile(gld_f):
-        shutil.copyfile(output, gld_f)
+        gld_f = "test/files/output_caller_golden.csv"
+        if not os.path.isfile(gld_f):
+            shutil.copyfile(output, gld_f)
 
-    pandas.testing.assert_frame_equal(
-        pandas.read_csv(output), pandas.read_csv(gld_f)
-    )
+        pandas.testing.assert_frame_equal(
+            pandas.read_csv(output), pandas.read_csv(gld_f)
+        )
 
 
 def test_output_detailed():
-    output = "test/files/output_detailed.csv"
-    main.main(
-        [
-            "-a",
-            "test/files/ambiguous_lod.json",
-            "-d",
-            output,
-            "test/files/load_REVWGTS.29181.crosscheck_metrics.json",
-            "test/files/load_REVWGTS.29181.crosscheck_metrics.txt",
-        ]
-    )
+    with tempfile.TemporaryDirectory() as test_dir:
+        output = os.path.join(test_dir, "output_detailed.csv")
+        main.main(
+            [
+                "-a",
+                "test/files/ambiguous_lod.json",
+                "-d",
+                output,
+                "test/files/load_REVWGTS.29181.crosscheck_metrics.json",
+                "test/files/load_REVWGTS.29181.crosscheck_metrics.txt",
+            ]
+        )
 
-    gld_f = "test/files/output_detailed_golden.csv"
-    if not os.path.isfile(gld_f):
-        shutil.copyfile(output, gld_f)
+        gld_f = "test/files/output_detailed_golden.csv"
+        if not os.path.isfile(gld_f):
+            shutil.copyfile(output, gld_f)
 
-    pandas.testing.assert_frame_equal(
-        pandas.read_csv(output), pandas.read_csv(gld_f)
-    )
+        pandas.testing.assert_frame_equal(
+            pandas.read_csv(output), pandas.read_csv(gld_f)
+        )
 
 
 def test_same_batch():
