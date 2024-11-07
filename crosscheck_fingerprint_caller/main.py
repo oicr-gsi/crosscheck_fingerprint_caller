@@ -4,6 +4,9 @@ import json
 import typing
 from pandas import DataFrame
 
+# The columns that need to be kept from the CrosscheckFingerprints input
+KEEP_CCF_COLUMNS = ["LEFT_GROUP_VALUE", "RIGHT_GROUP_VALUE", "LOD_SCORE"]
+
 
 def main(args=None):
     parser = argparse.ArgumentParser(
@@ -42,18 +45,11 @@ def main(args=None):
     ambg = is_ambiguous(df, args.ambiguous_lod)
     swaps = is_swap(df, ambg)
 
+    cols = [x for x in list(df) if x not in KEEP_CCF_COLUMNS]
     cols = [
-        "run",
-        "lane",
-        "barcode",
-        "donor",
-        "external_donor_id",
-        "library_name",
-        "library_design",
-        "tissue_type",
-        "tissue_origin",
-        "project",
-        "lims_id",
+        x
+        for x in cols
+        if not x.endswith("_match") and x not in ["batches", "merge_key"]
     ]
     gen_call = generate_calls(df[cols], swaps)
 
