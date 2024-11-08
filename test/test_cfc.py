@@ -3,6 +3,7 @@ import json
 import os
 import pandas
 import shutil
+import tempfile
 
 
 def test_load():
@@ -85,7 +86,7 @@ def test_generate_calls():
     )
     swaps = pandas.Series([False, True, False, False])
 
-    out = main.generate_calls(df, swaps)
+    out = main.generate_calls(df, ["library_name", "library_design"], swaps)
     pandas.testing.assert_frame_equal(
         out,
         pandas.DataFrame.from_dict(
@@ -99,50 +100,52 @@ def test_generate_calls():
 
 
 def test_output_calls():
-    output = "test/files/output_caller.csv"
-    main.main(
-        [
-            "-a",
-            "test/files/ambiguous_lod.json",
-            "-c",
-            output,
-            "test/files/load_REVWGTS.29181.crosscheck_metrics.json",
-            "test/files/load_REVWGTS.29181.crosscheck_metrics.txt",
-        ]
-    )
+    with tempfile.TemporaryDirectory() as test_dir:
+        output = os.path.join(test_dir, "output_caller.csv")
+        main.main(
+            [
+                "-a",
+                "test/files/ambiguous_lod.json",
+                "-c",
+                output,
+                "test/files/load_REVWGTS.29181.crosscheck_metrics.json",
+                "test/files/load_REVWGTS.29181.crosscheck_metrics.txt",
+            ]
+        )
 
-    gld_f = "test/files/output_caller_golden.csv"
-    if not os.path.isfile(gld_f):
-        shutil.copyfile(output, gld_f)
+        gld_f = "test/files/output_caller_golden.csv"
+        if not os.path.isfile(gld_f):
+            shutil.copyfile(output, gld_f)
 
-    pandas.testing.assert_frame_equal(
-        pandas.read_csv(output), pandas.read_csv(gld_f)
-    )
+        pandas.testing.assert_frame_equal(
+            pandas.read_csv(output), pandas.read_csv(gld_f)
+        )
 
 
 def test_output_detailed():
-    output = "test/files/output_detailed.csv"
-    main.main(
-        [
-            "-a",
-            "test/files/ambiguous_lod.json",
-            "-d",
-            output,
-            "test/files/load_REVWGTS.29181.crosscheck_metrics.json",
-            "test/files/load_REVWGTS.29181.crosscheck_metrics.txt",
-        ]
-    )
+    with tempfile.TemporaryDirectory() as test_dir:
+        output = os.path.join(test_dir, "output_detailed.csv")
+        main.main(
+            [
+                "-a",
+                "test/files/ambiguous_lod.json",
+                "-d",
+                output,
+                "test/files/load_REVWGTS.29181.crosscheck_metrics.json",
+                "test/files/load_REVWGTS.29181.crosscheck_metrics.txt",
+            ]
+        )
 
-    gld_f = "test/files/output_detailed_golden.csv"
-    if not os.path.isfile(gld_f):
-        shutil.copyfile(output, gld_f)
+        gld_f = "test/files/output_detailed_golden.csv"
+        if not os.path.isfile(gld_f):
+            shutil.copyfile(output, gld_f)
 
-    pandas.testing.assert_frame_equal(
-        pandas.read_csv(output), pandas.read_csv(gld_f)
-    )
+        pandas.testing.assert_frame_equal(
+            pandas.read_csv(output), pandas.read_csv(gld_f)
+        )
 
 
-def test_same_batch():
+def test_batch_overlap():
     df = pandas.DataFrame.from_dict(
         {
             "batches": [[], [1], [1, 2]],
@@ -150,7 +153,7 @@ def test_same_batch():
         }
     )
 
-    assert list(main.same_batch(df)) == [False, False, True]
+    assert list(main.batch_overlap(df)) == [set(), set(), {1}]
 
 
 def test_generate_pairwise_calls():
@@ -165,12 +168,12 @@ def test_generate_pairwise_calls():
     df = pandas.DataFrame.from_dict({"lims_id": ["a", "a", "b", "b", "c", "c"]})
     match = pandas.Series([True, True, True, True, True, False])
     swaps = pandas.Series([False, False, False, True, False, False])
-    batch = pandas.Series([True, True, False, False, True, False])
+    batch = pandas.Series([{"1"}, {"1", "2"}, {}, {}, {"3"}, {}])
     calls = pandas.DataFrame.from_dict(
         {"lims_id": ["a", "b", "c"], "swap_call": [False, True, False]}
     )
 
-    out = main.generate_detailed_calls(df, match, swaps, batch, calls)
+    out = main.generate_detailed_calls(df, match, swaps, batch, calls, ",")
     pandas.testing.assert_frame_equal(
         out,
         pandas.DataFrame.from_dict(
@@ -179,7 +182,22 @@ def test_generate_pairwise_calls():
                 "pairwise_swap": [False, False, False, True, False],
                 "match_called": [True, True, True, True, True],
                 "same_batch": [True, True, False, False, True],
+                "overlap_batch": ["1", "1,2", "", "", "3"],
                 "swap_call": [False, False, True, True, False],
             }
         ),
     )
+
+
+def test_group_by_columns():
+    df = pandas.DataFrame.from_dict(
+        {
+            "LOD_SCORE": [1],
+            "non_hashable": [[1]],
+            "merge_key": ["exclude"],
+            "library_match": ["exclude"],
+            "keep": [1],
+        }
+    )
+
+    assert main.group_by_columns(df) == ["keep"]

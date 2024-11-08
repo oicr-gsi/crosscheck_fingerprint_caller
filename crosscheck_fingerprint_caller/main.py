@@ -28,10 +28,18 @@ def main(args=None):
     parser.add_argument(
         "-c", "--output-calls", help="File path for the output swap calls"
     )
+
     parser.add_argument(
         "-d",
         "--output-detailed",
         help="File path for all called matches and swaps",
+    )
+
+    parser.add_argument(
+        "-s",
+        "--seperator",
+        default=",",
+        help="The seperator to use for turning lists into strings (default `,`)",
     )
 
     if args is None:
@@ -42,20 +50,8 @@ def main(args=None):
     ambg = is_ambiguous(df, args.ambiguous_lod)
     swaps = is_swap(df, ambg)
 
-    cols = [
-        "run",
-        "lane",
-        "barcode",
-        "donor",
-        "external_donor_id",
-        "library_name",
-        "library_design",
-        "tissue_type",
-        "tissue_origin",
-        "project",
-        "lims_id",
-    ]
-    gen_call = generate_calls(df[cols], swaps)
+    cols = group_by_columns(df)
+    gen_call = generate_calls(df, cols, swaps)
 
     if args.output_calls is not None:
         gen_call.to_csv(args.output_calls, index=False)
@@ -64,13 +60,20 @@ def main(args=None):
         cols_match = [x + "_match" for x in cols]
         cols_match.append("LOD_SCORE")
         match = mark_match(df, ambg)
-        sm_btch = same_batch(df)
+        btch_ovlp = batch_overlap(df)
         generate_detailed_calls(
-            df[cols + cols_match], match, swaps, sm_btch, gen_call
+            df[cols + cols_match],
+            match,
+            swaps,
+            btch_ovlp,
+            gen_call,
+            args.seperator,
         ).to_csv(args.output_detailed, index=False)
 
 
-def generate_calls(df: DataFrame, swaps: pandas.Series) -> DataFrame:
+def generate_calls(
+    df: DataFrame, group_by: typing.List[str], swaps: pandas.Series
+) -> DataFrame:
     """
     Determine if at least one swap call occurred in an arbitrary grouping.
     The grouping is all the columns in the input DataFrame.
@@ -78,15 +81,15 @@ def generate_calls(df: DataFrame, swaps: pandas.Series) -> DataFrame:
 
     Args:
         df: DataFrame that includes the columns to group by
+        group_by: The columns to group by
         swaps: A index matches Series stating if a swap happened in that index
 
     Returns: Returns a new DataFrame with all columns from input DataFrame plus the `swap_call` column
 
     """
     swaps = swaps.to_frame("pairwise_swaps")
-    cols = list(df)
     df = pandas.merge(df, swaps, left_index=True, right_index=True)
-    s = df.groupby(cols)["pairwise_swaps"].any()
+    s = df.groupby(group_by)["pairwise_swaps"].any()
     # noinspection PyTypeChecker
     return s.rename("swap_call", inplace=True).reset_index()
 
@@ -95,8 +98,9 @@ def generate_detailed_calls(
     df: DataFrame,
     match: pandas.Series,
     swaps: pandas.Series,
-    in_same_batch: pandas.Series,
+    batch_common: pandas.Series,
     calls: DataFrame,
+    seperator: str,
 ) -> DataFrame:
     """
     Return all DataFrame rows that are called as a match and/or are a swap.
@@ -104,14 +108,16 @@ def generate_detailed_calls(
         * `pairwise_swap`: Is the library pair marked as a swap
         * `match_called`: Is the library pair called as a match
         * `same_batch`: Does the library pair have at least one batch in common
+        * `overlap_batch`: The batches that are shared
         * `swap_call`: Has the left library of the pair been marked as being involved in a swap
 
     Args:
         df: DataFrame that must contain the `lims_id` column
         match: Series of rows that have been marked as a match
         swaps: Series of rows that have been marked as a swap
-        in_same_batch: Series of rows that have been marked as sharing at least one batch
+        batch_common: Series of sets of batches shared between query and match library
         calls: DataFrame linking the `lims_id` to being involved in a swa
+        seperator: Character to use to join the batch collection into a string
 
     Returns:
 
@@ -120,7 +126,10 @@ def generate_detailed_calls(
     df = df[fltr].copy()
     df["pairwise_swap"] = swaps[fltr]
     df["match_called"] = match[fltr]
-    df["same_batch"] = in_same_batch[fltr]
+    df["same_batch"] = batch_common[fltr].apply(lambda x: len(x) > 0)
+    df["overlap_batch"] = batch_common[fltr].apply(
+        lambda x: seperator.join(sorted(x))
+    )
     return pandas.merge(
         df,
         calls[["lims_id", "swap_call"]],
@@ -177,7 +186,7 @@ def load(fs: typing.List[str], metadata: str) -> DataFrame:
     df.sort_values(
         ["LEFT_GROUP_VALUE", "LOD_SCORE"], inplace=True, ascending=False
     )
-    df.reset_index(inplace=True)
+    df.reset_index(inplace=True, drop=True)
     return df
 
 
@@ -257,21 +266,52 @@ def mark_match(df: DataFrame, ambg: pandas.Series) -> pandas.Series:
     return keep
 
 
-def same_batch(df: DataFrame) -> pandas.Series:
+def batch_overlap(df: DataFrame) -> pandas.Series:
     """
-    Do the query and match library appear together in at least one batch.
+    The batches that the query and match library share.
 
-    If they do, then the swap could be internal.
+    If they overlap, then the swap could be internal.
 
     Args:
         df: The DataFrame must contain the `batches` and `batches_match` columns.
 
-    Returns: A Series of booleans stating if the library pair have at least one batch in common
+    Returns: A Series of sets of shared batches. Empty list means no overlap.
 
     """
 
     def intrs(x):
-        s = set(x["batches"]).intersection(x["batches_match"])
-        return len(s) > 0
+        return set(x["batches"]).intersection(x["batches_match"])
 
     return df.apply(intrs, axis=1)
+
+
+def group_by_columns(df: DataFrame) -> typing.List[str]:
+    """
+    The grouping columns that represent one sample.
+
+    This removes the columns that were needed to merge CrosscheckFingerprints and OICR metadata
+
+    Args:
+        df: The loaded DataFrame
+
+    Returns: The columns to group by
+
+    """
+    # The columns that were left over from loading CrosscheckFingerprints
+    cross_columns = ["LEFT_GROUP_VALUE", "RIGHT_GROUP_VALUE", "LOD_SCORE"]
+    cols = list(df)
+
+    result = []
+    for c in cols:
+        if not df[c].apply(lambda x: isinstance(x, typing.Hashable)).all():
+            pass
+        elif c in cross_columns:
+            pass
+        elif c == "merge_key":
+            pass
+        elif c.endswith("_match"):
+            pass
+        else:
+            result.append(c)
+
+    return result
