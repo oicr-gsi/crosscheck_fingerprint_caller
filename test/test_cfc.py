@@ -86,7 +86,7 @@ def test_generate_calls():
     )
     swaps = pandas.Series([False, True, False, False])
 
-    out = main.generate_calls(df, swaps)
+    out = main.generate_calls(df, ["library_name", "library_design"], swaps)
     pandas.testing.assert_frame_equal(
         out,
         pandas.DataFrame.from_dict(
@@ -186,3 +186,17 @@ def test_generate_pairwise_calls():
             }
         ),
     )
+
+
+def test_group_by_columns():
+    df = pandas.DataFrame.from_dict(
+        {
+            "LOD_SCORE": [1],
+            "non_hashable": [[1]],
+            "merge_key": ["exclude"],
+            "library_match": ["exclude"],
+            "keep": [1],
+        }
+    )
+
+    assert main.group_by_columns(df) == ["keep"]

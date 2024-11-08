@@ -4,9 +4,6 @@ import json
 import typing
 from pandas import DataFrame
 
-# The columns that need to be kept from the CrosscheckFingerprints input
-KEEP_CCF_COLUMNS = ["LEFT_GROUP_VALUE", "RIGHT_GROUP_VALUE", "LOD_SCORE"]
-
 
 def main(args=None):
     parser = argparse.ArgumentParser(
@@ -45,13 +42,8 @@ def main(args=None):
     ambg = is_ambiguous(df, args.ambiguous_lod)
     swaps = is_swap(df, ambg)
 
-    cols = [x for x in list(df) if x not in KEEP_CCF_COLUMNS]
-    cols = [
-        x
-        for x in cols
-        if not x.endswith("_match") and x not in ["batches", "merge_key"]
-    ]
-    gen_call = generate_calls(df[cols], swaps)
+    cols = group_by_columns(df)
+    gen_call = generate_calls(df, cols, swaps)
 
     if args.output_calls is not None:
         gen_call.to_csv(args.output_calls, index=False)
@@ -66,7 +58,9 @@ def main(args=None):
         ).to_csv(args.output_detailed, index=False)
 
 
-def generate_calls(df: DataFrame, swaps: pandas.Series) -> DataFrame:
+def generate_calls(
+    df: DataFrame, group_by: typing.List[str], swaps: pandas.Series
+) -> DataFrame:
     """
     Determine if at least one swap call occurred in an arbitrary grouping.
     The grouping is all the columns in the input DataFrame.
@@ -74,15 +68,15 @@ def generate_calls(df: DataFrame, swaps: pandas.Series) -> DataFrame:
 
     Args:
         df: DataFrame that includes the columns to group by
+        group_by: The columns to group by
         swaps: A index matches Series stating if a swap happened in that index
 
     Returns: Returns a new DataFrame with all columns from input DataFrame plus the `swap_call` column
 
     """
     swaps = swaps.to_frame("pairwise_swaps")
-    cols = list(df)
     df = pandas.merge(df, swaps, left_index=True, right_index=True)
-    s = df.groupby(cols)["pairwise_swaps"].any()
+    s = df.groupby(group_by)["pairwise_swaps"].any()
     # noinspection PyTypeChecker
     return s.rename("swap_call", inplace=True).reset_index()
 
@@ -271,3 +265,35 @@ def same_batch(df: DataFrame) -> pandas.Series:
         return len(s) > 0
 
     return df.apply(intrs, axis=1)
+
+
+def group_by_columns(df: DataFrame) -> typing.List[str]:
+    """
+    The grouping columns that represent one sample.
+
+    This removes the columns that were needed to merge CrosscheckFingerprints and OICR metadata
+
+    Args:
+        df: The loaded DataFrame
+
+    Returns: The columns to group by
+
+    """
+    # The columns that were left over from loading CrosscheckFingerprints
+    cross_columns = ["LEFT_GROUP_VALUE", "RIGHT_GROUP_VALUE", "LOD_SCORE"]
+    cols = list(df)
+
+    result = []
+    for c in cols:
+        if not df[c].apply(lambda x: isinstance(x, typing.Hashable)).all():
+            pass
+        elif c in cross_columns:
+            pass
+        elif c == "merge_key":
+            pass
+        elif c.endswith("_match"):
+            pass
+        else:
+            result.append(c)
+
+    return result
