@@ -127,7 +127,9 @@ def generate_detailed_calls(
     df["pairwise_swap"] = swaps[fltr]
     df["match_called"] = match[fltr]
     df["same_batch"] = batch_common[fltr].apply(lambda x: len(x) > 0)
-    df["overlap_batch"] = batch_common[fltr].apply(lambda x: seperator.join(x))
+    df["overlap_batch"] = batch_common[fltr].apply(
+        lambda x: seperator.join(sorted(x))
+    )
     return pandas.merge(
         df,
         calls[["lims_id", "swap_call"]],
@@ -279,26 +281,6 @@ def batch_overlap(df: DataFrame) -> pandas.Series:
 
     def intrs(x):
         return set(x["batches"]).intersection(x["batches_match"])
-
-    return df.apply(intrs, axis=1)
-
-
-def same_batch(df: DataFrame) -> pandas.Series:
-    """
-    Do the query and match library appear together in at least one batch.
-
-    If they do, then the swap could be internal.
-
-    Args:
-        df: The DataFrame must contain the `batches` and `batches_match` columns.
-
-    Returns: A Series of booleans stating if the library pair have at least one batch in common
-
-    """
-
-    def intrs(x):
-        s = set(x["batches"]).intersection(x["batches_match"])
-        return len(s) > 0
 
     return df.apply(intrs, axis=1)
 

@@ -145,17 +145,6 @@ def test_output_detailed():
         )
 
 
-def test_same_batch():
-    df = pandas.DataFrame.from_dict(
-        {
-            "batches": [[], [1], [1, 2]],
-            "batches_match": [[1], [2], [1]],
-        }
-    )
-
-    assert list(main.same_batch(df)) == [False, False, True]
-
-
 def test_batch_overlap():
     df = pandas.DataFrame.from_dict(
         {
