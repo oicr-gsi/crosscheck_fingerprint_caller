@@ -156,6 +156,17 @@ def test_same_batch():
     assert list(main.same_batch(df)) == [False, False, True]
 
 
+def test_batch_overlap():
+    df = pandas.DataFrame.from_dict(
+        {
+            "batches": [[], [1], [1, 2]],
+            "batches_match": [[1], [2], [1]],
+        }
+    )
+
+    assert list(main.batch_overlap(df)) == [set(), set(), {1}]
+
+
 def test_generate_pairwise_calls():
     # 0a: Match is called and no swap
     # 1a: Match is called and no swap
@@ -168,12 +179,12 @@ def test_generate_pairwise_calls():
     df = pandas.DataFrame.from_dict({"lims_id": ["a", "a", "b", "b", "c", "c"]})
     match = pandas.Series([True, True, True, True, True, False])
     swaps = pandas.Series([False, False, False, True, False, False])
-    batch = pandas.Series([True, True, False, False, True, False])
+    batch = pandas.Series([{"1"}, {"1", "2"}, {}, {}, {"3"}, {}])
     calls = pandas.DataFrame.from_dict(
         {"lims_id": ["a", "b", "c"], "swap_call": [False, True, False]}
     )
 
-    out = main.generate_detailed_calls(df, match, swaps, batch, calls)
+    out = main.generate_detailed_calls(df, match, swaps, batch, calls, ",")
     pandas.testing.assert_frame_equal(
         out,
         pandas.DataFrame.from_dict(
@@ -182,6 +193,7 @@ def test_generate_pairwise_calls():
                 "pairwise_swap": [False, False, False, True, False],
                 "match_called": [True, True, True, True, True],
                 "same_batch": [True, True, False, False, True],
+                "overlap_batch": ["1", "1,2", "", "", "3"],
                 "swap_call": [False, False, True, True, False],
             }
         ),

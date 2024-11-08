@@ -28,10 +28,18 @@ def main(args=None):
     parser.add_argument(
         "-c", "--output-calls", help="File path for the output swap calls"
     )
+
     parser.add_argument(
         "-d",
         "--output-detailed",
         help="File path for all called matches and swaps",
+    )
+
+    parser.add_argument(
+        "-s",
+        "--seperator",
+        default=",",
+        help="The seperator to use for turning lists into strings (default `,`)",
     )
 
     if args is None:
@@ -52,9 +60,14 @@ def main(args=None):
         cols_match = [x + "_match" for x in cols]
         cols_match.append("LOD_SCORE")
         match = mark_match(df, ambg)
-        sm_btch = same_batch(df)
+        btch_ovlp = batch_overlap(df)
         generate_detailed_calls(
-            df[cols + cols_match], match, swaps, sm_btch, gen_call
+            df[cols + cols_match],
+            match,
+            swaps,
+            btch_ovlp,
+            gen_call,
+            args.seperator,
         ).to_csv(args.output_detailed, index=False)
 
 
@@ -85,8 +98,9 @@ def generate_detailed_calls(
     df: DataFrame,
     match: pandas.Series,
     swaps: pandas.Series,
-    in_same_batch: pandas.Series,
+    batch_common: pandas.Series,
     calls: DataFrame,
+    seperator: str,
 ) -> DataFrame:
     """
     Return all DataFrame rows that are called as a match and/or are a swap.
@@ -94,14 +108,16 @@ def generate_detailed_calls(
         * `pairwise_swap`: Is the library pair marked as a swap
         * `match_called`: Is the library pair called as a match
         * `same_batch`: Does the library pair have at least one batch in common
+        * `overlap_batch`: The batches that are shared
         * `swap_call`: Has the left library of the pair been marked as being involved in a swap
 
     Args:
         df: DataFrame that must contain the `lims_id` column
         match: Series of rows that have been marked as a match
         swaps: Series of rows that have been marked as a swap
-        in_same_batch: Series of rows that have been marked as sharing at least one batch
+        batch_common: Series of sets of batches shared between query and match library
         calls: DataFrame linking the `lims_id` to being involved in a swa
+        seperator: Character to use to join the batch collection into a string
 
     Returns:
 
@@ -110,7 +126,8 @@ def generate_detailed_calls(
     df = df[fltr].copy()
     df["pairwise_swap"] = swaps[fltr]
     df["match_called"] = match[fltr]
-    df["same_batch"] = in_same_batch[fltr]
+    df["same_batch"] = batch_common[fltr].apply(lambda x: len(x) > 0)
+    df["overlap_batch"] = batch_common[fltr].apply(lambda x: seperator.join(x))
     return pandas.merge(
         df,
         calls[["lims_id", "swap_call"]],
@@ -245,6 +262,25 @@ def mark_match(df: DataFrame, ambg: pandas.Series) -> pandas.Series:
     diff_lib = df["library_name"] != df["library_name_match"]
     keep = keep & diff_lib
     return keep
+
+
+def batch_overlap(df: DataFrame) -> pandas.Series:
+    """
+    The batches that the query and match library share.
+
+    If they overlap, then the swap could be internal.
+
+    Args:
+        df: The DataFrame must contain the `batches` and `batches_match` columns.
+
+    Returns: A Series of sets of shared batches. Empty list means no overlap.
+
+    """
+
+    def intrs(x):
+        return set(x["batches"]).intersection(x["batches_match"])
+
+    return df.apply(intrs, axis=1)
 
 
 def same_batch(df: DataFrame) -> pandas.Series:
