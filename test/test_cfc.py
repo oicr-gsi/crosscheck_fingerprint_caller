@@ -1,5 +1,4 @@
 from crosscheck_fingerprint_caller import main
-import json
 import os
 import pandas
 import shutil
@@ -15,14 +14,8 @@ def test_load():
     if not os.path.isfile(gld_f):
         df.to_csv(gld_f, index=False)
 
-    # Dealing with batches being a JSON list saved in a CSV file
-    # First, convert the CSV `'` to `"` and then explicitly load the string as a list
     golden = pandas.read_csv(
         gld_f,
-        converters={
-            "batches": lambda x: json.loads(x.replace("'", '"')),
-            "batches_match": lambda x: json.loads(x.replace("'", '"')),
-        },
     )
     pandas.testing.assert_frame_equal(df, golden, check_like=True)
 
@@ -148,12 +141,12 @@ def test_output_detailed():
 def test_batch_overlap():
     df = pandas.DataFrame.from_dict(
         {
-            "batches": [[], [1], [1, 2]],
-            "batches_match": [[1], [2], [1]],
+            "batches": ["", "1", "1,2"],
+            "batches_match": ["1", "2", "1"],
         }
     )
 
-    assert list(main.batch_overlap(df)) == [set(), set(), {1}]
+    assert list(main.batch_overlap(df, ",")) == [set(), set(), {"1"}]
 
 
 def test_generate_pairwise_calls():

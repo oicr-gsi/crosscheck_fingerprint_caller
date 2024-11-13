@@ -38,8 +38,8 @@ def main(args=None):
     parser.add_argument(
         "-s",
         "--seperator",
-        default=",",
-        help="The seperator to use for turning lists into strings (default `,`)",
+        default=";",
+        help="The seperator for splitting batch string into individual batches (default `;`)",
     )
 
     if args is None:
@@ -60,7 +60,7 @@ def main(args=None):
         cols_match = [x + "_match" for x in cols]
         cols_match.append("LOD_SCORE")
         match = mark_match(df, ambg)
-        btch_ovlp = batch_overlap(df)
+        btch_ovlp = batch_overlap(df, args.seperator)
         generate_detailed_calls(
             df[cols + cols_match],
             match,
@@ -266,7 +266,7 @@ def mark_match(df: DataFrame, ambg: pandas.Series) -> pandas.Series:
     return keep
 
 
-def batch_overlap(df: DataFrame) -> pandas.Series:
+def batch_overlap(df: DataFrame, separator: str) -> pandas.Series:
     """
     The batches that the query and match library share.
 
@@ -274,13 +274,16 @@ def batch_overlap(df: DataFrame) -> pandas.Series:
 
     Args:
         df: The DataFrame must contain the `batches` and `batches_match` columns.
+        separator: The string to use to separate batch string into individual batches
 
     Returns: A Series of sets of shared batches. Empty list means no overlap.
 
     """
 
     def intrs(x):
-        return set(x["batches"]).intersection(x["batches_match"])
+        return set(x["batches"].split(separator)).intersection(
+            x["batches_match"].split(separator)
+        )
 
     return df.apply(intrs, axis=1)
 

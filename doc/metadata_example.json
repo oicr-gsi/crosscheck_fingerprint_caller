@@ -5,9 +5,7 @@
     "library_design": "WG",
     "lims_id": "6479_1_LDI98381",
     "merge_key": "REVOLVE_0001_01_LB02-01_230406_M00753_0560_000000000-DKWTV_1_CATACCAC-CGGTTGTT",
-    "batches": [
-      "2023-04-05_u144_s30_k154-140205"
-    ]
+    "batches": "2023-04-05_u144_s30_k154-140205"
   },
   {
     "donor": "REVOLVE_0001",
@@ -15,9 +13,7 @@
     "library_design": "WG",
     "lims_id": "6479_1_LDI98382",
     "merge_key": "REVOLVE_0001_16_LB01-01_230406_M00753_0560_000000000-DKWTV_1_GATGTGTG-CATGGCTA",
-    "batches": [
-      "2023-04-05_u144_s30_k154-140205"
-    ]
+    "batches": "2023-04-05_u144_s30_k154-140205;2023-04-11_u157_s30_k154-139702"
   },
   {
     "donor": "REVOLVE_0002",
@@ -25,8 +21,6 @@
     "library_design": "WG",
     "lims_id": "6486_1_LDI98487",
     "merge_key": "REVOLVE_0002_13_LB02-01_230412_M06816_0442_000000000-DKVYK_1_TGGTAGCT-CAACACCT",
-    "batches": [
-      "2023-04-11_u157_s30_k154-139702"
-    ]
+    "batches": "2023-04-11_u157_s30_k154-139702"
   }
 ]
