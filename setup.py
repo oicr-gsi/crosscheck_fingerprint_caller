@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="crosscheck_fingerprint_caller",
-    version="0.1",
+    version="0.3.0",
     description="To call swaps and matches from CrosscheckFingerprints output",
     author="Savo Lazic",
     author_email="savo.lazic@oicr.on.ca",

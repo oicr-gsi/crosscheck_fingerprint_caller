@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.0] - 2024-11-26
+### Changed
+* fixed bug where libraries not in batches would be marked to be in the same batch
+
 ## [0.2.0] - 2024-11-13
 ### Changed
 * `batches` field changed from list to a string with a separator.

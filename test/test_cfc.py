@@ -141,12 +141,12 @@ def test_output_detailed():
 def test_batch_overlap():
     df = pandas.DataFrame.from_dict(
         {
-            "batches": ["", "1", "1,2"],
-            "batches_match": ["1", "2", "1"],
+            "batches": ["", "", "1", "1,2"],
+            "batches_match": ["", "1", "2", "1"],
         }
     )
 
-    assert list(main.batch_overlap(df, ",")) == [set(), set(), {"1"}]
+    assert list(main.batch_overlap(df, ",")) == [set(), set(), set(), {"1"}]
 
 
 def test_generate_pairwise_calls():

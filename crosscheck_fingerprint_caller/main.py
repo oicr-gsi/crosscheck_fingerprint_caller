@@ -281,9 +281,12 @@ def batch_overlap(df: DataFrame, separator: str) -> pandas.Series:
     """
 
     def intrs(x):
-        return set(x["batches"].split(separator)).intersection(
+        b = set(x["batches"].split(separator)).intersection(
             x["batches_match"].split(separator)
         )
+        # Libraries not in any batches are empty strings. Two libraries without batches are not overlapping.
+        b.discard("")
+        return b
 
     return df.apply(intrs, axis=1)
 
