@@ -11,7 +11,7 @@ CrosscheckFingerprints is designed to call swaps, but two of its limitations pre
 OICR does not encode donor information there.
 2. There is a single LOD cutoff. If LOD is above, samples are expected to match.
 The single cutoff works poorly for libraries other than Whole Genome.
-These libraries tend to have an LOD randomly distributed around an LOD score of 0.
+These libraries tend to have a LOD randomly distributed around an LOD score of 0.
 OICR needs to pick a range for LOD cutoffs and those ranges need to depend on library type input.
 
 ## Terms
@@ -20,7 +20,7 @@ OICR needs to pick a range for LOD cutoffs and those ranges need to depend on li
 * Donor: an individual, a patient.
 * Library: sequenced and aligned to generate the BAM file
 * Library Design: two letter for library: whole genome (WG), whole transcriptome (WT), etc
-* Match: the caller calculates that two libraries are expected to come from the same donor
+* Match: the caller calculates that two libraries are expected to have come from the same donor
 * Swap: the donors aren't equal when a match was called or the donors are equal when a match was not called
 
 ## Design
@@ -38,20 +38,17 @@ The mandatory fields are:
 `LEFT_GROUP_VALUE` and `RIGHT_GROUP_VALUE` columns
 * batches: list of batches the library is in
 
-The mandatory fields, except merge_key and batches, are included in the output.
-Additional fields are allowed and will be added to the output.
-
 ### Ambiguous Range
 
-Ambiguous range is defined for each library design in a JSON file ([example](doc/ambiguous_lod_example.json)).
+Ambiguous range is defined for each library design pair in a JSON file ([example](doc/ambiguous_lod_example.json)).
 
 LOD calls outside the ambiguous range behave same as CrosscheckFingerprints.
 Libraries from the same donor are expected to have positive LOD and negative LOD if from different donors.
 If that expectation is broken, a swap is called.
 
-LOD within the ambiguous range is more permissive for calling matches.
+LOD within the ambiguous range is more permissive.
 Libraries with a positive LOD that don't match are not called as a swap.
-Libraries with a negative LOD that do match are not called as a swap and marked as a expected match.
+Libraries with a negative LOD that do match are marked as an expected match.
 
 ## Usage
 ```commandline
@@ -74,7 +71,7 @@ options:
   -d, --output-detailed OUTPUT_DETAILED
                         File path for all called matches and swaps
   -s, --seperator SEPERATOR
-                        The seperator to use for turning lists into strings (default `,`)
+                        The seperator for splitting batch string into individual batches (default `;`)
 ```
 
 ## Output
@@ -95,3 +92,7 @@ The following columns are added:
 * same_batch: did the library pair share at least one batch
 * overlap_batch: which batches did the libraries share
 * swap_call: the swap call for the query library
+
+## Excluding Samples
+A bad sample will be compared to all other samples and cause confusion with interpretation.
+To exclude such a sample, exclude it from the metadata file. It will be ignored.
