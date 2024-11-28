@@ -187,6 +187,7 @@ def load_df(df: DataFrame, metadata: DataFrame) -> DataFrame:
         suffixes=(None, "_match"),
         validate="many_to_one",
     )
+    df.dropna(how="any", inplace=True)
     df.sort_values(
         ["LEFT_GROUP_VALUE", "LOD_SCORE"], inplace=True, ascending=False
     )

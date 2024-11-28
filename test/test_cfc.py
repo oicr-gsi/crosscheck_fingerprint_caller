@@ -50,6 +50,26 @@ def test_load_df():
         check_like=True,
     )
 
+    metadata_missing = pandas.DataFrame.from_dict(
+        {"merge_key": ["a"], "column": ["c"]}
+    )
+    out_missing = main.load_df(df, metadata_missing)
+    pandas.testing.assert_frame_equal(
+        out_missing,
+        pandas.DataFrame.from_dict(
+            {
+                "LEFT_GROUP_VALUE": ["a"],
+                "RIGHT_GROUP_VALUE": ["a"],
+                "LOD_SCORE": [1],
+                "merge_key": ["a"],
+                "column": ["c"],
+                "merge_key_match": ["a"],
+                "column_match": ["c"],
+            }
+        ),
+        check_like=True,
+    )
+
 
 def test_ambiguous():
     df = pandas.DataFrame.from_dict(

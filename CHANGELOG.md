@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Changed
 * split `load_df` from `load` to make testing easier
+* rows are removed if metadata for them is missing (kept rows with `NaN` before)
 
 ## [0.3.0] - 2024-11-26
 ### Changed
