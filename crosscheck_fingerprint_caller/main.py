@@ -168,15 +168,19 @@ def load(fs: typing.List[str], metadata: str) -> DataFrame:
         )
 
     df = pandas.concat(inputs, ignore_index=True)
+    return load_df(df, meta)
+
+
+def load_df(df: DataFrame, metadata: DataFrame) -> DataFrame:
     df = df.merge(
-        meta,
+        metadata,
         how="left",
         left_on="LEFT_GROUP_VALUE",
         right_on="merge_key",
         validate="many_to_one",
     )
     df = df.merge(
-        meta,
+        metadata,
         how="left",
         left_on="RIGHT_GROUP_VALUE",
         right_on="merge_key",

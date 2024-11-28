@@ -20,6 +20,37 @@ def test_load():
     pandas.testing.assert_frame_equal(df, golden, check_like=True)
 
 
+def test_load_df():
+    df = pandas.DataFrame.from_dict(
+        {
+            "LEFT_GROUP_VALUE": ["a", "a", "b", "b"],
+            "RIGHT_GROUP_VALUE": ["a", "b", "a", "b"],
+            "LOD_SCORE": [1, 2, 3, 4],
+        }
+    )
+
+    metadata = pandas.DataFrame.from_dict(
+        {"merge_key": ["a", "b"], "column": ["c", "d"]}
+    )
+
+    out = main.load_df(df, metadata)
+    pandas.testing.assert_frame_equal(
+        out,
+        pandas.DataFrame.from_dict(
+            {
+                "LEFT_GROUP_VALUE": ["b", "b", "a", "a"],
+                "RIGHT_GROUP_VALUE": ["b", "a", "b", "a"],
+                "LOD_SCORE": [4, 3, 2, 1],
+                "merge_key": ["b", "b", "a", "a"],
+                "column": ["d", "d", "c", "c"],
+                "merge_key_match": ["b", "a", "b", "a"],
+                "column_match": ["d", "c", "d", "c"],
+            }
+        ),
+        check_like=True,
+    )
+
+
 def test_ambiguous():
     df = pandas.DataFrame.from_dict(
         {
