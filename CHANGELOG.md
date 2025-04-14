@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [1.0.0] - 2025-04-14
 ### Changed
 * split `load_df` from `load` to make testing easier
 * rows are removed if metadata for them is missing (kept rows with `NaN` before)
